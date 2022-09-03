@@ -6,30 +6,39 @@
             <h3 class="section-subheading text-muted">Quantidade de cursos: {{obterCursos().length}}</h3>
         </div>
         <ul class="timeline" id="timeline-courses">
-  
-          <li *ngFor="let item of obterCursos(); let i = index" [attr.data-index]="i" [ngClass]="(i%2)===0?'':'timeline-inverted'">
-              <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/globo.jpg" alt="..." /></div>
-              <div class="timeline-panel">
-                  <div class="timeline-heading">
-                      <h6><a [href]="item.certificateUri" target="_blank">Certificado</a></h6>
-                      <h4 class="subheading">{{item.name | uppercase}}</h4>
-                  </div>
-                  <div class="timeline-body"><p class="text-muted">{{item.institution | titlecase }} - {{item.conclusion | date : 'dd/MM/yyyy'}}</p></div>
-              </div>
-          </li>
-  
-          <li class="timeline-inverted">
-              <div class="timeline-image">
-                  <h4>
-                      Parte
-                      <br />
-                      Da Minha
-                      <br />
-                      História!
-                  </h4>
-              </div>
+
+            <li *ngFor="let item of obterCursos(); let i = index" [attr.data-index]="i"
+                [ngClass]="(i%2)===0?'':'timeline-inverted'">
+                <div class="timeline-image" [ngSwitch]="item.institution">
+                    <img *ngSwitchCase="'Alura'" class="rounded-circle img-fluid" src="assets/img/alura.jpg" alt="..." />
+                    <img *ngSwitchCase="'Desenvolvedor.io'" class="rounded-circle img-fluid" src="assets/img/desenvolvedorio.jpg" alt="..." />
+                    <img *ngSwitchCase="'Udemy'" class="rounded-circle img-fluid" src="assets/img/udemy.png" alt="..." />
+                    <img *ngSwitchDefault class="rounded-circle img-fluid" src="assets/img/globo.png" alt="..." />
+                </div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h6><a [href]="item.certificateUri" target="_blank">Certificado</a></h6>
+                        <h4 class="subheading">{{item.name | uppercase}}</h4>
+                    </div>
+                    <div class="timeline-body">
+                        <p class="text-muted">{{item.institution | titlecase }} - {{item.conclusion | date :
+                            'dd/MM/yyyy'}}</p>
+                    </div>
+                </div>
             </li>
-  
+
+            <li class="timeline-inverted">
+                <div class="timeline-image">
+                    <h4>
+                        Parte
+                        <br />
+                        Da Minha
+                        <br />
+                        História!
+                    </h4>
+                </div>
+            </li>
+
         </ul>
     </div>
-  </section>
+</section>
