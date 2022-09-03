@@ -1,0 +1,36 @@
+<!-- University-->
+<section class="page-section bg-light" id="university">
+    <div class="container">
+        <div class="text-center">
+            <h2 class="section-heading text-uppercase">(Pós)Graduação</h2>
+            <h3 class="section-subheading text-muted">Quantidade de cursos: {{obterUniversity().length}}</h3>
+        </div>
+        <ul class="timeline" id="timeline-courses">
+  
+          <li *ngFor="let item of obterUniversity(); let i = index" [attr.data-index]="i" [ngClass]="(i%2)===0?'':'timeline-inverted'">
+              <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/formacao.png" alt="..." /></div>
+              <div class="timeline-panel">
+                  <div class="timeline-heading">
+                      <h6><a [href]="item.institutionUri" target="_blank">Website Instituição</a></h6>
+                      <h4 class="subheading">{{item.course | uppercase}}</h4>
+                      <div class="timeline-body"><p class="text-muted">{{item.status | titlecase }}</p></div>
+                  </div>
+                  <div class="timeline-body"><p class="text-muted">{{item.name | titlecase }} - {{item.conclusionYear}}</p></div>
+              </div>
+          </li>
+  
+          <li class="timeline-inverted">
+              <div class="timeline-image">
+                  <h4>
+                    Parte
+                    <br />
+                    Da Minha
+                    <br />
+                    História!
+                  </h4>
+              </div>
+            </li>
+  
+        </ul>
+    </div>
+  </section>
