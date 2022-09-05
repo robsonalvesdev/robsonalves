@@ -5,40 +5,33 @@
             <h2 class="section-heading text-uppercase">Cursos de Formação</h2>
             <h3 class="section-subheading text-muted">Quantidade de cursos: {{obterCursos().length}}</h3>
         </div>
-        <ul class="timeline" id="timeline-courses">
+       <div class="row">
+          
+          <div class="col-md-12 col-lg-12">
+             <div id="tracking-pre"></div>
+             <div id="tracking">
+                <div class="tracking-list">
 
-            <li *ngFor="let item of obterCursos(); let i = index" [attr.data-index]="i"
-                [ngClass]="(i%2)===0?'':'timeline-inverted'">
-                <div class="timeline-image" [ngSwitch]="item.institution">
-                    <img *ngSwitchCase="'Alura'" class="rounded-circle img-fluid" src="assets/img/alura.jpg" alt="..." />
-                    <img *ngSwitchCase="'Desenvolvedor.io'" class="rounded-circle img-fluid" src="assets/img/desenvolvedorio.jpg" alt="..." />
-                    <img *ngSwitchCase="'Udemy'" class="rounded-circle img-fluid" src="assets/img/udemy.png" alt="..." />
-                    <img *ngSwitchDefault class="rounded-circle img-fluid" src="assets/img/globo.png" alt="..." />
-                </div>
-                <div class="timeline-panel">
-                    <div class="timeline-heading">
-                        <h6><a [href]="item.certificateUri" target="_blank">Certificado</a></h6>
-                        <h4 class="subheading">{{item.name | uppercase}}</h4>
-                    </div>
-                    <div class="timeline-body">
-                        <p class="text-muted">{{item.institution | titlecase }} - {{item.conclusion | date :
-                            'dd/MM/yyyy'}}</p>
-                    </div>
-                </div>
-            </li>
+                   <div *ngFor="let item of obterCursos(); let i = index" [attr.data-index]="i" class="tracking-item">
+                      <div class="tracking-icon status-intransit">
+                         <div class="timeline-image" [ngSwitch]="item.institution">
+                            <img *ngSwitchCase="'Alura'" width="50" height="50" class="rounded-circle img-fluid" src="assets/img/alura.jpg" alt="..." />
+                            <img *ngSwitchCase="'Desenvolvedor.io'" width="50" height="50" class="rounded-circle img-fluid" src="assets/img/desenvolvedorio.jpg" alt="..." />
+                            <img *ngSwitchCase="'Udemy'" width="50" height="50" class="rounded-circle img-fluid" src="assets/img/udemy.png" alt="..." />
+                            <img *ngSwitchDefault width="50" height="50" class="rounded-circle img-fluid" src="assets/img/globo.png" alt="..." />
+                        </div>
+                         <!-- <i class="fas fa-circle"></i> -->
+                      </div>
+                      <!-- <div class="tracking-date">{{item.conclusion | date: 'MMMM, yyyy':'America/Sao_Paulo':'pt-BR'}}</div> -->
+                      <div class="tracking-date">{{item.conclusion | date: 'MMMM, yyyy'}}</div>
+                      <div class="tracking-content">{{item.name | uppercase}}<span>{{item.institution | titlecase }} - <a [href]="item.certificateUri" target="_blank">Certificado</a></span></div>
+                   </div>
 
-            <li class="timeline-inverted">
-                <div class="timeline-image">
-                    <h4>
-                        Parte
-                        <br />
-                        Da Minha
-                        <br />
-                        História!
-                    </h4>
+                   
                 </div>
-            </li>
-
-        </ul>
+             </div>
+          </div>
+       </div>
     </div>
+
 </section>
