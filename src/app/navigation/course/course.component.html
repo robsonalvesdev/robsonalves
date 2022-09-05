@@ -5,37 +5,46 @@
          <h2 class="section-heading text-uppercase">Cursos</h2>
          <h3 class="section-subheading text-muted">Quantidade de cursos: {{obterCursos().length}}</h3>
       </div>
+      Filtrar por instituição do curso: 
+      <button (click)="AtualizaFiltro('')">Todas</button> | 
+      <button (click)="AtualizaFiltro('Alura')">Alura</button> | 
+      <button (click)="AtualizaFiltro('Desenvolvedor.io')">Desenvolvedor.io</button>
+      <hr>
       <div class="row">
-
-         <div class="col-md-12 col-lg-12">
-            <div id="tracking-pre"></div>
+         <div class="col-md-12 col-lg-12">            
             <div id="tracking">
                <div class="tracking-list">
-                  <div
-                     *ngFor="let item of obterCursos() | paginate: config; let i = index" class="tracking-item">
+                  <div *ngFor="let item of obterCursos() | paginate: config; let i = index" class="tracking-item">
                      <div class="tracking-icon status-intransit">
                         <div class="timeline-image" [ngSwitch]="item.institution">
                            <span>
-                              <img *ngSwitchCase="'Alura'" [width]="iconSize" [height]="iconSize" class="rounded-circle img-fluid" src="assets/img/alura.jpg" alt="..." />
-                              <img *ngSwitchCase="'Desenvolvedor.io'" [width]="iconSize" [height]="iconSize" class="rounded-circle img-fluid" src="assets/img/desenvolvedorio.jpg" alt="..." />
-                              <img *ngSwitchCase="'Udemy'" [width]="iconSize" [height]="iconSize" class="rounded-circle img-fluid" src="assets/img/udemy.png" alt="..." />
-                              <img *ngSwitchDefault [width]="iconSize" [height]="iconSize" class="rounded-circle img-fluid" src="assets/img/globo.png" alt="..." />
-                              <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">{{absoluteIndex(i)}}</span>
+                              <img *ngSwitchCase="'Alura'" [width]="iconSize" [height]="iconSize"
+                                 class="rounded-circle img-fluid" src="assets/img/alura.jpg" alt="..." />
+                              <img *ngSwitchCase="'Desenvolvedor.io'" [width]="iconSize" [height]="iconSize"
+                                 class="rounded-circle img-fluid" src="assets/img/desenvolvedorio.jpg" alt="..." />
+                              <img *ngSwitchCase="'Udemy'" [width]="iconSize" [height]="iconSize"
+                                 class="rounded-circle img-fluid" src="assets/img/udemy.png" alt="..." />
+                              <img *ngSwitchDefault [width]="iconSize" [height]="iconSize"
+                                 class="rounded-circle img-fluid" src="assets/img/globo.png" alt="..." />
+                              <span
+                                 class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">{{absoluteIndex(i)}}</span>
                            </span>
                         </div>
                         <!-- <i class="fas fa-circle"></i> -->
                      </div>
                      <!-- <div class="tracking-date">{{item.conclusion | date: 'MMMM, yyyy':'America/Sao_Paulo':'pt-BR'}}</div> -->
                      <div class="tracking-date">{{item.conclusion | date: 'MMMM, yyyy'}}</div>
-                     <div class="tracking-content">{{item.name | uppercase}}<span>{{item.institution | titlecase }} - <a [href]="item.certificateUri" target="_blank">Certificado</a></span></div>
+                     <div class="tracking-content">{{item.name | uppercase}}<span>{{item.institution | titlecase }} - <a
+                              [href]="item.certificateUri" target="_blank">Certificado</a></span></div>
                   </div>
-                  <hr>
-                  <div class="text-center">
-                     <pagination-controls id="{{config.id}}" [maxSize]="12" (pageChange)="config.currentPage = $event" previousLabel="Anterior" nextLabel="Próximo"></pagination-controls>
-                  </div>
-
                </div>
             </div>
+
+            <div class="text-center">
+               <pagination-controls id="{{config.id}}" [maxSize]="12" (pageChange)="config.currentPage = $event"
+                  previousLabel="Anterior" nextLabel="Próximo"></pagination-controls>
+            </div>
+
          </div>
       </div>
    </div>

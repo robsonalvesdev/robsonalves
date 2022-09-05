@@ -4,6 +4,7 @@ import { PaginationInstance } from 'ngx-pagination';
 import { Course } from 'src/app/model/course';
 import { Portifolio } from 'src/app/model/portifolio';
 import { PortifolioService } from 'src/app/service/portifolio.service';
+import { of, distinct } from 'rxjs';
 
 @Component({
   selector: 'app-course',
@@ -20,6 +21,8 @@ export class CourseComponent implements OnInit {
     itemsPerPage: 6,
     currentPage: 1
   };
+
+  filterInst: string = "";
 
   public iconSize: number = 70;
 
@@ -55,11 +58,20 @@ export class CourseComponent implements OnInit {
   }
 
   obterCursos(): Course[] {
-    return this.portifolio.course.sort(this.ordernar);
+    return this.portifolio.course.sort(this.ordernar).filter(p => p.institution.toLowerCase().startsWith(this.filterInst.toLowerCase()));
   }
+
+  // obbb(){
+  //   of(this.portifolio.course).pipe(distinct(({institution})) => institution)).subscribe(x => )
+  // }
+
 
   absoluteIndex(indexOnPage: number): number {
     return this.config.itemsPerPage * (this.config.currentPage - 1) + indexOnPage + 1;
+  }
+
+  AtualizaFiltro(valor: string){
+    this.filterInst = valor;
   }
 
 }

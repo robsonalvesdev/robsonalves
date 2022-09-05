@@ -21,6 +21,7 @@ import { TeamComponent } from './navigation/team/team.component';
 import { FooterComponent } from './navigation/footer/footer.component';
 import { CourseformationComponent } from './navigation/courseformation/courseformation.component';
 import { NgxPaginationModule } from 'ngx-pagination';
+import { FormsModule }   from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { NgxPaginationModule } from 'ngx-pagination';
     BrowserModule,
     HttpClientModule,
     AppRoutingModule,
-    NgxPaginationModule
+    NgxPaginationModule,
+    FormsModule
   ],
   providers: [
     { provide: LOCALE_ID, useValue: 'pt-BR' }

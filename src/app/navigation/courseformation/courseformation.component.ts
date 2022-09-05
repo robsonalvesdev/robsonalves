@@ -21,6 +21,8 @@ export class CourseformationComponent implements OnInit {
 
   public iconSize: number = 70;
 
+  filterInst: string = "";
+
   constructor(private portifolioService: PortifolioService) {
 
   }
@@ -53,11 +55,15 @@ export class CourseformationComponent implements OnInit {
   }
 
   obterCursos(): FormationCourse[] {
-    return this.portifolio.formationCourse.sort(this.ordernar);
+    return this.portifolio.formationCourse.sort(this.ordernar).filter(p => p.institution.toLowerCase().startsWith(this.filterInst.toLowerCase()));
   }
 
   absoluteIndex(indexOnPage: number): number {
     return this.config.itemsPerPage * (this.config.currentPage - 1) + indexOnPage + 1;
+  }
+
+  AtualizaFiltro(valor: string){
+    this.filterInst = valor;
   }
 
 }
