@@ -1,36 +1,43 @@
 <!-- Courses-->
 <section class="page-section" id="courses">
-    <div class="container">
-        <div class="text-center">
-            <h2 class="section-heading text-uppercase">Cursos</h2>
-            <h3 class="section-subheading text-muted">Quantidade de cursos: {{obterCursos().length}}</h3>
-        </div>
-        <div class="row">
-           
-           <div class="col-md-12 col-lg-12">
-              <div id="tracking-pre"></div>
-              <div id="tracking">
-                 <div class="tracking-list">
- 
-                    <div *ngFor="let item of obterCursos(); let i = index" [attr.data-index]="i" class="tracking-item">
-                       <div class="tracking-icon status-intransit">
-                          <div class="timeline-image" [ngSwitch]="item.institution">
-                             <img *ngSwitchCase="'Alura'" width="50" height="50" class="rounded-circle img-fluid" src="assets/img/alura.jpg" alt="..." />
-                             <img *ngSwitchCase="'Desenvolvedor.io'" width="50" height="50" class="rounded-circle img-fluid" src="assets/img/desenvolvedorio.jpg" alt="..." />
-                             <img *ngSwitchCase="'Udemy'" width="50" height="50" class="rounded-circle img-fluid" src="assets/img/udemy.png" alt="..." />
-                             <img *ngSwitchDefault width="50" height="50" class="rounded-circle img-fluid" src="assets/img/globo.png" alt="..." />
-                         </div>
-                          <!-- <i class="fas fa-circle"></i> -->
-                       </div>
-                       <!-- <div class="tracking-date">{{item.conclusion | date: 'MMMM, yyyy':'America/Sao_Paulo':'pt-BR'}}</div> -->
-                       <div class="tracking-date">{{item.conclusion | date: 'MMMM, yyyy'}}</div>
-                       <div class="tracking-content">{{item.name | uppercase}}<span>{{item.institution | titlecase }} - <a [href]="item.certificateUri" target="_blank">Certificado</a></span></div>
-                    </div>
- 
-                    
-                 </div>
-              </div>
-           </div>
-        </div>
-     </div>
+   <div class="container">
+      <div class="text-center">
+         <h2 class="section-heading text-uppercase">Cursos</h2>
+         <h3 class="section-subheading text-muted">Quantidade de cursos: {{obterCursos().length}}</h3>
+      </div>
+      <div class="row">
+
+         <div class="col-md-12 col-lg-12">
+            <div id="tracking-pre"></div>
+            <div id="tracking">
+               <div class="tracking-list">
+                  <div
+                     *ngFor="let item of obterCursos() | paginate: config; let i = index" [attr.data-index]="i" class="tracking-item">
+                     <div class="tracking-icon status-intransit">
+                        <div class="timeline-image" [ngSwitch]="item.institution">
+                           <img *ngSwitchCase="'Alura'" width="50" height="50" class="rounded-circle img-fluid"
+                              src="assets/img/alura.jpg" alt="..." />
+                           <img *ngSwitchCase="'Desenvolvedor.io'" width="50" height="50"
+                              class="rounded-circle img-fluid" src="assets/img/desenvolvedorio.jpg" alt="..." />
+                           <img *ngSwitchCase="'Udemy'" width="50" height="50" class="rounded-circle img-fluid"
+                              src="assets/img/udemy.png" alt="..." />
+                           <img *ngSwitchDefault width="50" height="50" class="rounded-circle img-fluid"
+                              src="assets/img/globo.png" alt="..." />
+                        </div>
+                        <!-- <i class="fas fa-circle"></i> -->
+                     </div>
+                     <!-- <div class="tracking-date">{{item.conclusion | date: 'MMMM, yyyy':'America/Sao_Paulo':'pt-BR'}}</div> -->
+                     <div class="tracking-date">{{item.conclusion | date: 'MMMM, yyyy'}}</div>
+                     <div class="tracking-content">{{item.name | uppercase}}<span>{{item.institution | titlecase }} - <a [href]="item.certificateUri" target="_blank">Certificado</a></span></div>
+                  </div>
+                  <hr>
+                  <div class="text-center">
+                     <pagination-controls id="{{config.id}}" (pageChange)="config.currentPage = $event" previousLabel="Anterior" nextLabel="Próximo"></pagination-controls>
+                  </div>
+
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
 </section>

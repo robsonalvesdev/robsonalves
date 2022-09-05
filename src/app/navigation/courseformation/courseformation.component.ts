@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { PaginationInstance } from 'ngx-pagination';
 import { Course } from 'src/app/model/course';
 import { FormationCourse } from 'src/app/model/formationCourse';
 import { Portifolio } from 'src/app/model/portifolio';
@@ -13,24 +14,30 @@ export class CourseformationComponent implements OnInit {
 
   private portifolio: Portifolio = new Portifolio;
 
+  public config: PaginationInstance = {
+    id: 'courseformationComponent',
+    itemsPerPage: 6,
+    currentPage: 1
+  };
+
   constructor(private portifolioService: PortifolioService) {
-    
-   }
+
+  }
 
   ngOnInit(): void {
-      const observableRest = {
-        next: (x: Portifolio[]) => this.portifolio = x[0],
-        error: (err: any) => console.log(err),
-        complete: () => console.log("Ok")
-      };     
+    const observableRest = {
+      next: (x: Portifolio[]) => this.portifolio = x[0],
+      error: (err: any) => console.log(err),
+      complete: () => console.log("Ok")
+    };
 
-      const observableFile = {
-        next: (x: Portifolio) => this.portifolio = x,
-        error: (err: any) => console.log(err),
-        complete: () => console.log("Ok")
-      };     
-      
-      this.portifolioService.obterPortifolioFile().subscribe(observableFile);
+    const observableFile = {
+      next: (x: Portifolio) => this.portifolio = x,
+      error: (err: any) => console.log(err),
+      complete: () => console.log("Ok")
+    };
+
+    this.portifolioService.obterPortifolioFile().subscribe(observableFile);
   }
 
   ordernar(a: FormationCourse, b: FormationCourse) {
@@ -44,7 +51,7 @@ export class CourseformationComponent implements OnInit {
     return 0;
   }
 
-  obterCursos(): FormationCourse[]{
+  obterCursos(): FormationCourse[] {
     return this.portifolio.formationCourse.sort(this.ordernar);
   }
 

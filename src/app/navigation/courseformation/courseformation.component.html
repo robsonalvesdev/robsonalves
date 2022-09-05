@@ -12,7 +12,7 @@
              <div id="tracking">
                 <div class="tracking-list">
 
-                   <div *ngFor="let item of obterCursos(); let i = index" [attr.data-index]="i" class="tracking-item">
+                   <div *ngFor="let item of obterCursos() | paginate: config; let i = index" [attr.data-index]="i" class="tracking-item">
                       <div class="tracking-icon status-intransit">
                          <div class="timeline-image" [ngSwitch]="item.institution">
                             <img *ngSwitchCase="'Alura'" width="50" height="50" class="rounded-circle img-fluid" src="assets/img/alura.jpg" alt="..." />
@@ -26,7 +26,10 @@
                       <div class="tracking-date">{{item.conclusion | date: 'MMMM, yyyy'}}</div>
                       <div class="tracking-content">{{item.name | uppercase}}<span>{{item.institution | titlecase }} - <a [href]="item.certificateUri" target="_blank">Certificado</a></span></div>
                    </div>
-
+                   <hr>
+                  <div class="text-center">
+                     <pagination-controls id="{{config.id}}" (pageChange)="config.currentPage = $event" previousLabel="Anterior" nextLabel="Próximo"></pagination-controls>
+                  </div>
                    
                 </div>
              </div>

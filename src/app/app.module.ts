@@ -20,6 +20,7 @@ import { PortifolioComponent } from './navigation/portifolio/portifolio.componen
 import { TeamComponent } from './navigation/team/team.component';
 import { FooterComponent } from './navigation/footer/footer.component';
 import { CourseformationComponent } from './navigation/courseformation/courseformation.component';
+import { NgxPaginationModule } from 'ngx-pagination';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { CourseformationComponent } from './navigation/courseformation/coursefor
   imports: [
     BrowserModule,
     HttpClientModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgxPaginationModule
   ],
   providers: [
     { provide: LOCALE_ID, useValue: 'pt-BR' }
