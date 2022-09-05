@@ -12,17 +12,16 @@
             <div id="tracking">
                <div class="tracking-list">
                   <div
-                     *ngFor="let item of obterCursos() | paginate: config; let i = index" [attr.data-index]="i" class="tracking-item">
+                     *ngFor="let item of obterCursos() | paginate: config; let i = index" class="tracking-item">
                      <div class="tracking-icon status-intransit">
                         <div class="timeline-image" [ngSwitch]="item.institution">
-                           <img *ngSwitchCase="'Alura'" width="50" height="50" class="rounded-circle img-fluid"
-                              src="assets/img/alura.jpg" alt="..." />
-                           <img *ngSwitchCase="'Desenvolvedor.io'" width="50" height="50"
-                              class="rounded-circle img-fluid" src="assets/img/desenvolvedorio.jpg" alt="..." />
-                           <img *ngSwitchCase="'Udemy'" width="50" height="50" class="rounded-circle img-fluid"
-                              src="assets/img/udemy.png" alt="..." />
-                           <img *ngSwitchDefault width="50" height="50" class="rounded-circle img-fluid"
-                              src="assets/img/globo.png" alt="..." />
+                           <span>
+                              <img *ngSwitchCase="'Alura'" [width]="iconSize" [height]="iconSize" class="rounded-circle img-fluid" src="assets/img/alura.jpg" alt="..." />
+                              <img *ngSwitchCase="'Desenvolvedor.io'" [width]="iconSize" [height]="iconSize" class="rounded-circle img-fluid" src="assets/img/desenvolvedorio.jpg" alt="..." />
+                              <img *ngSwitchCase="'Udemy'" [width]="iconSize" [height]="iconSize" class="rounded-circle img-fluid" src="assets/img/udemy.png" alt="..." />
+                              <img *ngSwitchDefault [width]="iconSize" [height]="iconSize" class="rounded-circle img-fluid" src="assets/img/globo.png" alt="..." />
+                              <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">{{absoluteIndex(i)}}</span>
+                           </span>
                         </div>
                         <!-- <i class="fas fa-circle"></i> -->
                      </div>
@@ -32,7 +31,7 @@
                   </div>
                   <hr>
                   <div class="text-center">
-                     <pagination-controls id="{{config.id}}" (pageChange)="config.currentPage = $event" previousLabel="Anterior" nextLabel="Próximo"></pagination-controls>
+                     <pagination-controls id="{{config.id}}" [maxSize]="12" (pageChange)="config.currentPage = $event" previousLabel="Anterior" nextLabel="Próximo"></pagination-controls>
                   </div>
 
                </div>

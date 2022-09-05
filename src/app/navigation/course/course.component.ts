@@ -21,6 +21,8 @@ export class CourseComponent implements OnInit {
     currentPage: 1
   };
 
+  public iconSize: number = 70;
+
   constructor(private portifolioService: PortifolioService, private route: ActivatedRoute) {
 
   }
@@ -54,6 +56,10 @@ export class CourseComponent implements OnInit {
 
   obterCursos(): Course[] {
     return this.portifolio.course.sort(this.ordernar);
+  }
+
+  absoluteIndex(indexOnPage: number): number {
+    return this.config.itemsPerPage * (this.config.currentPage - 1) + indexOnPage + 1;
   }
 
 }

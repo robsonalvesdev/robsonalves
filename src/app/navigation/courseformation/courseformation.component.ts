@@ -1,6 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, } from '@angular/core';
 import { PaginationInstance } from 'ngx-pagination';
-import { Course } from 'src/app/model/course';
 import { FormationCourse } from 'src/app/model/formationCourse';
 import { Portifolio } from 'src/app/model/portifolio';
 import { PortifolioService } from 'src/app/service/portifolio.service';
@@ -19,6 +18,8 @@ export class CourseformationComponent implements OnInit {
     itemsPerPage: 6,
     currentPage: 1
   };
+
+  public iconSize: number = 70;
 
   constructor(private portifolioService: PortifolioService) {
 
@@ -53,6 +54,10 @@ export class CourseformationComponent implements OnInit {
 
   obterCursos(): FormationCourse[] {
     return this.portifolio.formationCourse.sort(this.ordernar);
+  }
+
+  absoluteIndex(indexOnPage: number): number {
+    return this.config.itemsPerPage * (this.config.currentPage - 1) + indexOnPage + 1;
   }
 
 }
