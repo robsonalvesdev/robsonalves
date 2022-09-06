@@ -5,13 +5,31 @@
          <h2 class="section-heading text-uppercase">Cursos</h2>
          <h3 class="section-subheading text-muted">Quantidade de cursos: {{obterCursos().length}}</h3>
       </div>
-      Filtrar por instituição do curso: 
-      <button (click)="AtualizaFiltro('')">Todas</button> | 
-      <button (click)="AtualizaFiltro('Alura')">Alura</button> | 
-      <button (click)="AtualizaFiltro('Desenvolvedor.io')">Desenvolvedor.io</button>
+      <div>
+         Filtrar por instituição do curso:
+      </div>
+
+      <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+         <input type="radio" class="btn-check" name="btnradio2" id="btnradio12" autocomplete="off"
+            (click)="AtualizaFiltro('')" checked>
+         <label class="btn btn-outline-primary" for="btnradio12">Todas</label>
+
+         <input type="radio" class="btn-check" name="btnradio2" id="btnradio22" autocomplete="off"
+            (click)="AtualizaFiltro('Alura')">
+         <label class="btn btn-outline-primary" for="btnradio22">Alura</label>
+
+         <input type="radio" class="btn-check" name="btnradio2" id="btnradio32" autocomplete="off"
+            (click)="AtualizaFiltro('Desenvolvedor.io')">
+         <label class="btn btn-outline-primary" for="btnradio32">Desenvolvedor.io</label>
+
+         <input type="radio" class="btn-check" name="btnradio2" id="btnradio42" autocomplete="off"
+            (click)="AtualizaFiltro('Udemy')">
+         <label class="btn btn-outline-primary" for="btnradio42">Udemy</label>
+      </div>
+
       <hr>
       <div class="row">
-         <div class="col-md-12 col-lg-12">            
+         <div class="col-md-12 col-lg-12">
             <div id="tracking">
                <div class="tracking-list">
                   <div *ngFor="let item of obterCursos() | paginate: config; let i = index" class="tracking-item">

@@ -5,10 +5,26 @@
          <h2 class="section-heading text-uppercase">Cursos de Formação</h2>
          <h3 class="section-subheading text-muted">Quantidade de cursos: {{obterCursos().length}}</h3>
       </div>
-      Filtrar por instituição do curso: 
-      <button (click)="AtualizaFiltro('')">Todas</button> | 
-      <button (click)="AtualizaFiltro('Alura')">Alura</button> | 
-      <button (click)="AtualizaFiltro('Desenvolvedor.io')">Desenvolvedor.io</button>
+      <div>
+         Filtrar por instituição do curso:
+      </div>
+      <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+         <input type="radio" class="btn-check" name="btnradio1" id="btnradio11" autocomplete="off"
+            (click)="AtualizaFiltro('')" checked>
+         <label class="btn btn-outline-primary" for="btnradio11">Todas</label>
+
+         <input type="radio" class="btn-check" name="btnradio1" id="btnradio21" autocomplete="off"
+            (click)="AtualizaFiltro('Alura')">
+         <label class="btn btn-outline-primary" for="btnradio21">Alura</label>
+
+         <input type="radio" class="btn-check" name="btnradio1" id="btnradio31" autocomplete="off"
+            (click)="AtualizaFiltro('Desenvolvedor.io')">
+         <label class="btn btn-outline-primary" for="btnradio31">Desenvolvedor.io</label>
+
+         <input type="radio" class="btn-check" name="btnradio1" id="btnradio41" autocomplete="off"
+            (click)="AtualizaFiltro('Udemy')">
+         <label class="btn btn-outline-primary" for="btnradio41">Udemy</label>
+      </div>
       <hr>
       <div class="row">
 

@@ -61,9 +61,11 @@ export class CourseComponent implements OnInit {
     return this.portifolio.course.sort(this.ordernar).filter(p => p.institution.toLowerCase().startsWith(this.filterInst.toLowerCase()));
   }
 
-  // obbb(){
-  //   of(this.portifolio.course).pipe(distinct(({institution})) => institution)).subscribe(x => )
-  // }
+  obterInstitutions() : string[] {
+    //of(this.portifolio.course).pipe(distinct(({institution})) => institution)).subscribe(x => )
+    const unique = [...new Set(this.portifolio.course.map(item => item.institution))];
+    return unique;
+  }
 
 
   absoluteIndex(indexOnPage: number): number {
