@@ -9,20 +9,23 @@
 
             <div class="bd-callout bd-callout-info">
                 <div class="my-3 my-lg-0">
-                    <li *ngFor="let item of getAbout(); let i = index" [attr.data-index]="i" [ngClass]="(i%2)===0?'':'timeline-inverted'" style="list-style: none;">
+                    <li *ngFor="let item of getAbout(); let i = index" [attr.data-index]="i"
+                        [ngClass]="(i%2)===0?'':'timeline-inverted'" style="list-style: none;">
                         <div class="text-center">
                             <div>
                                 <h4 class="subheading">{{item.title | titlecase }}</h4>
                             </div>
                             <div class="timeline-body">
-                                <i *ngFor="let message of item.messages" class="text-muted lh-sm">{{message.replace("##careerStart##", getCareerStart())}}<br></i>
+                                <i *ngFor="let message of item.messages"
+                                    class="text-muted lh-sm">{{message.replace("##careerStart##",
+                                    getCareerStart())}}<br></i>
                             </div>
                         </div>
                     </li>
                 </div>
             </div>
 
-            
+
 
         </ul>
     </div>

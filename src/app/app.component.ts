@@ -7,7 +7,4 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'robsonalves';
-
-  public portifolio: string[] = ['Robson', 'Henrique', 'Ana Julia', 'Gabriel'];
-
 }

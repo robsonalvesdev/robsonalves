@@ -22,6 +22,7 @@ import { FooterComponent } from './navigation/footer/footer.component';
 import { CourseformationComponent } from './navigation/courseformation/courseformation.component';
 import { NgxPaginationModule } from 'ngx-pagination';
 import { FormsModule }   from '@angular/forms';
+import { HomeComponent } from './navigation/home/home.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { FormsModule }   from '@angular/forms';
     PortifolioComponent,
     TeamComponent,
     FooterComponent,
-    CourseformationComponent
+    CourseformationComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

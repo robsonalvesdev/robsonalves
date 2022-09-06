@@ -74,6 +74,7 @@ export class CourseComponent implements OnInit {
 
   AtualizaFiltro(valor: string){
     this.filterInst = valor;
+    this.config.currentPage = 1;
   }
 
 }
