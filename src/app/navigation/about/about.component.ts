@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { About } from 'src/app/model/about';
-import { FormationCourse } from 'src/app/model/formationCourse';
 import { Portifolio } from 'src/app/model/portifolio';
 import { PortifolioService } from 'src/app/service/portifolio.service';
 
@@ -12,6 +11,8 @@ import { PortifolioService } from 'src/app/service/portifolio.service';
 export class AboutComponent implements OnInit {
 
   private portifolio: Portifolio = new Portifolio;
+
+  public myDate = Date.now();
 
   constructor(private portifolioService: PortifolioService) {
    }
@@ -36,7 +37,11 @@ export class AboutComponent implements OnInit {
     return this.portifolio.about;
   } 
 
-  getCareerStart(): string {
+  getCarrerStart(): Date {
+    return this.portifolio.careerStart;
+  }
+
+  getCareerTime(): string {
     var eventStartTime = new Date(this.portifolio.careerStart).getFullYear();
     var eventEndTime = new Date(Date.now()).getFullYear();
     var duration = eventEndTime - eventStartTime;

@@ -6,14 +6,28 @@
 		"linkedin": "https:\/\/www.linkedin.com\/in\/robson-curitiba",
 		"github": "https:\/\/github.com\/robsonalvesdev",
 		"discord": "https:\/\/discord.gg\/gpbe9gv7mC",
-		"careerStart": "2000-01-01T00:00:00.000Z",
+		"careerStart": "2000-01-01T18:30:00.000Z",
 		"about": [
 			{
-				"title": "Competencias",
+				"title": "Carreira.",
+				"date": "2000-01-01T18:30:00.000Z",
 				"messages": [
-					"Possuo mais de ##careerStart## anos de experiência na área de desenvolvimento.",
+					"Possuo ##careerStart## anos de experiência na área de desenvolvimento.",
 					"Já atuei como Instrutor de Programação em Delphi, Hardware e Informática Básica por 5 anos.",
-					"Neste tempo de experiencia desenvolvi aplicações voltadas para o setor de financiamento de veículos atendendo bancos do setor, também atuei no desenvolvimento de aplicações notariais e também na automação industrial com o carregamento de descarregamento de combustíveis.",
+					"Neste tempo de experiencia desenvolvi aplicações voltadas para o setor de financiamento de veículos atendendo bancos do setor, também atuei no desenvolvimento de aplicações notariais e também na automação industrial com o carregamento de descarregamento de combustíveis."
+				]
+			},
+			{
+				"title": "Carreira.",
+				"date": "2019-01-01T18:30:00.000Z",
+				"messages": [
+					"Desde 2019 venho também atuando na área de desenvolvimento como Lider Técnico e Desenvolvedor Consultor."
+				]
+			},
+			{
+				"title": "Atualmente.",
+				"date": null,
+				"messages": [
 					"Atualmente sou desenvolvedor .NET sênior e estou trabalhando em uma equipe no desenvolvimento de uma nova aplicação para o mercado financeiro\/fintech."
 				]
 			}
