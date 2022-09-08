@@ -45,7 +45,10 @@ export class UniversityComponent implements OnInit {
   }
 
   obterUniversity(): UniversityGraduate[]{
-    return this.portifolio.universityGraduate.sort(this.ordernar);
+    return this.portifolio.universityGraduate.sort((a,b) => {
+      return <any>new Date(b.conclusionYear) - <any>new Date(a.conclusionYear);
+    });
+    //return this.portifolio.universityGraduate.sort(this.ordernar);
   }
 
 }

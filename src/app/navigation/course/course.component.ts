@@ -58,7 +58,10 @@ export class CourseComponent implements OnInit {
   }
 
   obterCursos(): Course[] {
-    return this.portifolio.course.sort(this.ordernar).filter(p => p.institution.toLowerCase().startsWith(this.filterInst.toLowerCase()));
+    return this.portifolio.course.sort((a,b) => {
+      return <any>new Date(b.conclusion) - <any>new Date(a.conclusion);
+    }).filter(p => p.institution.toLowerCase().startsWith(this.filterInst.toLowerCase()));
+    //return this.portifolio.course.sort(this.ordernar).filter(p => p.institution.toLowerCase().startsWith(this.filterInst.toLowerCase()));
   }
 
   obterInstitutions() : string[] {

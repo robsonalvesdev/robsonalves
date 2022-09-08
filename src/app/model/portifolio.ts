@@ -13,6 +13,9 @@ export class Portifolio {
     github: string = "";
     discord: string = "";
     careerStart: Date = new Date();
+    country: string = "";
+    state: string = "";
+    city: string = "";
     about: About[] = [];
     universityGraduate: UniversityGraduate[] = [];
     formationCourse: FormationCourse[] = [];

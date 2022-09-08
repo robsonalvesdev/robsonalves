@@ -55,7 +55,10 @@ export class CourseformationComponent implements OnInit {
   }
 
   obterCursos(): FormationCourse[] {
-    return this.portifolio.formationCourse.sort(this.ordernar).filter(p => p.institution.toLowerCase().startsWith(this.filterInst.toLowerCase()));
+    return this.portifolio.formationCourse.sort((a,b) => {
+      return <any>new Date(b.conclusion) - <any>new Date(a.conclusion);
+    }).filter(p => p.institution.toLowerCase().startsWith(this.filterInst.toLowerCase()));
+    //return this.portifolio.formationCourse.sort(this.ordernar).filter(p => p.institution.toLowerCase().startsWith(this.filterInst.toLowerCase()));
   }
 
   absoluteIndex(indexOnPage: number): number {
