@@ -12,16 +12,27 @@
 		"city": "Curitiba",
 		"about": [
 			{
-				"title": "Carreira.",
+				"title": "Inicio de Carreira.",
 				"date": "2000-01-01T18:30:00.000Z",
 				"messages": [
 					"Possuo ##careerStart## anos de experiência na área de desenvolvimento.",
 					"Já atuei como Instrutor de Programação em Delphi, Hardware e Informática Básica por 5 anos.",
-					"Neste tempo de experiencia desenvolvi aplicações voltadas para o setor de financiamento de veículos atendendo bancos do setor, também atuei no desenvolvimento de aplicações notariais e também na automação industrial com o carregamento de descarregamento de combustíveis."
+					"Neste tempo de experiencia desenvolvi aplicações voltadas para o setor de financiamento de veículos atendendo bancos do setor usando Delphi e Visual Studio como ferramentas de desenvolvimento e banco de dados Oracle e SqlServer, também atuei no desenvolvimento de aplicações notariais com a ferramenta Delphi e banco de dados MySql e também na automação industrial com o carregamento de descarregamento de combustíveis usando Visual Studio e VsCode como ferramentas de denvolvimento."
 				]
 			},
 			{
-				"title": "Carreira.",
+				"title": "Conhecimentos técnicos.",
+				"date": "2000-01-01T18:30:00.000Z",
+				"messages": [
+					"Inicie minha carreira de programador usando ferramenta Delphi e a partir dai me tornei instrutor em uma escola de informática usando esta ferramenta.",
+					"Também neste periodo em que dava aulas comecei a me especialiar em desenvolvimento web com ASP.NET clássico e PHP.",
+					"Hojé minha especialidade em desenvolvimento é o ambiente .NET usando a linguagem C#(CSharp) e ambientes em nuvem(cloud) Azure.",
+					"Outras linguagens que tambem utilizo é o Java Script e buscando meu aprimoramento em Rust.",
+					"Uma lista resumida dos meus conhecimentos técnologicos, RabbitMQ, SqlServer, Oracle, MySql, MongoDB, Docker, Kubernetes, Cloud(Azure), Golang, Rust, CSharp, .NET Core."
+				]
+			},
+			{
+				"title": "Evolução da carreira.",
 				"date": "2019-01-01T18:30:00.000Z",
 				"messages": [
 					"Desde 2019 venho também atuando na área de desenvolvimento como Lider Técnico e Desenvolvedor Consultor."
