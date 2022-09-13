@@ -17,7 +17,7 @@ export class NavbarComponent implements OnInit {
   activeFragment = this.route.fragment.pipe(share());
   scroll: boolean = true;
   resize: boolean = false;
-  
+
 
   constructor(public route: ActivatedRoute) { }
 
@@ -38,8 +38,23 @@ export class NavbarComponent implements OnInit {
   }
 
   onResize(event: any) {
-
     this.resize = !this.resize;
- }
+  }
+
+  detectar_mobile() {
+    if (navigator.userAgent.match(/Android/i)
+      || navigator.userAgent.match(/webOS/i)
+      || navigator.userAgent.match(/iPhone/i)
+      || navigator.userAgent.match(/iPad/i)
+      || navigator.userAgent.match(/iPod/i)
+      || navigator.userAgent.match(/BlackBerry/i)
+      || navigator.userAgent.match(/Windows Phone/i)
+    ) {
+      return true;
+    }
+    else {
+      return false;
+    }
+  }
 
 }
