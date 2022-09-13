@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, HostListener } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Observable } from 'rxjs';
 import { share } from 'rxjs/operators';
@@ -8,13 +8,38 @@ import { share } from 'rxjs/operators';
   templateUrl: './navbar.component.html',
   styleUrls: ['./navbar.component.css']
 })
+
+
 export class NavbarComponent implements OnInit {
 
-  activeFragment = this.route.fragment.pipe(share());
+  @HostListener('window:resize')
 
-  constructor(public route: ActivatedRoute) {}
+  activeFragment = this.route.fragment.pipe(share());
+  scroll: boolean = true;
+  resize: boolean = false;
+  
+
+  constructor(public route: ActivatedRoute) { }
 
   ngOnInit(): void {
+    window.addEventListener('scroll', this.scrolling, true);
   }
+
+  scrolling = (s: any) => {
+
+    let sc = window.scrollY;
+
+    if (sc === 0) {
+      this.scroll = true
+    }
+    else {
+      this.scroll = false
+    }
+  }
+
+  onResize(event: any) {
+
+    this.resize = !this.resize;
+ }
 
 }
