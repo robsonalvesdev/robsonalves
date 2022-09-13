@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { Observable } from 'rxjs';
 import { share } from 'rxjs/operators';
 
 @Component({
@@ -11,7 +12,7 @@ export class NavbarComponent implements OnInit {
 
   activeFragment = this.route.fragment.pipe(share());
 
-  constructor(public route: ActivatedRoute) { }
+  constructor(public route: ActivatedRoute) {}
 
   ngOnInit(): void {
   }
