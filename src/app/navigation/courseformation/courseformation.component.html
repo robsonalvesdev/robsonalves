@@ -10,19 +10,19 @@
             Filtrar por instituição do curso:
          </div>
          <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-            <input type="radio" class="btn-check" name="btnradio1" id="btnradio11" autocomplete="off" gaEvent gaAction="click_filtro_courseformation_todos"
+            <input type="radio" class="btn-check" name="btnradio1" id="btnradio11" autocomplete="off" gaEvent gaAction="click_filtro_courseformation_todos" gaCategory="ga_cursosdeformacao"
                (click)="AtualizaFiltro('')" checked>
             <label class="btn btn-outline-primary" for="btnradio11">Todas</label>
 
-            <input type="radio" class="btn-check" name="btnradio1" id="btnradio21" autocomplete="off" gaEvent gaAction="click_filtro_courseformation_alura"
+            <input type="radio" class="btn-check" name="btnradio1" id="btnradio21" autocomplete="off" gaEvent gaAction="click_filtro_courseformation_alura" gaCategory="ga_cursosdeformacao"
                (click)="AtualizaFiltro('Alura')">
             <label class="btn btn-outline-primary" for="btnradio21">Alura</label>
 
-            <input type="radio" class="btn-check" name="btnradio1" id="btnradio31" autocomplete="off" gaEvent gaAction="click_filtro_courseformation_desenvolvedorio"
+            <input type="radio" class="btn-check" name="btnradio1" id="btnradio31" autocomplete="off" gaEvent gaAction="click_filtro_courseformation_desenvolvedorio" gaCategory="ga_cursosdeformacao"
                (click)="AtualizaFiltro('Desenvolvedor.io')">
             <label class="btn btn-outline-primary" for="btnradio31">Desenvolvedor.io</label>
 
-            <input type="radio" class="btn-check" name="btnradio1" id="btnradio41" autocomplete="off" gaEvent gaAction="click_filtro_courseformation_udemy"
+            <input type="radio" class="btn-check" name="btnradio1" id="btnradio41" autocomplete="off" gaEvent gaAction="click_filtro_courseformation_udemy" gaCategory="ga_cursosdeformacao"
                (click)="AtualizaFiltro('Udemy')">
             <label class="btn btn-outline-primary" for="btnradio41">Udemy</label>
          </div>
@@ -55,7 +55,7 @@
                      </div>
                      <!-- <div class="tracking-date">{{item.conclusion | date: 'MMMM, yyyy':'America/Sao_Paulo':'pt-BR'}}</div> -->
                      <div class="tracking-date">{{item.conclusion | date: 'MMMM, yyyy'}}</div>
-                     <div class="tracking-content">{{item.name | uppercase}}<span>{{item.institution | titlecase }} - <a gaEvent gaAction="click_certificado_{{item.name}}"
+                     <div class="tracking-content">{{item.name | uppercase}}<span>{{item.institution | titlecase }} - <a gaEvent gaAction="click_certificado_{{item.name}}" gaCategory="ga_cursosdeformacao"
                               [href]="item.certificateUri" target="_blank">Certificado</a></span></div>
                   </div>
                   <hr>

@@ -24,6 +24,7 @@ import { NgxPaginationModule } from 'ngx-pagination';
 import { FormsModule }   from '@angular/forms';
 import { HomeComponent } from './navigation/home/home.component';
 import { NgxGoogleAnalyticsModule, NgxGoogleAnalyticsRouterModule } from 'ngx-google-analytics';
+import { environment } from 'src/environments/environment';
 
 @NgModule({
   declarations: [
@@ -46,7 +47,7 @@ import { NgxGoogleAnalyticsModule, NgxGoogleAnalyticsRouterModule } from 'ngx-go
     AppRoutingModule,
     NgxPaginationModule,
     FormsModule,
-    NgxGoogleAnalyticsModule.forRoot('G-DFFZEBJFWD'),
+    NgxGoogleAnalyticsModule.forRoot(environment.ga),
     NgxGoogleAnalyticsRouterModule
   ],
   providers: [
