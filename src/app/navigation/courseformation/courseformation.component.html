@@ -55,7 +55,7 @@
                      </div>
                      <!-- <div class="tracking-date">{{item.conclusion | date: 'MMMM, yyyy':'America/Sao_Paulo':'pt-BR'}}</div> -->
                      <div class="tracking-date">{{item.conclusion | date: 'MMMM, yyyy'}}</div>
-                     <div class="tracking-content">{{item.name | uppercase}}<span>{{item.institution | titlecase }} - <a
+                     <div class="tracking-content">{{item.name | uppercase}}<span>{{item.institution | titlecase }} - <a gaEvent gaAction="click_certificado_{{item.name}}"
                               [href]="item.certificateUri" target="_blank">Certificado</a></span></div>
                   </div>
                   <hr>

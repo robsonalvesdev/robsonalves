@@ -29,7 +29,7 @@ export class CourseformationComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.$gaService.pageView('#courseformation', 'Formação');
+    this.$gaService.pageView('#courseformation', 'Cursos de Formação');
 
     const observableRest = {
       next: (x: Portifolio[]) => this.portifolio = x[0],
