@@ -23,6 +23,7 @@ import { CourseformationComponent } from './navigation/courseformation/coursefor
 import { NgxPaginationModule } from 'ngx-pagination';
 import { FormsModule }   from '@angular/forms';
 import { HomeComponent } from './navigation/home/home.component';
+import { NgxGoogleAnalyticsModule, NgxGoogleAnalyticsRouterModule } from 'ngx-google-analytics';
 
 @NgModule({
   declarations: [
@@ -44,7 +45,9 @@ import { HomeComponent } from './navigation/home/home.component';
     HttpClientModule,
     AppRoutingModule,
     NgxPaginationModule,
-    FormsModule
+    FormsModule,
+    NgxGoogleAnalyticsModule.forRoot('G-DFFZEBJFWD'),
+    NgxGoogleAnalyticsRouterModule
   ],
   providers: [
     { provide: LOCALE_ID, useValue: 'pt-BR' }

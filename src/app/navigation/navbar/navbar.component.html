@@ -6,13 +6,13 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-        <li class="nav-item"><a class="nav-link" [class.active]="(activeFragment | async) === 'page-top' || (activeFragment | async) === null" [routerLinkActive]="'is-active'" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" [routerLink]="['/']" fragment="page-top">Home</a></li>
-        <li class="nav-item"><a class="nav-link" [class.active]="(activeFragment | async) === 'services'" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" [routerLink]="['/']" fragment="services">Serviços</a></li>
-        <li class="nav-item"><a class="nav-link" [class.active]="(activeFragment | async) === 'about'" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" [routerLink]="['/']" fragment="about">Sobre</a></li>
-        <li class="nav-item"><a class="nav-link" [class.active]="(activeFragment | async) === 'university'" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" [routerLink]="['/']" fragment="university">(Pós)Graduação</a></li>
-        <li class="nav-item"><a class="nav-link" [class.active]="(activeFragment | async) === 'courses'" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" [routerLink]="['/']" fragment="courses">Cursos</a></li>
-        <li class="nav-item"><a class="nav-link" [class.active]="(activeFragment | async) === 'coursesformation'" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" [routerLink]="['/']" fragment="coursesformation">Cursos de Formação</a></li>
-        <li class="nav-item"><a class="nav-link" [class.active]="(activeFragment | async) === 'contact'" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" [routerLink]="['/']" fragment="contact">Contato</a></li>
+        <li class="nav-item"><a gaEvent gaAction="click_pagetop" class="nav-link" [class.active]="(activeFragment | async) === 'page-top' || (activeFragment | async) === null" [routerLinkActive]="'is-active'" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" [routerLink]="['/']" fragment="page-top">Home</a></li>
+        <li class="nav-item"><a gaEvent gaAction="services" class="nav-link" [class.active]="(activeFragment | async) === 'services'" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" [routerLink]="['/']" fragment="services">Serviços</a></li>
+        <li class="nav-item"><a gaEvent gaAction="click_about" class="nav-link" [class.active]="(activeFragment | async) === 'about'" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" [routerLink]="['/']" fragment="about">Sobre</a></li>
+        <li class="nav-item"><a gaEvent gaAction="click_university" class="nav-link" [class.active]="(activeFragment | async) === 'university'" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" [routerLink]="['/']" fragment="university">(Pós)Graduação</a></li>
+        <li class="nav-item"><a gaEvent gaAction="click_courses" class="nav-link" [class.active]="(activeFragment | async) === 'courses'" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" [routerLink]="['/']" fragment="courses">Cursos</a></li>
+        <li class="nav-item"><a gaEvent gaAction="click_coursesformation" class="nav-link" [class.active]="(activeFragment | async) === 'coursesformation'" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" [routerLink]="['/']" fragment="coursesformation">Cursos de Formação</a></li>
+        <li class="nav-item"><a gaEvent gaAction="click_contact" class="nav-link" [class.active]="(activeFragment | async) === 'contact'" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" [routerLink]="['/']" fragment="contact">Contato</a></li>
       </ul>
     </div>
   </div>

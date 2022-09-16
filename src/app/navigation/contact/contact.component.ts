@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { GoogleAnalyticsService } from 'ngx-google-analytics';
 import { Portifolio } from 'src/app/model/portifolio';
 import { PortifolioService } from 'src/app/service/portifolio.service';
 
@@ -11,28 +12,30 @@ export class ContactComponent implements OnInit {
 
   private portifolio: Portifolio = new Portifolio;
 
-  constructor(private portifolioService: PortifolioService) {
-   }
+  constructor(private portifolioService: PortifolioService, private $gaService: GoogleAnalyticsService) {
+  }
 
   ngOnInit(): void {
-      const observableRest = {
-        next: (x: Portifolio[]) => this.portifolio = x[0],
-        error: (err: any) => console.log(err),
-        complete: () => console.log("Ok")
-      };
+    this.$gaService.pageView('#contact', 'Contato');
 
-      const observableFile = {
-        next: (x: Portifolio) => this.portifolio = x,
-        error: (err: any) => console.log(err),
-        complete: () => console.log("Ok")
-      };
-      
-      this.portifolioService.obterPortifolioFile().subscribe(observableFile);
+    const observableRest = {
+      next: (x: Portifolio[]) => this.portifolio = x[0],
+      error: (err: any) => console.log(err),
+      complete: () => console.log("Ok")
+    };
+
+    const observableFile = {
+      next: (x: Portifolio) => this.portifolio = x,
+      error: (err: any) => console.log(err),
+      complete: () => console.log("Ok")
+    };
+
+    this.portifolioService.obterPortifolioFile().subscribe(observableFile);
   }
 
   getPortifolio(): Portifolio {
     return this.portifolio;
-  } 
+  }
 
   getCareerStart(): string {
     var eventStartTime = new Date(this.portifolio.careerStart).getFullYear();

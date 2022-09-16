@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { GoogleAnalyticsService } from 'ngx-google-analytics';
 import { Portifolio } from 'src/app/model/portifolio';
 import { UniversityGraduate } from 'src/app/model/universityGraduate';
 import { PortifolioService } from 'src/app/service/portifolio.service';
@@ -13,24 +14,26 @@ export class UniversityComponent implements OnInit {
 
   private portifolio: Portifolio = new Portifolio;
 
-  constructor(private portifolioService: PortifolioService, private route: ActivatedRoute) {
-    
-   }
+  constructor(private portifolioService: PortifolioService, private route: ActivatedRoute, private $gaService: GoogleAnalyticsService) {
+
+  }
 
   ngOnInit(): void {
-      const observableRest = {
-        next: (x: Portifolio[]) => this.portifolio = x[0],
-        error: (err: any) => console.log(err),
-        complete: () => console.log("Ok")
-      };     
+    this.$gaService.pageView('#universityformation', '(Pós)Graduação');
 
-      const observableFile = {
-        next: (x: Portifolio) => this.portifolio = x,
-        error: (err: any) => console.log(err),
-        complete: () => console.log("Ok")
-      };     
-      
-      this.portifolioService.obterPortifolioFile().subscribe(observableFile);
+    const observableRest = {
+      next: (x: Portifolio[]) => this.portifolio = x[0],
+      error: (err: any) => console.log(err),
+      complete: () => console.log("Ok")
+    };
+
+    const observableFile = {
+      next: (x: Portifolio) => this.portifolio = x,
+      error: (err: any) => console.log(err),
+      complete: () => console.log("Ok")
+    };
+
+    this.portifolioService.obterPortifolioFile().subscribe(observableFile);
   }
 
   ordernar(a: UniversityGraduate, b: UniversityGraduate) {
@@ -44,8 +47,8 @@ export class UniversityComponent implements OnInit {
     return 0;
   }
 
-  obterUniversity(): UniversityGraduate[]{
-    return this.portifolio.universityGraduate.sort((a,b) => {
+  obterUniversity(): UniversityGraduate[] {
+    return this.portifolio.universityGraduate.sort((a, b) => {
       return <any>new Date(b.conclusionYear) - <any>new Date(a.conclusionYear);
     });
     //return this.portifolio.universityGraduate.sort(this.ordernar);

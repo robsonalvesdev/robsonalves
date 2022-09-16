@@ -5,6 +5,7 @@ import { Course } from 'src/app/model/course';
 import { Portifolio } from 'src/app/model/portifolio';
 import { PortifolioService } from 'src/app/service/portifolio.service';
 import { of, distinct } from 'rxjs';
+import { GoogleAnalyticsService } from 'ngx-google-analytics';
 
 @Component({
   selector: 'app-course',
@@ -26,11 +27,13 @@ export class CourseComponent implements OnInit {
 
   public iconSize: number = 70;
 
-  constructor(private portifolioService: PortifolioService, private route: ActivatedRoute) {
+  constructor(private portifolioService: PortifolioService, private route: ActivatedRoute, private $gaService: GoogleAnalyticsService) {
 
   }
 
   ngOnInit(): void {
+    this.$gaService.pageView('#courses', 'Cursos');
+
     const observableRest = {
       next: (x: Portifolio[]) => this.portifolio = x[0],
       error: (err: any) => console.log(err),
@@ -58,13 +61,13 @@ export class CourseComponent implements OnInit {
   }
 
   obterCursos(): Course[] {
-    return this.portifolio.course.sort((a,b) => {
+    return this.portifolio.course.sort((a, b) => {
       return <any>new Date(b.conclusion) - <any>new Date(a.conclusion);
     }).filter(p => p.institution.toLowerCase().startsWith(this.filterInst.toLowerCase()));
     //return this.portifolio.course.sort(this.ordernar).filter(p => p.institution.toLowerCase().startsWith(this.filterInst.toLowerCase()));
   }
 
-  obterInstitutions() : string[] {
+  obterInstitutions(): string[] {
     //of(this.portifolio.course).pipe(distinct(({institution})) => institution)).subscribe(x => )
     const unique = [...new Set(this.portifolio.course.map(item => item.institution))];
     return unique;
@@ -75,7 +78,7 @@ export class CourseComponent implements OnInit {
     return this.config.itemsPerPage * (this.config.currentPage - 1) + indexOnPage + 1;
   }
 
-  AtualizaFiltro(valor: string){
+  AtualizaFiltro(valor: string) {
     this.filterInst = valor;
     this.config.currentPage = 1;
   }

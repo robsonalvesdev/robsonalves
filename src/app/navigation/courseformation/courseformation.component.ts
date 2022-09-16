@@ -1,4 +1,5 @@
 import { Component, OnInit, } from '@angular/core';
+import { GoogleAnalyticsService } from 'ngx-google-analytics';
 import { PaginationInstance } from 'ngx-pagination';
 import { FormationCourse } from 'src/app/model/formationCourse';
 import { Portifolio } from 'src/app/model/portifolio';
@@ -23,11 +24,13 @@ export class CourseformationComponent implements OnInit {
 
   filterInst: string = "";
 
-  constructor(private portifolioService: PortifolioService) {
+  constructor(private portifolioService: PortifolioService, private $gaService: GoogleAnalyticsService) {
 
   }
 
   ngOnInit(): void {
+    this.$gaService.pageView('#courseformation', 'Formação');
+
     const observableRest = {
       next: (x: Portifolio[]) => this.portifolio = x[0],
       error: (err: any) => console.log(err),
@@ -55,7 +58,7 @@ export class CourseformationComponent implements OnInit {
   }
 
   obterCursos(): FormationCourse[] {
-    return this.portifolio.formationCourse.sort((a,b) => {
+    return this.portifolio.formationCourse.sort((a, b) => {
       return <any>new Date(b.conclusion) - <any>new Date(a.conclusion);
     }).filter(p => p.institution.toLowerCase().startsWith(this.filterInst.toLowerCase()));
     //return this.portifolio.formationCourse.sort(this.ordernar).filter(p => p.institution.toLowerCase().startsWith(this.filterInst.toLowerCase()));
@@ -65,7 +68,7 @@ export class CourseformationComponent implements OnInit {
     return this.config.itemsPerPage * (this.config.currentPage - 1) + indexOnPage + 1;
   }
 
-  AtualizaFiltro(valor: string){
+  AtualizaFiltro(valor: string) {
     this.filterInst = valor;
     this.config.currentPage = 1;
   }
