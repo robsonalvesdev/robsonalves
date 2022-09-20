@@ -1,4 +1,4 @@
-import { Component, OnInit, } from '@angular/core';
+import { Component, Input, OnInit, } from '@angular/core';
 import { GoogleAnalyticsService } from 'ngx-google-analytics';
 import { PaginationInstance } from 'ngx-pagination';
 import { FormationCourse } from 'src/app/model/formationCourse';
@@ -12,6 +12,9 @@ import { PortifolioService } from 'src/app/service/portifolio.service';
 })
 export class CourseformationComponent implements OnInit {
   title = 'Cursos de Formação';
+
+  @Input() 
+  public bgcolor: boolean = false;
 
   private portifolio: Portifolio = new Portifolio;
 

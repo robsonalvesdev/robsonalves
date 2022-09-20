@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { GoogleAnalyticsService } from 'ngx-google-analytics';
 
 @Component({
@@ -8,6 +8,9 @@ import { GoogleAnalyticsService } from 'ngx-google-analytics';
 })
 export class ServiceComponent implements OnInit {
   title = 'Serviços';
+
+  @Input() 
+  public bgcolor: boolean = false;
 
   constructor(private $gaService: GoogleAnalyticsService) { }
 

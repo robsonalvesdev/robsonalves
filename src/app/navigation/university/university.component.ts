@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { GoogleAnalyticsService } from 'ngx-google-analytics';
 import { Portifolio } from 'src/app/model/portifolio';
@@ -12,6 +12,9 @@ import { PortifolioService } from 'src/app/service/portifolio.service';
 })
 export class UniversityComponent implements OnInit {
   title = '(Pós)Graduação';
+
+  @Input() 
+  public bgcolor: boolean = false;
 
   private portifolio: Portifolio = new Portifolio;
 

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { GoogleAnalyticsService } from 'ngx-google-analytics';
 import { About } from 'src/app/model/about';
 import { Portifolio } from 'src/app/model/portifolio';
@@ -11,6 +11,9 @@ import { PortifolioService } from 'src/app/service/portifolio.service';
 })
 export class AboutComponent implements OnInit {
   title = 'Sobre';
+
+  @Input() 
+  public bgcolor: boolean = false;
 
   private portifolio: Portifolio = new Portifolio;
 

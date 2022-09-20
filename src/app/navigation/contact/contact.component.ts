@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { GoogleAnalyticsService } from 'ngx-google-analytics';
 import { Portifolio } from 'src/app/model/portifolio';
 import { PortifolioService } from 'src/app/service/portifolio.service';
@@ -10,6 +10,9 @@ import { PortifolioService } from 'src/app/service/portifolio.service';
 })
 export class ContactComponent implements OnInit {
   title = 'Contato';
+
+  @Input() 
+  public bgcolor: boolean = false;
 
   private portifolio: Portifolio = new Portifolio;
 
