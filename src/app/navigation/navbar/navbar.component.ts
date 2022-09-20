@@ -1,7 +1,7 @@
 import { Component, OnInit, HostListener } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Observable } from 'rxjs';
-import { share } from 'rxjs/operators';
+import { map, share } from 'rxjs/operators';
 
 @Component({
   selector: 'app-navbar',
@@ -10,11 +10,12 @@ import { share } from 'rxjs/operators';
 })
 
 
-export class NavbarComponent implements OnInit {
+@HostListener('window:resize')
+export class NavbarComponent implements OnInit { 
 
-  @HostListener('window:resize')
+  //@HostListener('window:resize', [])
 
-  activeFragment = this.route.fragment.pipe(share());
+  activeFragment: Observable<string | null>;
   scroll: boolean = true;
   resize: boolean = false;
 
@@ -22,7 +23,9 @@ export class NavbarComponent implements OnInit {
   constructor(public route: ActivatedRoute) { }
 
   ngOnInit(): void {
-    window.addEventListener('scroll', this.scrolling, true);
+    this.activeFragment = this.route.fragment.pipe(frag => frag);
+    //this.activeFragment = this.route.fragment.pipe(share());
+      window.addEventListener('scroll', this.scrolling, true);    
   }
 
   scrolling = (s: any) => {
@@ -38,7 +41,10 @@ export class NavbarComponent implements OnInit {
   }
 
   onResize(event: any) {
-    this.resize = !this.resize;
+    if (this.detectar_mobile())
+      this.resize = false
+    else
+      this.resize = true //= !this.resize;
   }
 
   detectar_mobile() {
@@ -49,6 +55,8 @@ export class NavbarComponent implements OnInit {
       || navigator.userAgent.match(/iPod/i)
       || navigator.userAgent.match(/BlackBerry/i)
       || navigator.userAgent.match(/Windows Phone/i)
+      || window.innerWidth <= 990
+      //|| document.getElementById("botaomenu")?.style.visibility === 'visible'
     ) {
       return true;
     }
