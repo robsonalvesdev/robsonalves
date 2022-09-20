@@ -7,6 +7,7 @@ import { GoogleAnalyticsService } from 'ngx-google-analytics';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
+  title = 'Home';
 
   constructor(private $gaService: GoogleAnalyticsService) { }
 

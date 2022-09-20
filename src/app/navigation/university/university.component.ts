@@ -11,6 +11,7 @@ import { PortifolioService } from 'src/app/service/portifolio.service';
   styleUrls: ['./university.component.css']
 })
 export class UniversityComponent implements OnInit {
+  title = '(Pós)Graduação';
 
   private portifolio: Portifolio = new Portifolio;
 

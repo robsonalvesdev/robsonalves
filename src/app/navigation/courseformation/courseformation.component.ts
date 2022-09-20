@@ -11,6 +11,7 @@ import { PortifolioService } from 'src/app/service/portifolio.service';
   styleUrls: ['./courseformation.component.css']
 })
 export class CourseformationComponent implements OnInit {
+  title = 'Cursos de Formação';
 
   private portifolio: Portifolio = new Portifolio;
 

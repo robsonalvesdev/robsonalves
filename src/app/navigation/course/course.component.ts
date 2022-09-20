@@ -13,7 +13,7 @@ import { GoogleAnalyticsService } from 'ngx-google-analytics';
   styleUrls: ['./course.component.css']
 })
 export class CourseComponent implements OnInit {
-
+  title = 'Course';
 
   private portifolio: Portifolio = new Portifolio;
 

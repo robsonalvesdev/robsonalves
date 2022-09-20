@@ -9,6 +9,7 @@ import { PortifolioService } from 'src/app/service/portifolio.service';
   styleUrls: ['./contact.component.css']
 })
 export class ContactComponent implements OnInit {
+  title = 'Contato';
 
   private portifolio: Portifolio = new Portifolio;
 

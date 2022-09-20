@@ -7,6 +7,7 @@ import { GoogleAnalyticsService } from 'ngx-google-analytics';
   styleUrls: ['./portifolio.component.css']
 })
 export class PortifolioComponent implements OnInit {
+  title = 'Portifólio';
 
   constructor(private $gaService: GoogleAnalyticsService) { }
 

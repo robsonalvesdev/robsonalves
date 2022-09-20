@@ -10,6 +10,7 @@ import { PortifolioService } from 'src/app/service/portifolio.service';
   styleUrls: ['./about.component.css']
 })
 export class AboutComponent implements OnInit {
+  title = 'Sobre';
 
   private portifolio: Portifolio = new Portifolio;
 
