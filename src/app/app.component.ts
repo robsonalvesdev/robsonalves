@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { NavigationEnd, Router } from '@angular/router';
+import { environment } from 'src/environments/environment';
 
 declare const gtag: Function;
 
@@ -14,7 +15,7 @@ export class AppComponent {
   constructor(public router: Router) {
     this.router.events.subscribe((event) => {
       if (event instanceof NavigationEnd) {
-        gtag('config', 'G-DFFZEBJFWD', { 'page_path': event.urlAfterRedirects });
+        gtag('config', environment.ga, { 'page_path': event.urlAfterRedirects });
       }      
     })
   }
