@@ -1331,6 +1331,17 @@
 				]
 			},
 			{
+				"name": "Introdução ao DevOps",
+				"conclusion": "2022-09-19T18:25:43.511Z",
+				"certificateUri": "https:\/\/desenvolvedor.io\/certificado/efc1be7d-bd63-4ab6-a782-45a49894527a",
+				"institution": "Desenvolvedor.io",
+				"importance": "high",
+				"tags": [
+					"development",
+					"devops"
+				]
+			},
+			{
 				"name": "C# COMPLETO Programação Orientada a Objetos + Projetos",
 				"conclusion": "2019-05-16T18:25:43.511Z",
 				"certificateUri": "https:\/\/www.udemy.com\/certificate\/UC-26OBZ64N\/",
