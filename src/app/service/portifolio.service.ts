@@ -10,17 +10,18 @@ import PortifolioJson from './robsonalves.json';
 export class PortifolioService {
 
   protected UrlServiceV1: string = "http://localhost:3000/";
-  
+
   constructor(private http: HttpClient) {
-   }
+  }
+
+  obterPortifolioFile(): Observable<Portifolio> {
+    return new Observable<Portifolio>(subscriber => {
+      subscriber.next(PortifolioJson);
+    });
+  }
 
   obterPortifolioRest(): Observable<Portifolio[]> {
     return this.http
-        .get<Portifolio[]>(this.UrlServiceV1 + "portifolio");
+      .get<Portifolio[]>(this.UrlServiceV1 + "portifolio");
   }
-
-  obterPortifolioFile(): Observable<any> {
-    return of(PortifolioJson).pipe(delay(1000));
-  }
-
 }

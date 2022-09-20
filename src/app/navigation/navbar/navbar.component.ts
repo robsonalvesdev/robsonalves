@@ -47,22 +47,29 @@ export class NavbarComponent implements OnInit {
       this.resize = true //= !this.resize;
   }
 
-  detectar_mobile() {
-    if (navigator.userAgent.match(/Android/i)
-      || navigator.userAgent.match(/webOS/i)
-      || navigator.userAgent.match(/iPhone/i)
-      || navigator.userAgent.match(/iPad/i)
-      || navigator.userAgent.match(/iPod/i)
-      || navigator.userAgent.match(/BlackBerry/i)
-      || navigator.userAgent.match(/Windows Phone/i)
+  observable = new Observable<boolean | null | undefined>(subiscribe =>
+    subiscribe.next(
+      navigator.userAgent.match(/Android/i) != undefined
+      || navigator.userAgent.match(/webOS/i) != undefined
+      || navigator.userAgent.match(/iPhone/i) != undefined
+      || navigator.userAgent.match(/iPad/i) != undefined
+      || navigator.userAgent.match(/iPod/i) != undefined
+      || navigator.userAgent.match(/BlackBerry/i) != undefined
+      || navigator.userAgent.match(/Windows Phone/i) != undefined
       || window.innerWidth <= 990
-      //|| document.getElementById("botaomenu")?.style.visibility === 'visible'
-    ) {
-      return true;
-    }
-    else {
-      return false;
-    }
+  ));
+
+  private isMobile: boolean | null | undefined;
+  
+  private observer = {
+    next: (isMobile: boolean | null | undefined) => this.isMobile = isMobile,
+    error: (erro: any) => console.log(erro),
+    complete: () => console.log("Não foi possível definir tipo de dispositivo.")
+  }
+
+  detectar_mobile() {
+    this.observable.subscribe(this.observer);
+    return this.isMobile;
   }
 
 }
