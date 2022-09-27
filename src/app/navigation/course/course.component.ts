@@ -15,6 +15,8 @@ import { GoogleAnalyticsService } from 'ngx-google-analytics';
 export class CourseComponent implements OnInit {
   title = 'Course';
 
+  public className: string = this.constructor.name.toLowerCase();
+
   @Input() 
   public bgcolor: boolean = false;
 
