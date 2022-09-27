@@ -10,27 +10,19 @@
             Filtrar por instituição do curso:
          </div>
          <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-            <input type="radio" class="btn-check" name="btnradio1" id="btnradio11" autocomplete="off" gaEvent gaAction="click_filtro_courseformation_todos" gaCategory="ga_cursosdeformacao"
+            <input type="radio" class="btn-check" name="btnradio-cf" id="00-cf" autocomplete="off" gaEvent gaAction="click_filtro_course_todos" gaCategory="ga_cursos"
                (click)="AtualizaFiltro('')" checked>
-            <label class="btn btn-outline-primary" for="btnradio11">Todas</label>
+            <label class="btn btn-outline-primary" for="00-cf">Todas</label>
 
-            <input type="radio" class="btn-check" name="btnradio1" id="btnradio21" autocomplete="off" gaEvent gaAction="click_filtro_courseformation_alura" gaCategory="ga_cursosdeformacao"
-               (click)="AtualizaFiltro('Alura')">
-            <label class="btn btn-outline-primary" for="btnradio21">Alura</label>
-
-            <input type="radio" class="btn-check" name="btnradio1" id="btnradio31" autocomplete="off" gaEvent gaAction="click_filtro_courseformation_desenvolvedorio" gaCategory="ga_cursosdeformacao"
-               (click)="AtualizaFiltro('Desenvolvedor.io')">
-            <label class="btn btn-outline-primary" for="btnradio31">Desenvolvedor.io</label>
-
-            <input type="radio" class="btn-check" name="btnradio1" id="btnradio41" autocomplete="off" gaEvent gaAction="click_filtro_courseformation_udemy" gaCategory="ga_cursosdeformacao"
-               (click)="AtualizaFiltro('Udemy')">
-            <label class="btn btn-outline-primary" for="btnradio41">Udemy</label>
+            <ng-template ngFor let-item [ngForOf]="obterInstitutions()" let-i="index">
+               <input type="radio" class="btn-check" name="btnradio-cf" id="{{i+1}}-cf" autocomplete="off" gaEvent gaAction="click_filtro_course_{{item}}" gaCategory="ga_cursos"
+               (click)="AtualizaFiltro(item)">
+               <label class="btn btn-outline-primary" for="{{i+1}}-cf">{{item}}</label>
+            </ng-template>
          </div>
       </div>
-
       <hr>
       <div class="row">
-
          <div class="col-md-12 col-lg-12">
             <div id="tracking-pre"></div>
             <div id="tracking">

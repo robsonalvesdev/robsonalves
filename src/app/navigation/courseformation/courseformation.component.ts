@@ -68,6 +68,12 @@ export class CourseformationComponent implements OnInit {
     //return this.portifolio.formationCourse.sort(this.ordernar).filter(p => p.institution.toLowerCase().startsWith(this.filterInst.toLowerCase()));
   }
 
+  obterInstitutions(): string[] {
+    //of(this.portifolio.course).pipe(distinct(({institution})) => institution)).subscribe(x => )
+    const unique = [...new Set(this.portifolio.course.map(item => item.institution))];
+    return unique;
+  }
+
   absoluteIndex(indexOnPage: number): number {
     return this.config.itemsPerPage * (this.config.currentPage - 1) + indexOnPage + 1;
   }

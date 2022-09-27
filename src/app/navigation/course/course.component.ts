@@ -70,6 +70,12 @@ export class CourseComponent implements OnInit {
     //return this.portifolio.course.sort(this.ordernar).filter(p => p.institution.toLowerCase().startsWith(this.filterInst.toLowerCase()));
   }
 
+  obterTags(): string[] {
+    let cursos: string[] = [];
+    this.portifolio.course.forEach(x => x.tags.forEach(xx => cursos.push(xx)));
+    return Array.from(new Set(cursos.map((item: any) => item)));
+  }
+
   obterInstitutions(): string[] {
     //of(this.portifolio.course).pipe(distinct(({institution})) => institution)).subscribe(x => )
     const unique = [...new Set(this.portifolio.course.map(item => item.institution))];
