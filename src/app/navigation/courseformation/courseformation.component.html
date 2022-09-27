@@ -16,7 +16,7 @@
 
             <ng-template ngFor let-item [ngForOf]="obterInstitutions()" let-i="index">
                <input type="radio" class="btn-check" name="btnradio-{{className}}" id="{{i+1}}-{{className}}" autocomplete="off" gaEvent gaAction="click_filtro_course_{{item}}" gaCategory="ga_cursos"
-               (click)="AtualizaFiltro(item)" [checked]="obterInstitutions().length <= 1">
+               (click)="AtualizaFiltro(item)">
                <label class="btn btn-outline-primary" for="{{i+1}}-{{className}}">{{item}}</label>
             </ng-template>
          </div>
