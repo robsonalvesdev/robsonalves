@@ -25,6 +25,7 @@ import { FormsModule }   from '@angular/forms';
 import { HomeComponent } from './navigation/home/home.component';
 import { NgxGoogleAnalyticsModule, NgxGoogleAnalyticsRouterModule } from 'ngx-google-analytics';
 import { environment } from 'src/environments/environment';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -48,7 +49,8 @@ import { environment } from 'src/environments/environment';
     NgxPaginationModule,
     FormsModule,
     NgxGoogleAnalyticsModule.forRoot(environment.ga),
-    NgxGoogleAnalyticsRouterModule
+    NgxGoogleAnalyticsRouterModule,
+    NgbModule
   ],
   providers: [
     { provide: LOCALE_ID, useValue: 'pt-BR' }

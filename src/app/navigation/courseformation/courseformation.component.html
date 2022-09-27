@@ -53,11 +53,17 @@
                               [href]="item.certificateUri" target="_blank">Certificado</a></span></div>
                   </div>
                   <hr>
-                  <div class="text-center">
 
-                     <pagination-controls id="{{config.id}}" [maxSize]="12" (pageChange)="config.currentPage = $event"
-                        previousLabel="Anterior" nextLabel="Próximo"></pagination-controls>
-
+                  <div class="d-flex justify-content-center">
+                     <ngb-pagination [collectionSize]="obterCursos().length" [(page)]="config.currentPage" [pageSize]="config.itemsPerPage" [maxSize]="5" [rotate]="true" [ellipses]="true" [boundaryLinks]="true">
+                        <ng-template ngbPaginationFirst>Primeiro</ng-template>
+                        <ng-template ngbPaginationLast>Último</ng-template>
+                        <ng-template ngbPaginationPrevious>Anterior</ng-template>
+                        <ng-template ngbPaginationNext>Próximo</ng-template>
+                        <ng-template ngbPaginationEllipsis>...</ng-template>
+                        <ng-template ngbPaginationNumber let-page>{{page}}</ng-template>
+                     </ngb-pagination>
+                     <!--<pagination-controls id="{{config.id}}" [maxSize]="12" (pageChange)="config.currentPage = $event" previousLabel="Anterior" nextLabel="Próximo"></pagination-controls>-->
                   </div>
 
                </div>
