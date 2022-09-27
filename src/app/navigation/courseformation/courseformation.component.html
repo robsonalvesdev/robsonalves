@@ -10,14 +10,15 @@
             Filtrar por instituição do curso:
          </div>
          <div class="btn-group btn-group-sm" role="group" aria-label="Basic radio toggle button group">
-               <input type="radio" class="btn-check" name="btnradio-{{className}}" id="00-{{className}}" autocomplete="off" gaEvent gaAction="click_filtro_course_todos" gaCategory="ga_cursos"
-               (click)="AtualizaFiltro('')" checked>
-               <label class="btn btn-outline-primary" for="00-{{className}}">Todas</label>           
+            <input type="radio" class="btn-check" name="btnradio-CourseformationComponent" id="00-CourseformationComponent" autocomplete="off"
+               gaEvent gaAction="click_filtro_course_todos" gaCategory="ga_cursos" (click)="AtualizaFiltro('')" checked>
+            <label class="btn btn-outline-primary" for="00-CourseformationComponent">Todas</label>
 
             <ng-template ngFor let-item [ngForOf]="obterInstitutions()" let-i="index">
-               <input type="radio" class="btn-check" name="btnradio-{{className}}" id="{{i+1}}-{{className}}" autocomplete="off" gaEvent gaAction="click_filtro_course_{{item}}" gaCategory="ga_cursos"
-               (click)="AtualizaFiltro(item)">
-               <label class="btn btn-outline-primary" for="{{i+1}}-{{className}}">{{item}}</label>
+               <input type="radio" class="btn-check" name="btnradio-CourseformationComponent" id="{{i+1}}-CourseformationComponent"
+                  autocomplete="off" gaEvent gaAction="click_filtro_course_{{item}}" gaCategory="ga_cursos"
+                  (click)="AtualizaFiltro(item)">
+               <label class="btn btn-outline-primary" for="{{i+1}}-CourseformationComponent">{{item}}</label>
             </ng-template>
          </div>
       </div>
@@ -47,7 +48,8 @@
                      </div>
                      <!-- <div class="tracking-date">{{item.conclusion | date: 'MMMM, yyyy':'America/Sao_Paulo':'pt-BR'}}</div> -->
                      <div class="tracking-date">{{item.conclusion | date: 'MMMM, yyyy'}}</div>
-                     <div class="tracking-content">{{item.name | uppercase}}<span>{{item.institution | titlecase }} - <a gaEvent gaAction="click_certificado_{{item.name}}" gaCategory="ga_cursosdeformacao"
+                     <div class="tracking-content">{{item.name | uppercase}}<span>{{item.institution | titlecase }} - <a
+                              gaEvent gaAction="click_certificado_{{item.name}}" gaCategory="ga_cursosdeformacao"
                               [href]="item.certificateUri" target="_blank">Certificado</a></span></div>
                   </div>
                   <hr>

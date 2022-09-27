@@ -13,8 +13,6 @@ import { PortifolioService } from 'src/app/service/portifolio.service';
 export class CourseformationComponent implements OnInit {
   title = 'Cursos de Formação';
 
-  public className: string = this.constructor.name.toLowerCase();
-
   @Input() 
   public bgcolor: boolean = false;
 
