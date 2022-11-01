@@ -1415,6 +1415,19 @@
 					"cloud",
 					"kubernete"
 				]
+			},
+			{
+				"name": "Azure DataBases para iniciantes",
+				"conclusion": "2022-11-01T18:25:43.511Z",
+				"certificateUri": "https:\/\/www.udemy.com\/certificate\/UC-1629d9df-3184-41c5-83a4-943d89bf3910\/",
+				"institution": "Udemy",
+				"importance": "high",
+				"tags": [
+					"database",
+					"backup",
+					"azure",
+					"cloud"
+				]
 			}
 		],
 		"perfilAcademy": [
