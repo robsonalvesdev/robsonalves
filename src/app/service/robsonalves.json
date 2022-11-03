@@ -1428,6 +1428,19 @@
 					"azure",
 					"cloud"
 				]
+			},
+			{
+				"name": "Microsoft Azure Active Directory",
+				"conclusion": "2022-11-03T18:25:43.511Z",
+				"certificateUri": "https:\/\/www.udemy.com\/certificate\/UC-72cf91c3-4f64-4674-b560-c4d20570733a\/",
+				"institution": "Udemy",
+				"importance": "high",
+				"tags": [
+					"activedirectory",
+					"ad",
+					"azure",
+					"cloud"
+				]
 			}
 		],
 		"perfilAcademy": [
