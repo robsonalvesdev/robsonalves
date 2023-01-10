@@ -43,10 +43,10 @@
 				"date": null,
 				"messages": [
 					"Atuando como desenvolvedor e consultor na area de tecnologia e desenvolvimento de aplicações.",
-					"Minhas principais atividades são revisão de código, gerenciamento de aplicações e infra-estrutura na nuvem, organização de processos de desenvolvimento, arquitetura de software.",
+					"Minhas principais atividades são revisão de código, gerenciamento de aplicações e infra-estrutura na nuvem, organização de processos de desenvolvimento e arquitetura de software.",
 					"As aplicações desenvolvidas são voltadas para o setor financeiro, gateways de pagamento usados por diversos produtos desenvolvidos pela empresa.",
 					"Iniciando um novo projeto para o setor financeiro do grupo mas especificamente uma fintech.",
-					"As principais tecnologias envolvidas nestes desenvolvimentos incluem (Cloud Azure e AWS, .NET 7, RabbitMQ, Azure DevOps, processos de CI/CD, Visual Studio, Rider, VS Code, Kubernetes, DataDog)"
+					"As principais tecnologias envolvidas nestes desenvolvimentos incluem (Cloud Azure e AWS, .NET 7, RabbitMQ, Azure DevOps, processos de CI/CD, Visual Studio, Rider, ReSharp, SonarQube, VS Code, Kubernetes, DataDog)"
 				]
 			}
 		],
