@@ -30,13 +30,13 @@
       <div aria-label="Basic radio toggle button group" class="col-md-12 col-lg-12" role="group">
         <input (click)="AtualizaFiltroCategoria('')" autocomplete="off" checked class="btn-check" gaAction="click_filtro_course_category_todos"
                gaCategory="ga_categorias" gaEvent id="00-CourseCategoryComponent" name="btnradio-CourseCategoryComponent" type="radio">
-        <label class="btn btn-light btn-sm" for="00-CourseCategoryComponent" style="width: auto; height: 2rem;">Todas</label>
+        <label class="btn btn-warning btn-sm" for="00-CourseCategoryComponent" style="width: auto; height: 2rem; margin: .1rem;">Todas</label>
 
         <ng-template ngFor let-item [ngForOf]="obterCategorias()" let-i="index">
           <input (click)="AtualizaFiltroCategoria(item)" autocomplete="off" class="btn-check" gaAction="click_filtro_course_category_{{item}}"
                  gaCategory="ga_categorias" gaEvent id="{{i+1}}-CourseCategoryComponent" name="btnradio-CourseCategoryComponent"
                  type="radio">
-          <label class="btn btn-light btn-sm" for="{{i+1}}-CourseCategoryComponent" style="width: max-content; height: 2rem;">{{item | lowercase}}</label>
+          <label class="btn btn-light btn-sm" for="{{i+1}}-CourseCategoryComponent" style="width: max-content; height: 2rem; margin: .1rem;">{{item | lowercase}}</label>
         </ng-template>
       </div>
     </div>
