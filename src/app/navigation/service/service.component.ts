@@ -16,7 +16,7 @@ export class ServiceComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.$gaService.pageView('#service', 'Serviços');
+    this.$gaService.pageView('#service', 'Habilidades');
   }
 
 }
