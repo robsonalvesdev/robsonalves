@@ -1,11 +1,5 @@
-import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
-import { AboutComponent } from './navigation/about/about.component';
-import { ContactComponent } from './navigation/contact/contact.component';
-import { CourseComponent } from './navigation/course/course.component';
-import { CourseformationComponent } from './navigation/courseformation/courseformation.component';
-import { ServiceComponent } from './navigation/service/service.component';
-import { UniversityComponent } from './navigation/university/university.component';
+import {NgModule} from '@angular/core';
+import {RouterModule, Routes} from '@angular/router';
 
 const routes: Routes = [
   // { path: '', redirectTo: '/services', pathMatch: 'full'},
@@ -18,7 +12,8 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes, { scrollPositionRestoration: 'enabled', anchorScrolling: 'enabled' })],
+  imports: [RouterModule.forRoot(routes, {scrollPositionRestoration: 'enabled', anchorScrolling: 'enabled'})],
   exports: [RouterModule]
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {
+}

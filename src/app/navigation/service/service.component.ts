@@ -1,5 +1,5 @@
-import { Component, Input, OnInit } from '@angular/core';
-import { GoogleAnalyticsService } from 'ngx-google-analytics';
+import {Component, Input, OnInit} from '@angular/core';
+import {GoogleAnalyticsService} from 'ngx-google-analytics';
 
 @Component({
   selector: 'app-service',
@@ -9,10 +9,11 @@ import { GoogleAnalyticsService } from 'ngx-google-analytics';
 export class ServiceComponent implements OnInit {
   title = 'Serviços';
 
-  @Input() 
+  @Input()
   public bgcolor: boolean = false;
 
-  constructor(private $gaService: GoogleAnalyticsService) { }
+  constructor(private $gaService: GoogleAnalyticsService) {
+  }
 
   ngOnInit(): void {
     this.$gaService.pageView('#service', 'Serviços');

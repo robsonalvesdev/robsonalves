@@ -1,9 +1,9 @@
-import { Component, Input, OnInit, } from '@angular/core';
-import { GoogleAnalyticsService } from 'ngx-google-analytics';
-import { PaginationInstance } from 'ngx-pagination';
-import { FormationCourse } from 'src/app/model/formationCourse';
-import { Portifolio } from 'src/app/model/portifolio';
-import { PortifolioService } from 'src/app/service/portifolio.service';
+import {Component, Input, OnInit,} from '@angular/core';
+import {GoogleAnalyticsService} from 'ngx-google-analytics';
+import {PaginationInstance} from 'ngx-pagination';
+import {FormationCourse} from 'src/app/model/formationCourse';
+import {Portifolio} from 'src/app/model/portifolio';
+import {PortifolioService} from 'src/app/service/portifolio.service';
 
 @Component({
   selector: 'app-courseformation',
@@ -13,20 +13,16 @@ import { PortifolioService } from 'src/app/service/portifolio.service';
 export class CourseformationComponent implements OnInit {
   title = 'Cursos de Formação';
 
-  @Input() 
+  @Input()
   public bgcolor: boolean = false;
-
-  private portifolio: Portifolio = new Portifolio;
-
   public config: PaginationInstance = {
     id: 'courseformationComponent',
     itemsPerPage: 6,
     currentPage: 1
   };
-
   public iconSize: number = 70;
-
   filterInst: string = "";
+  private portifolio: Portifolio = new Portifolio;
 
   constructor(private portifolioService: PortifolioService, private $gaService: GoogleAnalyticsService) {
 

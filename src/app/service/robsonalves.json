@@ -1,1481 +1,1481 @@
-	{
-		"name": "Robson Candido dos Santos Alves",
-		"birthday": "1980-08-29T23:01:01.000Z",
-		"email": "contato@robsonalves.dev.br",
-		"website": "https:\/\/www.robsonalves.dev.br",
-		"linkedin": "https:\/\/www.linkedin.com\/in\/robson-curitiba",
-		"github": "https:\/\/github.com\/robsonalvesdev",
-		"discord": "https:\/\/discord.gg\/gpbe9gv7mC",
-		"careerStart": "2000-01-01T18:30:00.000Z",
-		"country": "Brasil",
-		"state": "PR",
-		"city": "Curitiba",
-		"about": [
-			{
-				"title": "Inicio de Carreira.",
-				"date": "2000-01-01T18:30:00.000Z",
-				"messages": [
-					"Possuo ##careerStart## anos de experiência na área de desenvolvimento.",
-					"Já atuei como Instrutor de Programação em Delphi, Hardware e Informática Básica por 5 anos.",
-					"Neste tempo de experiência desenvolvi aplicações voltadas para o setor de financiamento de veículos atendendo bancos do setor usando Delphi e Visual Studio como ferramentas de desenvolvimento e banco de dados Oracle e SqlServer, também atuei no desenvolvimento de aplicações notariais com a ferramenta Delphi e banco de dados MySql e também na automação industrial com o carregamento de descarregamento de combustíveis usando Visual Studio e VsCode como ferramentas de desenvolvimento."
-				]
-			},
-			{
-				"title": "Conhecimentos técnicos.",
-				"date": "2000-01-01T18:30:00.000Z",
-				"messages": [
-					"Inicie minha carreira de programador usando ferramenta Delphi e a partir de então me tornei instrutor em uma escola de informática usando esta ferramenta.",
-					"Também neste período em que dava aulas comecei a me especialiar em desenvolvimento web com ASP.NET clássico e PHP.",
-					"Hojé minha especialidade em desenvolvimento é o ambiente .NET usando a linguagem C#(CSharp) e ambientes em nuvem(cloud) Azure.",
-					"Outras linguagens que também utilizo é o Javascript e buscando meu aprimoramento em Rust.",
-					"Uma lista resumida dos meus conhecimentos tecnológicos, RabbitMQ, SqlServer, Oracle, MySql, MongoDB, Docker, Kubernetes, Cloud(Azure), Golang, Rust, CSharp, .NET Core."
-				]
-			},
-			{
-				"title": "Evolução da carreira.",
-				"date": "2019-01-01T18:30:00.000Z",
-				"messages": [
-					"Desde 2019 venho também atuando na área de desenvolvimento como Lider Técnico e Desenvolvedor Consultor."
-				]
-			},
-			{
-				"title": "Atualmente.",
-				"date": null,
-				"messages": [
-					"Atuando como desenvolvedor e consultor na area de tecnologia e desenvolvimento de aplicações.",
-					"Minhas principais atividades são revisão de código, gerenciamento de aplicações e infra-estrutura na nuvem, organização de processos de desenvolvimento e arquitetura de software.",
-					"As aplicações desenvolvidas são voltadas para o setor financeiro, gateways de pagamento usados por diversos produtos desenvolvidos pela empresa.",
-					"Iniciando um novo projeto para o setor financeiro do grupo mas especificamente uma fintech.",
-					"As principais tecnologias envolvidas nestes desenvolvimentos incluem (Cloud Azure e AWS, .NET 7, RabbitMQ, Azure DevOps, processos de CI/CD, Visual Studio, Rider, ReSharp, SonarQube, VS Code, Kubernetes, DataDog)"
-				]
-			}
-		],
-		"universityGraduate": [
-			{
-				"name": "Faculdade de tecnologia Opet",
-				"course": "Desenvolvimento Web",
-				"conclusionYear": 2000,
-				"institutionUri": "https:\/\/www.opet.com.br\/",
-				"status": "Tracado"
-			},
-			{
-				"name": "Faculdade Tuiuti do Paraná",
-				"course": "Redes de computadores",
-				"conclusionYear": 2012,
-				"institutionUri": "https:\/\/www.tuiuti.edu.br\/",
-				"status": "Concluído"
-			},
-			{
-				"name": "Faculdade Cruzeiro do Sul",
-				"course": "Pós Graduação Fullstack Javascript",
-				"conclusionYear": 2022,
-				"institutionUri": "https:\/\/www.cruzeirodosulvirtual.com.br\/",
-				"status": "Concluído"
-			}
-		],
-		"formationCourse": [
-			{
-				"name": "C# E ORIENTAÇÃO A OBJETOS",
-				"conclusion": "2021-04-23T18:25:43.511Z",
-				"certificateUri": "https:\\/\\/cursos.alura.com.br\\/degree\/certificate\/2e01d0c3-8f5d-4715-a679-3061632a9298",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"development",
-					".net",
-					"C#"
-				]
-			},
-			{
-				"name": "ORQUESTRAÇÃO DE CONTAINERS COM KUBERNETES",
-				"conclusion": "2022-05-13T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/degree\/certificate\/ecc51fe7-41c9-4eed-afad-5fd31aa1232a",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"container",
-					"kubernet",
-					"docker"
-				]
-			},
-			{
-				"name": "TESTES EM .NET",
-				"conclusion": "2022-05-22T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/degree\/certificate\/ef085642-633e-4daa-bdc8-017fd53bd4af",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"development",
-					".net",
-					"C#",
-					"test",
-					"tdd"
-				]
-			},
-			{
-				"name": "MINHA PRIMEIRA LIDERANÇA",
-				"conclusion": "2022-05-24T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/degree\/certificate\/d4c360e6-b8c5-419e-8938-c7337603a927",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"liderance"
-				]
-			},
-			{
-				"name": "ASP.NET CORE REST APIS",
-				"conclusion": "2022-05-25T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/degree\/certificate\/51f1efcb-45f2-4005-b875-6890a5a43fe2",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"development",
-					".net",
-					"C#",
-					"restful"
-				]
-			},
-			{
-				"name": "GO: A LINGUAGEM DE PROGRAMAÇÃO DO GOOGLE",
-				"conclusion": "2022-06-09T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/degree\/certificate\/ddaea616-7329-4661-a48a-a79db8bf8841",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"development",
-					"go",
-					"golang"
-				]
-			},
-			{
-				"name": "MODELAGEM DE DADOS",
-				"conclusion": "2022-08-03T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/degree\/certificate\/c90fc5d1-85bc-4cd9-860f-5b7e1154e8aa",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"database"
-				]
-			},
-			{
-				"name": "SQL COM MICROSOFT SQL SERVER 2017",
-				"conclusion": "2022-08-12T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/degree\/certificate\/463982aa-7353-4e1b-a775-cf1d574c17b7",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"database",
-					"sqlserver"
-				]
-			}
-		],
-		"course": [
-			{
-				"name": "C# PARTE 1: PRIMEIROS PASSOS",
-				"conclusion": "2021-02-09T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/e66dac5c-2f3f-4ed3-bb3b-5b784749bc86",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"development",
-					".net",
-					"C#"
-				]
-			},
-			{
-				"name": "GIT E GITHUB: CONTROLE E COMPARTILHE SEU CÓDIGO",
-				"conclusion": "2022-07-24T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/4f3c3358-1eae-432c-84b8-4a1fac6ecfcc",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"git",
-					"versioncontrol"
-				]
-			},
-			{
-				"name": "TYPESCRIPT PARTE 1: EVOLUINDO SEU JAVASCRIPT",
-				"conclusion": "2020-01-15T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/2eaf88e6-e655-4c9d-9803-ade895189378",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"development",
-					"javascript"
-				]
-			},
-			{
-				"name": "C# PARTE 2: ENTENDENDO A ORIENTAÇÃO A OBJETOS",
-				"conclusion": "2021-03-09T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/f34c4a9f-9084-4a0e-ae2f-a28c88cff0a2",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"development",
-					".net",
-					"C#"
-				]
-			},
-			{
-				"name": "ASP.NET IDENTITY PARTE 1: GERENCIE CONTAS DE USUÁRIOS",
-				"conclusion": "2019-11-15T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/37d80b3e-730a-4da2-bcc9-88ad25403458",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"development",
-					".net",
-					"C#"
-				]
-			},
-			{
-				"name": "DOCKER: CRIANDO CONTAINERS SEM DOR DE CABEÇA",
-				"conclusion": "2019-11-06T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/333f4ba7-4347-40dc-b835-f6537db07ecc",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"container",
-					"docker"
-				]
-			},
-			{
-				"name": "HTTP: ENTENDENDO A WEB POR BAIXO DOS PANOS",
-				"conclusion": "2019-12-01T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/5d54dc3e-3df3-4afb-84dc-159f33cdfb7b",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"protocol",
-					"http"
-				]
-			},
-			{
-				"name": "JAVASCRIPT: PROGRAMANDO NA LINGUAGEM DA WEB",
-				"conclusion": "2019-12-14T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/f3125d22-e542-4101-b8f6-27f12fcc0c07",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"development",
-					"javascript"
-				]
-			},
-			{
-				"name": "NODE.JS PARTE 1: INOVANDO COM JAVASCRIPT NO BACKEND",
-				"conclusion": "2020-01-13T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/7d24ef92-7bdd-47ee-b630-7311622dfd3e",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"development",
-					"javascript",
-					"node"
-				]
-			},
-			{
-				"name": "TYPESCRIPT PARTE 2: MAIS TÉCNICAS E BOAS PRÁTICAS",
-				"conclusion": "2020-01-19T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/7e92f117-f13f-44c1-8dce-529ef65c7c02",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"development",
-					"javascript"
-				]
-			},
-			{
-				"name": "JAVASCRIPT: CONHECENDO O BROWSER E PADRÕES DE PROJETO",
-				"conclusion": "2020-01-04T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/88d168f0-6a8a-4b42-978f-d49cb9547c39",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"development",
-					"javascript"
-				]
-			},
-			{
-				"name": "JAVASCRIPT: APROFUNDANDO EM MVC, PADRÃO PROXY E FACTORY",
-				"conclusion": "2020-01-07T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/b03d047f-017b-4b44-b9c5-9937402b78aa",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"development",
-					"javascript"
-				]
-			},
-			{
-				"name": "APIS REST COM ASP.NET CORE 2.1 PARTE 1: DA APP MVC PARA API",
-				"conclusion": "2020-05-06T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/806f4576-1de0-4173-8310-a3fd9a95b562",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"development",
-					".net",
-					"C#"
-				]
-			},
-			{
-				"name": "APIS REST COM ASP.NET CORE 2.1 PARTE 2: CONSUMINDO NOSSA API",
-				"conclusion": "2020-05-13T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/896c510e-9d59-4000-9fb8-49035f5d5fb9",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"development",
-					".net",
-					"C#",
-					"restful"
-				]
-			},
-			{
-				"name": "APIS REST COM ASP.NET CORE 2.1 PARTE 3: PADRONIZANDO A API",
-				"conclusion": "2020-05-22T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/1e96ddd2-3e54-4b36-85fc-a5362c9731bc",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"development",
-					".net",
-					"C#",
-					"restful"
-				]
-			},
-			{
-				"name": "WEBPACK: MANIPULANDO MÓDULOS NA SUA WEBAPP",
-				"conclusion": "2020-01-20T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/decdd4b1-09e8-4776-a14a-3c9adff3136d",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"development",
-					"javascript"
-				]
-			},
-			{
-				"name": "ENTITY FRAMEWORK CORE: BANCO DE DADOS DE FORMA EFICIENTE",
-				"conclusion": "2020-03-03T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/19f07f01-327f-40cb-b331-b0bf4d3ac26f",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"development",
-					".net",
-					"C#",
-					"orm",
-					"entity-framework",
-					"database"
-				]
-			},
-			{
-				"name": "DEPLOY NO AMAZON EC2: ALTA DISPONIBILIDADE E ESCALABILIDADE DE UMA APLICAÇÃO",
-				"conclusion": "2020-07-08T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/8541d344-2ff8-4109-ad7a-7b369f7d3f04",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"cloud",
-					"aws"
-				]
-			},
-			{
-				"name": "C# PARTE 3: ENTENDENDO HERANÇA E INTERFACE",
-				"conclusion": "2021-03-21T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/eb3d4a38-50ba-4dbb-8082-4f6b75e558be",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"development",
-					".net",
-					"C#"
-				]
-			},
-			{
-				"name": ".NET E MONGODB PARTE 1: INTEGRE APLICAÇÕES .NET",
-				"conclusion": "2021-08-06T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/cf749f0e-95a4-4654-a1e5-5747e6f23d7e",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"development",
-					".net",
-					"C#",
-					"mongodb",
-					"nosql",
-					"database"
-				]
-			},
-			{
-				"name": "MONGODB: UMA ALTERNATIVA AOS BANCOS RELACIONAIS TRADICIONAIS",
-				"conclusion": "2022-07-22T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/2cdd5a78-4b70-42e8-a4ba-d319cff5776a",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"mongodb",
-					"nosql",
-					"database"
-				]
-			},
-			{
-				"name": "LGPD: CONHECENDO E ENTENDENDO SEUS IMPACTOS",
-				"conclusion": "2020-07-07T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/7c0cb1cd-87ea-4e0b-8886-75167e46a820",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"lgpd"
-				]
-			},
-			{
-				"name": "AZURE: DEPLOY DE UMA WEBAPP NA NUVEM DA MICROSOFT",
-				"conclusion": "2020-09-17T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/25a5539c-faf6-40a5-a58a-19849c9ae8a3",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"cloud",
-					"azure",
-					"deploy"
-				]
-			},
-			{
-				"name": "C#: TESTES DE UNIDADE E TDD COM XUNIT",
-				"conclusion": "2020-09-28T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/cb374d96-3f26-420b-8d20-9b01f72a7717",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"development",
-					".net",
-					"C#",
-					"test",
-					"tdd",
-					"xunit"
-				]
-			},
-			{
-				"name": "SOLID COM C#: PRINCÍPIOS DA PROGRAMAÇÃO ORIENTADA A OBJETOS",
-				"conclusion": "2020-10-22T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/7ad17dd8-69dd-47f4-a4b3-a9da4091cd8c",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"development",
-					".net",
-					"C#",
-					"solid",
-					"design-pattern"
-				]
-			},
-			{
-				"name": "AGILIDADE: PROMOVENDO A TRANSFORMAÇÃO ÁGIL",
-				"conclusion": "2020-11-20T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/40ae2b6e-fa77-407c-b4db-55b0d2c3dfd0",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"agil"
-				]
-			},
-			{
-				"name": "MOCKS EM C#: TESTES DE INTEGRAÇÃO COM XUNIT E MOQ",
-				"conclusion": "2020-12-09T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/31e4e9ef-f7cf-423f-977d-2cc1317fb29c",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"development",
-					".net",
-					"C#",
-					"test",
-					"tdd",
-					"xunit",
-					"mock"
-				]
-			},
-			{
-				"name": "SCRUM: AGILIDADE EM SEU PROJETO",
-				"conclusion": "2020-11-30T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/d8554a75-364a-471e-83de-6a43d6b2af5b",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"scrum",
-					"agil"
-				]
-			},
-			{
-				"name": "KAFKA: PRODUTORES, CONSUMIDORES E STREAMS",
-				"conclusion": "2021-02-04T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/2fc0994c-98ce-4fb5-9473-2fed548ed3fd",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"kafka",
-					"cache"
-				]
-			},
-			{
-				"name": "REDIS I: ARMAZENANDO CHAVES E VALORES",
-				"conclusion": "2022-07-28T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/f3e017a1-fb3e-4b50-b33e-2a42fbf4cc74",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"nosql",
-					"redis",
-					"cache",
-					"database"
-				]
-			},
-			{
-				"name": "REDIS II: ESTRUTURAS E RECURSOS NA SUA BASE NOSQL",
-				"conclusion": "2022-07-29T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/8b3d2118-b233-4530-ad60-d9254f091a7e",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"nosql",
-					"redis",
-					"cache",
-					"database"
-				]
-			},
-			{
-				"name": "VUE.JS PARTE 1: CONSTRUINDO SINGLE PAGE APPLICATIONS",
-				"conclusion": "2021-02-24T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/41a2319c-2a51-4db8-afaa-611b4dd8f595",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"javascript",
-					"vue"
-				]
-			},
-			{
-				"name": "C# PARTE 4: ENTENDENDO EXCEÇÕES",
-				"conclusion": "2021-03-22T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/4e81e86d-d9eb-4dd5-990f-1fbbc4854ed8",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"development",
-					".net",
-					"C#"
-				]
-			},
-			{
-				"name": "C# PARTE 5: BIBLIOTECAS DLLS, DOCUMENTAÇÃO E USANDO O NUGET",
-				"conclusion": "2021-04-17T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/e86e6535-543c-4db0-ae6a-59b02263cb9f",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"development",
-					".net",
-					"C#"
-				]
-			},
-			{
-				"name": "C# PARTE 6: STRINGS, EXPRESSÕES REGULARES E A CLASSE OBJECT",
-				"conclusion": "2021-04-19T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/aa61efbc-4554-4a27-80cd-88d6bad8e68a",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"development",
-					".net",
-					"C#"
-				]
-			},
-			{
-				"name": "C# PARTE 7: ARRAY E TIPOS GENÉRICOS",
-				"conclusion": "2021-04-21T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/957cfc38-6039-4d9d-9111-7a67755a4b1a",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"development",
-					".net",
-					"C#"
-				]
-			},
-			{
-				"name": "C# PARTE 8: LIST, LAMBDA, LINQ",
-				"conclusion": "2021-04-23T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/5b6328e1-45de-4e7d-b51e-c56ea346bc0c",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"development",
-					".net",
-					"C#"
-				]
-			},
-			{
-				"name": "C# PARTE 9: ENTRADA E SAÍDA (I\/O) COM STREAMS",
-				"conclusion": "2021-04-26T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/e4ee4e24-6a87-4d43-91b5-c42b39238832",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"development",
-					".net",
-					"C#"
-				]
-			},
-			{
-				"name": "C#: PARALELISMO NO MUNDO REAL",
-				"conclusion": "2021-04-28T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/b8bdc2d2-d709-4c03-b905-6669cf22ce41",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"development",
-					".net",
-					"C#"
-				]
-			},
-			{
-				"name": "C#: EVENTOS, DELEGATES E LAMBDA",
-				"conclusion": "2021-05-24T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/057ba39e-d2c2-4eba-9fe0-a3cc1713767a",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"development",
-					".net",
-					"C#"
-				]
-			},
-			{
-				"name": "PYTHON: COMEÇANDO COM A LINGUAGEM",
-				"conclusion": "2021-08-20T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/5c274a8f-f2aa-48f5-bf4a-b36daf2d5ed6",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"development",
-					"python"
-				]
-			},
-			{
-				"name": "DNS: ENTENDA A RESOLUÇÃO DE nameS NA INTERNET",
-				"conclusion": "2021-06-02T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/66107344-c4a5-420c-b9ae-d42ce1c3455f",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"protocol",
-					"dns"
-				]
-			},
-			{
-				"name": "API REST COM .NET 5: OPERAÇÕES ESSENCIAIS COM VERBOS HTTP",
-				"conclusion": "2021-09-09T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/569e52ad-945f-4436-90ee-24719cec0dc9",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"development",
-					".net",
-					"C#"
-				]
-			},
-			{
-				"name": "MONGODB: MODELAGEM DE DADOS",
-				"conclusion": "2022-07-22T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/ca5dbfc1-068a-43d7-8759-5134ab1263c4",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"mongodb",
-					"database",
-					"nosql"
-				]
-			},
-			{
-				"name": ".NET 5 E EF CORE: RELACIONANDO ENTIDADES",
-				"conclusion": "2021-09-10T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/4779bd73-714f-4631-a190-cf77e64b8f72",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"development",
-					".net",
-					"C#"
-				]
-			},
-			{
-				"name": "NGINX: SERVIDOR WEB, PROXY REVERSO E API GATEWAY",
-				"conclusion": "2021-09-23T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/8a74ba78-4333-460c-aeea-41bdcc59ac8a",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"proxy",
-					"nginx"
-				]
-			},
-			{
-				"name": "ASP.NET CORE: UMA WEBAPP USANDO O PADRÃO MVC",
-				"conclusion": "2022-01-13T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/38dec12f-dc83-4f70-910d-6a56a9a5bd0d",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"development",
-					".net",
-					"C#"
-				]
-			},
-			{
-				"name": "LIDERANÇA: APRENDENDO SOBRE A MISSÃO E PROPÓSITO DE LIDERAR PESSOAS",
-				"conclusion": "2022-01-25T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/252891f0-9e02-468f-a996-2e6d886dc7a4",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"liderance"
-				]
-			},
-			{
-				"name": "LIDERANÇA: PRÁTICAS DE GESTÃO E MELHORIAS",
-				"conclusion": "2022-01-26T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/df8ad090-4e64-4e89-b600-1753030d77f3",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"liderance"
-				]
-			},
-			{
-				"name": "HÁBITOS NA LIDERANÇA: BOAS PRÁTICAS",
-				"conclusion": "2022-01-26T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/c4e8ef9b-1db8-4e54-9289-843e6e83f32a",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"liderance"
-				]
-			},
-			{
-				"name": "MINDSET DIGITAL: TÉCNICAS E HABILIDADES PARA LIDERANÇA REMOTA",
-				"conclusion": "2022-05-24T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/cf8c4ebe-4b3c-419a-b30c-6992a675687a",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"liderance"
-				]
-			},
-			{
-				"name": "KUBERNETES: PODS, SERVICES E CONFIGMAPS",
-				"conclusion": "2022-04-02T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/065f3e48-80b9-4f76-a2b9-081bf28b0f9c",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"container",
-					"kubernet"
-				]
-			},
-			{
-				"name": "KUBERNETES: DEPLOYMENTS, VOLUMES E ESCALABILIDADE",
-				"conclusion": "2022-05-03T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/d6884d23-76b0-41d5-83a8-9d6971da7c39",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"container",
-					"kubernet"
-				]
-			},
-			{
-				"name": "AZURE: GERENCIE KUBERNETES COM AKS E ACR",
-				"conclusion": "2022-05-06T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/ca4b1404-eafb-48a3-b4fe-dad28ed9c6e2",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"container",
-					"kubernet",
-					"azure",
-					"cloud"
-				]
-			},
-			{
-				"name": "KUBERNETES NA DIGITAL OCEAN: GERENCIANDO APLICAÇÕES CONTEINERIZADAS",
-				"conclusion": "2022-05-11T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/9c51f887-3410-4bec-9003-9185c3107e20",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"container",
-					"kubernet",
-					"digital-ocean",
-					"cloud"
-				]
-			},
-			{
-				"name": "GOOGLE KUBERNETES ENGINE",
-				"conclusion": "2022-05-12T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/21c6031d-7c50-4cca-85ea-2fb4ecf28421",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"container",
-					"kubernet",
-					"google",
-					"cloud"
-				]
-			},
-			{
-				"name": "GOOGLE KUBERNETES ENGINE: AVANÇANDO COM GKE",
-				"conclusion": "2022-05-13T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/38261f2f-775c-4391-a470-2dd4c23b1948",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"container",
-					"kubernet",
-					"google",
-					"cloud"
-				]
-			},
-			{
-				"name": "AMAZON EKS: GERENCIANDO APLICAÇÕES CONTEINERIZADAS COM KUBERNETES",
-				"conclusion": "2022-05-13T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/dd427b1b-ae43-4d8e-ae50-66932d9b3228",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"container",
-					"kubernet",
-					"aws",
-					"cloud"
-				]
-			},
-			{
-				"name": "EXTREME PROGRAMMING: METODOLOGIA DE DESENVOLVIMENTO ÁGIL DE SOFTWARE",
-				"conclusion": "2022-05-19T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/fc26090e-5e5f-45ee-970b-5b8194e25c1d",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"agil",
-					"xp"
-				]
-			},
-			{
-				"name": "TESTES EM .NET: TESTANDO SOFTWARE",
-				"conclusion": "2022-05-15T18:25:43.511Z",
-				"certificateUri": "NULL",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"development",
-					".net",
-					"c#",
-					"xunit",
-					"tdd"
-				]
-			},
-			{
-				"name": "TESTES EM .NET: INTEGRANDO A APLICAÇÃO COM UM BANCO DE DADOS",
-				"conclusion": "2022-05-15T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/52fada6f-39a9-440c-8462-630f6770fe52",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"development",
-					".net",
-					"c#",
-					"xunit",
-					"tdd"
-				]
-			},
-			{
-				"name": "TESTES EM .NET: INTEGRAÇÃO E ENTREGA CONTÍNUA COM AZURE DEVOPS",
-				"conclusion": "2022-05-16T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/85310144-c8be-40db-89c6-166a741a315a",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"development",
-					".net",
-					"c#",
-					"xunit",
-					"tdd",
-					"azure",
-					"cicd"
-				]
-			},
-			{
-				"name": "TESTES EM .NET: TESTES DE INTERFACE USANDO SELENIUM",
-				"conclusion": "2022-05-17T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/a9b65aba-b6da-47f6-b1f9-b4c5d580ab31",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"development",
-					".net",
-					"c#",
-					"xunit",
-					"tdd",
-					"selenium"
-				]
-			},
-			{
-				"name": "SELENIUM WEBDRIVER E C# PARTE 1: TESTES DA SUA WEB APP",
-				"conclusion": "2022-05-21T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/ab2636e8-4bd9-483e-8a42-8da43b7f65f3",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"development",
-					".net",
-					"c#",
-					"xunit",
-					"tdd",
-					"selenium"
-				]
-			},
-			{
-				"name": "SELENIUM WEBDRIVER E C# PARTE 2: OUTROS RECURSOS",
-				"conclusion": "2022-05-22T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/51ec0753-6343-459a-a83b-17afad4e57fe",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"development",
-					".net",
-					"c#",
-					"xunit",
-					"tdd",
-					"selenium"
-				]
-			},
-			{
-				"name": ".NET 5 E IDENTITY: AUTENTICANDO E AUTORIZANDO USUÁRIOS",
-				"conclusion": "2022-05-25T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/af681830-f65c-4cea-a290-ec0ebe460365",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"development",
-					".net",
-					"c#"
-				]
-			},
-			{
-				"name": ".NET 5 E IDENTITY: IMPLEMENTANDO CONTROLE DE USUÁRIO",
-				"conclusion": "2022-05-24T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/0ebecc61-a94d-48a7-8cf3-17840664106c",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"development",
-					".net",
-					"c#"
-				]
-			},
-			{
-				"name": "DELEGAÇÃO DE TAREFAS: OBTENHA O MELHOR DO SEU TIME",
-				"conclusion": "2022-05-24T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/dbb9e726-e557-4ec1-bad4-ed92744ae45d",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"liderance"
-				]
-			},
-			{
-				"name": "PRINCÍPIOS DO TRABALHO EM EQUIPE: RELAÇÕES COLABORATIVAS",
-				"conclusion": "2022-05-24T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/23dedc0c-b5d3-4fca-9b05-e42cc6f28e28",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"liderance"
-				]
-			},
-			{
-				"name": "GO: A LINGUAGEM DO GOOGLE",
-				"conclusion": "2022-05-27T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/1d0fc6df-f017-41ef-91a3-3b28084cef4f",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"development",
-					"go",
-					"google"
-				]
-			},
-			{
-				"name": "GO: ORIENTAÇÃO A OBJETOS",
-				"conclusion": "2022-06-02T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/2dfe8311-f072-4f68-a315-6179e7150377",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"development",
-					"go",
-					"google"
-				]
-			},
-			{
-				"name": "GO: CRIE DE UMA APLICAÇÃO WEB",
-				"conclusion": "2022-06-03T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/7805b358-3ba9-45a8-b311-30ea3b1da40b",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"development",
-					"go",
-					"google"
-				]
-			},
-			{
-				"name": "GO E GIN: CRIANDO API REST COM SIMPLICIDADE",
-				"conclusion": "2022-06-08T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/00db98b9-a814-406f-9c1a-00b9904badd2",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"development",
-					"go",
-					"google"
-				]
-			},
-			{
-				"name": "GO: DESENVOLVENDO UMA API REST",
-				"conclusion": "2022-06-03T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/369fd60e-aaa8-48a8-97a1-7bc64ec68783",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"development",
-					"go",
-					"google"
-				]
-			},
-			{
-				"name": "GO: VALIDAÇÕES, TESTES E PÁGINAS HTML",
-				"conclusion": "2022-06-09T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/f57bdcd5-11f7-404e-9aeb-427af45eaca1",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"development",
-					"go",
-					"google"
-				]
-			},
-			{
-				"name": "MICROSOFT AZ-900 PARTE 1: AZURE FUNDAMENTALS",
-				"conclusion": "2022-06-29T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/fd708be3-4db2-4d76-b7fc-712d6cd43210",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"cloud",
-					"azure"
-				]
-			},
-			{
-				"name": "MICROSOFT AZ-900 PARTE 2: AZURE FUNDAMENTALS",
-				"conclusion": "2022-07-01T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/8e362b2b-9d79-43e8-88a8-36c199413ecf",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"cloud",
-					"azure"
-				]
-			},
-			{
-				"name": "MICROSOFT AZ-900 PARTE 3: AZURE FUNDAMENTALS",
-				"conclusion": "2022-07-05T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/e4157be2-f56f-4559-8bdd-a21a0f012b0a",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"cloud",
-					"azure"
-				]
-			},
-			{
-				"name": "MICROSOFT AZ-900 PARTE 4: AZURE FUNDAMENTALS",
-				"conclusion": "2022-07-07T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/804c23fc-85e8-4bd2-9836-437c74a137a0",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"cloud",
-					"azure"
-				]
-			},
-			{
-				"name": "ESTRUTURA DE DADOS: COMPUTAÇÃO NA PRÁTICA COM JAVA",
-				"conclusion": "2022-07-18T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/e40feed1-13aa-420c-8747-5e84bf1bb837",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"development"
-				]
-			},
-			{
-				"name": "C#: ENTENDENDO EXCEÇÕES",
-				"conclusion": "2022-07-19T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/31f830a1-a293-4840-9c26-b4fa1f89f655",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"development",
-					".net",
-					"c#"
-				]
-			},
-			{
-				"name": "MODELAGEM MONGODB: RELACIOnameNTOS E CARDINALIDADE",
-				"conclusion": "2022-07-25T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/1fdb3723-9f1b-4f06-bc90-c268502224f7",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"database",
-					"mongodb",
-					"nosql"
-				]
-			},
-			{
-				"name": "MICROSSERVIÇOS E .NET6: IMPLEMENTANDO A COMUNICAÇÃO",
-				"conclusion": "2022-07-27T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/e51f515b-bb63-4333-9dfe-5961c2eb1da1",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"development",
-					".net",
-					"c#"
-				]
-			},
-			{
-				"name": "NULLMODELAGEM DE BANCO DE DADOS: ENTIDADES, RELACIOnameNTOS E ATRIBUTOS",
-				"conclusion": "2022-08-01T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/f4fb9541-03d7-4214-a7ad-b960fb02f736",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"database"
-				]
-			},
-			{
-				"name": "MODELAGEM DE BANCO DE DADOS RELACIONAL: MODELAGEM LÓGICA E FÍSICA",
-				"conclusion": "2022-08-02T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/6addd0fb-4be1-48f4-8b8e-8f2fe70699b3",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"database"
-				]
-			},
-			{
-				"name": "MODELAGEM DE BANCO DE DADOS RELACIONAL: ÁLGEBRA RELACIONAL",
-				"conclusion": "2022-08-03T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/cf23a4eb-7223-4523-8b69-8c70f6b8fa21",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"database"
-				]
-			},
-			{
-				"name": "MODELAGEM DE BANCO DE DADOS RELACIONAL: ENTENDENDO SQL",
-				"conclusion": "2022-08-03T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/097df050-faa9-4504-80ba-5587925077fe",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"database"
-				]
-			},
-			{
-				"name": "MODELAGEM DE BANCO DE DADOS RELACIONAL: NORMALIZAÇÃO",
-				"conclusion": "2022-08-03T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/184457d6-5fe9-4187-ad29-6ed0e5015a4f",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"database"
-				]
-			},
-			{
-				"name": "SQL SERVER: INTRODUÇÃO AO SQL COM MICROSOFT SQL SERVER 2017",
-				"conclusion": "2022-08-08T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/42559db4-15e4-4a16-9bd8-b13e8a94b345",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"database",
-					"sqlserver"
-				]
-			},
-			{
-				"name": "SQL SERVER: CONSULTAS AVANÇADAS COM MICROSOFT SQL SERVER 2017",
-				"conclusion": "2022-08-08T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/cab204dd-3c1a-4101-bdda-f778cdd7117b",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"database",
-					"sqlserver"
-				]
-			},
-			{
-				"name": "SQL SERVER: MANIPULAÇÃO DE DADOS COM MICROSOFT SQL SERVER 2017",
-				"conclusion": "2022-08-09T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/f9fcd1eb-e007-4e7a-a417-192a446c53b9",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"database",
-					"sqlserver"
-				]
-			},
-			{
-				"name": "SQL SERVER: T-SQL COM MICROSOFT SQL SERVER 2017",
-				"conclusion": "2022-08-10T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/a7f8d24d-aa64-404f-8197-6dfdb6a017c5",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"database",
-					"sqlserver"
-				]
-			},
-			{
-				"name": "SQL SERVER: ADMINISTRAÇÃO DO MICROSOFT SQL SERVER 2017",
-				"conclusion": "2022-08-12T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/41279343-fbd3-49e2-8373-29cda9909596",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"database",
-					"sqlserver"
-				]
-			},
-			{
-				"name": "RUST: A LINGUAGEM DE PROGRAMAÇÃO PERFORMÁTICA E SEGURA",
-				"conclusion": "2022-08-12T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/bade0182-f781-44e4-a8ff-ebd874c0554f",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"development",
-					"rust"
-				]
-			},
-			{
-				"name": "RUST: APRENDA MAIS SOBRE TIPOS",
-				"conclusion": "2022-08-12T18:25:43.511Z",
-				"certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/1e1d3c58-87c4-4e5d-992a-d13e6217530b",
-				"institution": "Alura",
-				"importance": "high",
-				"tags": [
-					"development",
-					"rust"
-				]
-			},
-			{
-				"name": "INICIANDO COM ASP.NET CORE",
-				"conclusion": "2021-11-04T18:25:43.511Z",
-				"certificateUri": "https:\/\/desenvolvedor.io\/certificado\/a28a1f70-984a-405e-aa5d-61a4d4f57fd6",
-				"institution": "Desenvolvedor.io",
-				"importance": "high",
-				"tags": [
-					"development",
-					".net",
-					"c#"
-				]
-			},
-			{
-				"name": "Fundamentos de Criptografia e Hashing",
-				"conclusion": "2022-08-22T18:25:43.511Z",
-				"certificateUri": "https:\/\/desenvolvedor.io\/certificado\/94b94684-eeff-432d-b67a-9734add02fbb",
-				"institution": "Desenvolvedor.io",
-				"importance": "high",
-				"tags": [
-					"development",
-					".net",
-					"c#",
-					"python",
-					"crypto",
-					"hash"
-				]
-			},
-			{
-				"name": "Desenvolvimento SPA com Angular",
-				"conclusion": "2022-08-31T18:25:43.511Z",
-				"certificateUri": "https:\/\/desenvolvedor.io\/certificado\/5990168a-49c0-4ef0-a776-6895d1228230",
-				"institution": "Desenvolvedor.io",
-				"importance": "high",
-				"tags": [
-					"development",
-					".net",
-					"angular",
-					"typescript",
-					"javascript"
-				]
-			},
-			{
-				"name": "Introdução ao DevOps",
-				"conclusion": "2022-09-19T18:25:43.511Z",
-				"certificateUri": "https:\/\/desenvolvedor.io\/certificado/efc1be7d-bd63-4ab6-a782-45a49894527a",
-				"institution": "Desenvolvedor.io",
-				"importance": "high",
-				"tags": [
-					"development",
-					"devops"
-				]
-			},
-			{
-				"name": "Fundamentos de Arquitetura de Software",
-				"conclusion": "2022-09-22T18:25:43.511Z",
-				"certificateUri": "https:\/\/desenvolvedor.io\/certificado/9208cc7c-1a6b-4165-91e9-d200148444ec",
-				"institution": "Desenvolvedor.io",
-				"importance": "high",
-				"tags": [
-					"development",
-					"devops",
-					"software",
-					"arquitetura"
-				]
-			},
-			{
-				"name": "C# COMPLETO Programação Orientada a Objetos + Projetos",
-				"conclusion": "2019-05-16T18:25:43.511Z",
-				"certificateUri": "https:\/\/www.udemy.com\/certificate\/UC-26OBZ64N\/",
-				"institution": "Udemy",
-				"importance": "high",
-				"tags": [
-					"development",
-					".net",
-					"c#"
-				]
-			},
-			{
-				"name": "Orquestração de Containers com Kubernetes",
-				"conclusion": "2022-06-22T18:25:43.511Z",
-				"certificateUri": "https:\/\/www.udemy.com\/certificate\/UC-2373b685-9826-465e-8ad5-93587c5339ff\/",
-				"institution": "Udemy",
-				"importance": "high",
-				"tags": [
-					"development",
-					"docker",
-					"kubernete"
-				]
-			},
-			{
-				"name": "C# - Aplicando Princípios SOLID na prática",
-				"conclusion": "2022-06-22T18:25:43.511Z",
-				"certificateUri": "https:\/\/www.udemy.com\/certificate\/UC-70fa6e0e-c9fe-464a-bdbe-7881547c9779\/",
-				"institution": "Udemy",
-				"importance": "high",
-				"tags": [
-					"development",
-					".net",
-					"c#"
-				]
-			},
-			{
-				"name": "O curso completo de Banco de Dados e SQL, sem mistérios!",
-				"conclusion": "2019-06-06T18:25:43.511Z",
-				"certificateUri": "https:\/\/www.udemy.com\/certificate\/UC-T3Y1X056\/",
-				"institution": "Udemy",
-				"importance": "high",
-				"tags": [
-					"database",
-					"sqlserver",
-					"mysql"
-				]
-			},
-			{
-				"name": "Azure Pipelines - CI\/CD, Docker e Kubernetes no Azure DevOps",
-				"conclusion": "2021-08-19T18:25:43.511Z",
-				"certificateUri": "https:\/\/www.udemy.com\/certificate\/UC-ca99013d-a26a-4121-bdde-dc6c44cc7663\/",
-				"institution": "Udemy",
-				"importance": "high",
-				"tags": [
-					"development",
-					".net",
-					"azure",
-					"cloud",
-					"kubernete"
-				]
-			},
-			{
-				"name": "Azure DataBases para iniciantes",
-				"conclusion": "2022-11-01T18:25:43.511Z",
-				"certificateUri": "https:\/\/www.udemy.com\/certificate\/UC-1629d9df-3184-41c5-83a4-943d89bf3910\/",
-				"institution": "Udemy",
-				"importance": "high",
-				"tags": [
-					"database",
-					"backup",
-					"azure",
-					"cloud"
-				]
-			},
-			{
-				"name": "Microsoft Azure Active Directory",
-				"conclusion": "2022-11-03T18:25:43.511Z",
-				"certificateUri": "https:\/\/www.udemy.com\/certificate\/UC-72cf91c3-4f64-4674-b560-c4d20570733a\/",
-				"institution": "Udemy",
-				"importance": "high",
-				"tags": [
-					"activedirectory",
-					"ad",
-					"azure",
-					"cloud"
-				]
-			},
-			{
-				"name": "Dominando o Apache Kafka",
-				"conclusion": "2022-12-08T18:25:43.511Z",
-				"certificateUri": "https:\/\/desenvolvedor.io\/certificado\/7258423f-0484-4f0a-9444-4102e7a7036f\/",
-				"institution": "Desenvolvedor.io",
-				"importance": "high",
-				"tags": [
-					"kafka",
-					"messageria",
-					"azure"
-				]
-			},
-			{
-				"name": "Event Driven Architecture - The Complete Guide",
-				"conclusion": "2023-01-10T18:25:43.511Z",
-				"certificateUri": "https:\/\/www.udemy.com\/certificate\/UC-b711b1a6-8955-47a1-8b5c-bed43c73d0dd\/",
-				"institution": "Udemy",
-				"importance": "high",
-				"tags": [
-					"kafka",
-					"messageria",
-					"azure",
-					"events"
-				]
-			}
-		],
-		"perfilAcademy": [
-			{
-				"name": "Alura",
-				"perfilUri": "https:\/\/cursos.alura.com.br\/user\/robson-curitibapr"
-			}
-		]
-	}
+{
+  "name": "Robson Candido dos Santos Alves",
+  "birthday": "1980-08-29T23:01:01.000Z",
+  "email": "contato@robsonalves.dev.br",
+  "website": "https:\/\/www.robsonalves.dev.br",
+  "linkedin": "https:\/\/www.linkedin.com\/in\/robson-curitiba",
+  "github": "https:\/\/github.com\/robsonalvesdev",
+  "discord": "https:\/\/discord.gg\/gpbe9gv7mC",
+  "careerStart": "2000-01-01T18:30:00.000Z",
+  "country": "Brasil",
+  "state": "PR",
+  "city": "Curitiba",
+  "about": [
+    {
+      "title": "Inicio de Carreira.",
+      "date": "2000-01-01T18:30:00.000Z",
+      "messages": [
+        "Possuo ##careerStart## anos de experiência na área de desenvolvimento.",
+        "Já atuei como Instrutor de Programação em Delphi, Hardware e Informática Básica por 5 anos.",
+        "Neste tempo de experiência desenvolvi aplicações voltadas para o setor de financiamento de veículos atendendo bancos do setor usando Delphi e Visual Studio como ferramentas de desenvolvimento e banco de dados Oracle e SqlServer, também atuei no desenvolvimento de aplicações notariais com a ferramenta Delphi e banco de dados MySql e também na automação industrial com o carregamento de descarregamento de combustíveis usando Visual Studio e VsCode como ferramentas de desenvolvimento."
+      ]
+    },
+    {
+      "title": "Conhecimentos técnicos.",
+      "date": "2000-01-01T18:30:00.000Z",
+      "messages": [
+        "Inicie minha carreira de programador usando ferramenta Delphi e a partir de então me tornei instrutor em uma escola de informática usando esta ferramenta.",
+        "Também neste período em que dava aulas comecei a me especialiar em desenvolvimento web com ASP.NET clássico e PHP.",
+        "Hojé minha especialidade em desenvolvimento é o ambiente .NET usando a linguagem C#(CSharp) e ambientes em nuvem(cloud) Azure.",
+        "Outras linguagens que também utilizo é o Javascript e buscando meu aprimoramento em Rust.",
+        "Uma lista resumida dos meus conhecimentos tecnológicos, RabbitMQ, SqlServer, Oracle, MySql, MongoDB, Docker, Kubernetes, Cloud(Azure), Golang, Rust, CSharp, .NET Core."
+      ]
+    },
+    {
+      "title": "Evolução da carreira.",
+      "date": "2019-01-01T18:30:00.000Z",
+      "messages": [
+        "Desde 2019 venho também atuando na área de desenvolvimento como Lider Técnico e Desenvolvedor Consultor."
+      ]
+    },
+    {
+      "title": "Atualmente.",
+      "date": null,
+      "messages": [
+        "Atuando como desenvolvedor e consultor na area de tecnologia e desenvolvimento de aplicações.",
+        "Minhas principais atividades são revisão de código, gerenciamento de aplicações e infra-estrutura na nuvem, organização de processos de desenvolvimento e arquitetura de software.",
+        "As aplicações desenvolvidas são voltadas para o setor financeiro, gateways de pagamento usados por diversos produtos desenvolvidos pela empresa.",
+        "Iniciando um novo projeto para o setor financeiro do grupo mas especificamente uma fintech.",
+        "As principais tecnologias envolvidas nestes desenvolvimentos incluem (Cloud Azure e AWS, .NET 7, RabbitMQ, Azure DevOps, processos de CI/CD, Visual Studio, Rider, ReSharp, SonarQube, VS Code, Kubernetes, DataDog)"
+      ]
+    }
+  ],
+  "universityGraduate": [
+    {
+      "name": "Faculdade de tecnologia Opet",
+      "course": "Desenvolvimento Web",
+      "conclusionYear": 2000,
+      "institutionUri": "https:\/\/www.opet.com.br\/",
+      "status": "Tracado"
+    },
+    {
+      "name": "Faculdade Tuiuti do Paraná",
+      "course": "Redes de computadores",
+      "conclusionYear": 2012,
+      "institutionUri": "https:\/\/www.tuiuti.edu.br\/",
+      "status": "Concluído"
+    },
+    {
+      "name": "Faculdade Cruzeiro do Sul",
+      "course": "Pós Graduação Fullstack Javascript",
+      "conclusionYear": 2022,
+      "institutionUri": "https:\/\/www.cruzeirodosulvirtual.com.br\/",
+      "status": "Concluído"
+    }
+  ],
+  "formationCourse": [
+    {
+      "name": "C# E ORIENTAÇÃO A OBJETOS",
+      "conclusion": "2021-04-23T18:25:43.511Z",
+      "certificateUri": "https:\\/\\/cursos.alura.com.br\\/degree\/certificate\/2e01d0c3-8f5d-4715-a679-3061632a9298",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "development",
+        ".net",
+        "C#"
+      ]
+    },
+    {
+      "name": "ORQUESTRAÇÃO DE CONTAINERS COM KUBERNETES",
+      "conclusion": "2022-05-13T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/degree\/certificate\/ecc51fe7-41c9-4eed-afad-5fd31aa1232a",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "container",
+        "kubernet",
+        "docker"
+      ]
+    },
+    {
+      "name": "TESTES EM .NET",
+      "conclusion": "2022-05-22T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/degree\/certificate\/ef085642-633e-4daa-bdc8-017fd53bd4af",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "development",
+        ".net",
+        "C#",
+        "test",
+        "tdd"
+      ]
+    },
+    {
+      "name": "MINHA PRIMEIRA LIDERANÇA",
+      "conclusion": "2022-05-24T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/degree\/certificate\/d4c360e6-b8c5-419e-8938-c7337603a927",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "liderance"
+      ]
+    },
+    {
+      "name": "ASP.NET CORE REST APIS",
+      "conclusion": "2022-05-25T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/degree\/certificate\/51f1efcb-45f2-4005-b875-6890a5a43fe2",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "development",
+        ".net",
+        "C#",
+        "restful"
+      ]
+    },
+    {
+      "name": "GO: A LINGUAGEM DE PROGRAMAÇÃO DO GOOGLE",
+      "conclusion": "2022-06-09T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/degree\/certificate\/ddaea616-7329-4661-a48a-a79db8bf8841",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "development",
+        "go",
+        "golang"
+      ]
+    },
+    {
+      "name": "MODELAGEM DE DADOS",
+      "conclusion": "2022-08-03T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/degree\/certificate\/c90fc5d1-85bc-4cd9-860f-5b7e1154e8aa",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "database"
+      ]
+    },
+    {
+      "name": "SQL COM MICROSOFT SQL SERVER 2017",
+      "conclusion": "2022-08-12T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/degree\/certificate\/463982aa-7353-4e1b-a775-cf1d574c17b7",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "database",
+        "sqlserver"
+      ]
+    }
+  ],
+  "course": [
+    {
+      "name": "C# PARTE 1: PRIMEIROS PASSOS",
+      "conclusion": "2021-02-09T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/e66dac5c-2f3f-4ed3-bb3b-5b784749bc86",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "development",
+        ".net",
+        "C#"
+      ]
+    },
+    {
+      "name": "GIT E GITHUB: CONTROLE E COMPARTILHE SEU CÓDIGO",
+      "conclusion": "2022-07-24T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/4f3c3358-1eae-432c-84b8-4a1fac6ecfcc",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "git",
+        "versioncontrol"
+      ]
+    },
+    {
+      "name": "TYPESCRIPT PARTE 1: EVOLUINDO SEU JAVASCRIPT",
+      "conclusion": "2020-01-15T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/2eaf88e6-e655-4c9d-9803-ade895189378",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "development",
+        "javascript"
+      ]
+    },
+    {
+      "name": "C# PARTE 2: ENTENDENDO A ORIENTAÇÃO A OBJETOS",
+      "conclusion": "2021-03-09T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/f34c4a9f-9084-4a0e-ae2f-a28c88cff0a2",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "development",
+        ".net",
+        "C#"
+      ]
+    },
+    {
+      "name": "ASP.NET IDENTITY PARTE 1: GERENCIE CONTAS DE USUÁRIOS",
+      "conclusion": "2019-11-15T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/37d80b3e-730a-4da2-bcc9-88ad25403458",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "development",
+        ".net",
+        "C#"
+      ]
+    },
+    {
+      "name": "DOCKER: CRIANDO CONTAINERS SEM DOR DE CABEÇA",
+      "conclusion": "2019-11-06T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/333f4ba7-4347-40dc-b835-f6537db07ecc",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "container",
+        "docker"
+      ]
+    },
+    {
+      "name": "HTTP: ENTENDENDO A WEB POR BAIXO DOS PANOS",
+      "conclusion": "2019-12-01T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/5d54dc3e-3df3-4afb-84dc-159f33cdfb7b",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "protocol",
+        "http"
+      ]
+    },
+    {
+      "name": "JAVASCRIPT: PROGRAMANDO NA LINGUAGEM DA WEB",
+      "conclusion": "2019-12-14T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/f3125d22-e542-4101-b8f6-27f12fcc0c07",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "development",
+        "javascript"
+      ]
+    },
+    {
+      "name": "NODE.JS PARTE 1: INOVANDO COM JAVASCRIPT NO BACKEND",
+      "conclusion": "2020-01-13T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/7d24ef92-7bdd-47ee-b630-7311622dfd3e",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "development",
+        "javascript",
+        "node"
+      ]
+    },
+    {
+      "name": "TYPESCRIPT PARTE 2: MAIS TÉCNICAS E BOAS PRÁTICAS",
+      "conclusion": "2020-01-19T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/7e92f117-f13f-44c1-8dce-529ef65c7c02",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "development",
+        "javascript"
+      ]
+    },
+    {
+      "name": "JAVASCRIPT: CONHECENDO O BROWSER E PADRÕES DE PROJETO",
+      "conclusion": "2020-01-04T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/88d168f0-6a8a-4b42-978f-d49cb9547c39",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "development",
+        "javascript"
+      ]
+    },
+    {
+      "name": "JAVASCRIPT: APROFUNDANDO EM MVC, PADRÃO PROXY E FACTORY",
+      "conclusion": "2020-01-07T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/b03d047f-017b-4b44-b9c5-9937402b78aa",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "development",
+        "javascript"
+      ]
+    },
+    {
+      "name": "APIS REST COM ASP.NET CORE 2.1 PARTE 1: DA APP MVC PARA API",
+      "conclusion": "2020-05-06T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/806f4576-1de0-4173-8310-a3fd9a95b562",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "development",
+        ".net",
+        "C#"
+      ]
+    },
+    {
+      "name": "APIS REST COM ASP.NET CORE 2.1 PARTE 2: CONSUMINDO NOSSA API",
+      "conclusion": "2020-05-13T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/896c510e-9d59-4000-9fb8-49035f5d5fb9",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "development",
+        ".net",
+        "C#",
+        "restful"
+      ]
+    },
+    {
+      "name": "APIS REST COM ASP.NET CORE 2.1 PARTE 3: PADRONIZANDO A API",
+      "conclusion": "2020-05-22T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/1e96ddd2-3e54-4b36-85fc-a5362c9731bc",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "development",
+        ".net",
+        "C#",
+        "restful"
+      ]
+    },
+    {
+      "name": "WEBPACK: MANIPULANDO MÓDULOS NA SUA WEBAPP",
+      "conclusion": "2020-01-20T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/decdd4b1-09e8-4776-a14a-3c9adff3136d",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "development",
+        "javascript"
+      ]
+    },
+    {
+      "name": "ENTITY FRAMEWORK CORE: BANCO DE DADOS DE FORMA EFICIENTE",
+      "conclusion": "2020-03-03T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/19f07f01-327f-40cb-b331-b0bf4d3ac26f",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "development",
+        ".net",
+        "C#",
+        "orm",
+        "entity-framework",
+        "database"
+      ]
+    },
+    {
+      "name": "DEPLOY NO AMAZON EC2: ALTA DISPONIBILIDADE E ESCALABILIDADE DE UMA APLICAÇÃO",
+      "conclusion": "2020-07-08T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/8541d344-2ff8-4109-ad7a-7b369f7d3f04",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "cloud",
+        "aws"
+      ]
+    },
+    {
+      "name": "C# PARTE 3: ENTENDENDO HERANÇA E INTERFACE",
+      "conclusion": "2021-03-21T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/eb3d4a38-50ba-4dbb-8082-4f6b75e558be",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "development",
+        ".net",
+        "C#"
+      ]
+    },
+    {
+      "name": ".NET E MONGODB PARTE 1: INTEGRE APLICAÇÕES .NET",
+      "conclusion": "2021-08-06T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/cf749f0e-95a4-4654-a1e5-5747e6f23d7e",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "development",
+        ".net",
+        "C#",
+        "mongodb",
+        "nosql",
+        "database"
+      ]
+    },
+    {
+      "name": "MONGODB: UMA ALTERNATIVA AOS BANCOS RELACIONAIS TRADICIONAIS",
+      "conclusion": "2022-07-22T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/2cdd5a78-4b70-42e8-a4ba-d319cff5776a",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "mongodb",
+        "nosql",
+        "database"
+      ]
+    },
+    {
+      "name": "LGPD: CONHECENDO E ENTENDENDO SEUS IMPACTOS",
+      "conclusion": "2020-07-07T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/7c0cb1cd-87ea-4e0b-8886-75167e46a820",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "lgpd"
+      ]
+    },
+    {
+      "name": "AZURE: DEPLOY DE UMA WEBAPP NA NUVEM DA MICROSOFT",
+      "conclusion": "2020-09-17T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/25a5539c-faf6-40a5-a58a-19849c9ae8a3",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "cloud",
+        "azure",
+        "deploy"
+      ]
+    },
+    {
+      "name": "C#: TESTES DE UNIDADE E TDD COM XUNIT",
+      "conclusion": "2020-09-28T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/cb374d96-3f26-420b-8d20-9b01f72a7717",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "development",
+        ".net",
+        "C#",
+        "test",
+        "tdd",
+        "xunit"
+      ]
+    },
+    {
+      "name": "SOLID COM C#: PRINCÍPIOS DA PROGRAMAÇÃO ORIENTADA A OBJETOS",
+      "conclusion": "2020-10-22T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/7ad17dd8-69dd-47f4-a4b3-a9da4091cd8c",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "development",
+        ".net",
+        "C#",
+        "solid",
+        "design-pattern"
+      ]
+    },
+    {
+      "name": "AGILIDADE: PROMOVENDO A TRANSFORMAÇÃO ÁGIL",
+      "conclusion": "2020-11-20T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/40ae2b6e-fa77-407c-b4db-55b0d2c3dfd0",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "agil"
+      ]
+    },
+    {
+      "name": "MOCKS EM C#: TESTES DE INTEGRAÇÃO COM XUNIT E MOQ",
+      "conclusion": "2020-12-09T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/31e4e9ef-f7cf-423f-977d-2cc1317fb29c",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "development",
+        ".net",
+        "C#",
+        "test",
+        "tdd",
+        "xunit",
+        "mock"
+      ]
+    },
+    {
+      "name": "SCRUM: AGILIDADE EM SEU PROJETO",
+      "conclusion": "2020-11-30T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/d8554a75-364a-471e-83de-6a43d6b2af5b",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "scrum",
+        "agil"
+      ]
+    },
+    {
+      "name": "KAFKA: PRODUTORES, CONSUMIDORES E STREAMS",
+      "conclusion": "2021-02-04T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/2fc0994c-98ce-4fb5-9473-2fed548ed3fd",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "kafka",
+        "cache"
+      ]
+    },
+    {
+      "name": "REDIS I: ARMAZENANDO CHAVES E VALORES",
+      "conclusion": "2022-07-28T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/f3e017a1-fb3e-4b50-b33e-2a42fbf4cc74",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "nosql",
+        "redis",
+        "cache",
+        "database"
+      ]
+    },
+    {
+      "name": "REDIS II: ESTRUTURAS E RECURSOS NA SUA BASE NOSQL",
+      "conclusion": "2022-07-29T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/8b3d2118-b233-4530-ad60-d9254f091a7e",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "nosql",
+        "redis",
+        "cache",
+        "database"
+      ]
+    },
+    {
+      "name": "VUE.JS PARTE 1: CONSTRUINDO SINGLE PAGE APPLICATIONS",
+      "conclusion": "2021-02-24T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/41a2319c-2a51-4db8-afaa-611b4dd8f595",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "javascript",
+        "vue"
+      ]
+    },
+    {
+      "name": "C# PARTE 4: ENTENDENDO EXCEÇÕES",
+      "conclusion": "2021-03-22T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/4e81e86d-d9eb-4dd5-990f-1fbbc4854ed8",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "development",
+        ".net",
+        "C#"
+      ]
+    },
+    {
+      "name": "C# PARTE 5: BIBLIOTECAS DLLS, DOCUMENTAÇÃO E USANDO O NUGET",
+      "conclusion": "2021-04-17T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/e86e6535-543c-4db0-ae6a-59b02263cb9f",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "development",
+        ".net",
+        "C#"
+      ]
+    },
+    {
+      "name": "C# PARTE 6: STRINGS, EXPRESSÕES REGULARES E A CLASSE OBJECT",
+      "conclusion": "2021-04-19T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/aa61efbc-4554-4a27-80cd-88d6bad8e68a",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "development",
+        ".net",
+        "C#"
+      ]
+    },
+    {
+      "name": "C# PARTE 7: ARRAY E TIPOS GENÉRICOS",
+      "conclusion": "2021-04-21T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/957cfc38-6039-4d9d-9111-7a67755a4b1a",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "development",
+        ".net",
+        "C#"
+      ]
+    },
+    {
+      "name": "C# PARTE 8: LIST, LAMBDA, LINQ",
+      "conclusion": "2021-04-23T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/5b6328e1-45de-4e7d-b51e-c56ea346bc0c",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "development",
+        ".net",
+        "C#"
+      ]
+    },
+    {
+      "name": "C# PARTE 9: ENTRADA E SAÍDA (I\/O) COM STREAMS",
+      "conclusion": "2021-04-26T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/e4ee4e24-6a87-4d43-91b5-c42b39238832",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "development",
+        ".net",
+        "C#"
+      ]
+    },
+    {
+      "name": "C#: PARALELISMO NO MUNDO REAL",
+      "conclusion": "2021-04-28T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/b8bdc2d2-d709-4c03-b905-6669cf22ce41",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "development",
+        ".net",
+        "C#"
+      ]
+    },
+    {
+      "name": "C#: EVENTOS, DELEGATES E LAMBDA",
+      "conclusion": "2021-05-24T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/057ba39e-d2c2-4eba-9fe0-a3cc1713767a",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "development",
+        ".net",
+        "C#"
+      ]
+    },
+    {
+      "name": "PYTHON: COMEÇANDO COM A LINGUAGEM",
+      "conclusion": "2021-08-20T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/5c274a8f-f2aa-48f5-bf4a-b36daf2d5ed6",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "development",
+        "python"
+      ]
+    },
+    {
+      "name": "DNS: ENTENDA A RESOLUÇÃO DE nameS NA INTERNET",
+      "conclusion": "2021-06-02T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/66107344-c4a5-420c-b9ae-d42ce1c3455f",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "protocol",
+        "dns"
+      ]
+    },
+    {
+      "name": "API REST COM .NET 5: OPERAÇÕES ESSENCIAIS COM VERBOS HTTP",
+      "conclusion": "2021-09-09T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/569e52ad-945f-4436-90ee-24719cec0dc9",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "development",
+        ".net",
+        "C#"
+      ]
+    },
+    {
+      "name": "MONGODB: MODELAGEM DE DADOS",
+      "conclusion": "2022-07-22T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/ca5dbfc1-068a-43d7-8759-5134ab1263c4",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "mongodb",
+        "database",
+        "nosql"
+      ]
+    },
+    {
+      "name": ".NET 5 E EF CORE: RELACIONANDO ENTIDADES",
+      "conclusion": "2021-09-10T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/4779bd73-714f-4631-a190-cf77e64b8f72",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "development",
+        ".net",
+        "C#"
+      ]
+    },
+    {
+      "name": "NGINX: SERVIDOR WEB, PROXY REVERSO E API GATEWAY",
+      "conclusion": "2021-09-23T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/8a74ba78-4333-460c-aeea-41bdcc59ac8a",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "proxy",
+        "nginx"
+      ]
+    },
+    {
+      "name": "ASP.NET CORE: UMA WEBAPP USANDO O PADRÃO MVC",
+      "conclusion": "2022-01-13T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/38dec12f-dc83-4f70-910d-6a56a9a5bd0d",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "development",
+        ".net",
+        "C#"
+      ]
+    },
+    {
+      "name": "LIDERANÇA: APRENDENDO SOBRE A MISSÃO E PROPÓSITO DE LIDERAR PESSOAS",
+      "conclusion": "2022-01-25T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/252891f0-9e02-468f-a996-2e6d886dc7a4",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "liderance"
+      ]
+    },
+    {
+      "name": "LIDERANÇA: PRÁTICAS DE GESTÃO E MELHORIAS",
+      "conclusion": "2022-01-26T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/df8ad090-4e64-4e89-b600-1753030d77f3",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "liderance"
+      ]
+    },
+    {
+      "name": "HÁBITOS NA LIDERANÇA: BOAS PRÁTICAS",
+      "conclusion": "2022-01-26T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/c4e8ef9b-1db8-4e54-9289-843e6e83f32a",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "liderance"
+      ]
+    },
+    {
+      "name": "MINDSET DIGITAL: TÉCNICAS E HABILIDADES PARA LIDERANÇA REMOTA",
+      "conclusion": "2022-05-24T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/cf8c4ebe-4b3c-419a-b30c-6992a675687a",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "liderance"
+      ]
+    },
+    {
+      "name": "KUBERNETES: PODS, SERVICES E CONFIGMAPS",
+      "conclusion": "2022-04-02T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/065f3e48-80b9-4f76-a2b9-081bf28b0f9c",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "container",
+        "kubernet"
+      ]
+    },
+    {
+      "name": "KUBERNETES: DEPLOYMENTS, VOLUMES E ESCALABILIDADE",
+      "conclusion": "2022-05-03T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/d6884d23-76b0-41d5-83a8-9d6971da7c39",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "container",
+        "kubernet"
+      ]
+    },
+    {
+      "name": "AZURE: GERENCIE KUBERNETES COM AKS E ACR",
+      "conclusion": "2022-05-06T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/ca4b1404-eafb-48a3-b4fe-dad28ed9c6e2",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "container",
+        "kubernet",
+        "azure",
+        "cloud"
+      ]
+    },
+    {
+      "name": "KUBERNETES NA DIGITAL OCEAN: GERENCIANDO APLICAÇÕES CONTEINERIZADAS",
+      "conclusion": "2022-05-11T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/9c51f887-3410-4bec-9003-9185c3107e20",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "container",
+        "kubernet",
+        "digital-ocean",
+        "cloud"
+      ]
+    },
+    {
+      "name": "GOOGLE KUBERNETES ENGINE",
+      "conclusion": "2022-05-12T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/21c6031d-7c50-4cca-85ea-2fb4ecf28421",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "container",
+        "kubernet",
+        "google",
+        "cloud"
+      ]
+    },
+    {
+      "name": "GOOGLE KUBERNETES ENGINE: AVANÇANDO COM GKE",
+      "conclusion": "2022-05-13T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/38261f2f-775c-4391-a470-2dd4c23b1948",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "container",
+        "kubernet",
+        "google",
+        "cloud"
+      ]
+    },
+    {
+      "name": "AMAZON EKS: GERENCIANDO APLICAÇÕES CONTEINERIZADAS COM KUBERNETES",
+      "conclusion": "2022-05-13T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/dd427b1b-ae43-4d8e-ae50-66932d9b3228",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "container",
+        "kubernet",
+        "aws",
+        "cloud"
+      ]
+    },
+    {
+      "name": "EXTREME PROGRAMMING: METODOLOGIA DE DESENVOLVIMENTO ÁGIL DE SOFTWARE",
+      "conclusion": "2022-05-19T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/fc26090e-5e5f-45ee-970b-5b8194e25c1d",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "agil",
+        "xp"
+      ]
+    },
+    {
+      "name": "TESTES EM .NET: TESTANDO SOFTWARE",
+      "conclusion": "2022-05-15T18:25:43.511Z",
+      "certificateUri": "NULL",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "development",
+        ".net",
+        "c#",
+        "xunit",
+        "tdd"
+      ]
+    },
+    {
+      "name": "TESTES EM .NET: INTEGRANDO A APLICAÇÃO COM UM BANCO DE DADOS",
+      "conclusion": "2022-05-15T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/52fada6f-39a9-440c-8462-630f6770fe52",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "development",
+        ".net",
+        "c#",
+        "xunit",
+        "tdd"
+      ]
+    },
+    {
+      "name": "TESTES EM .NET: INTEGRAÇÃO E ENTREGA CONTÍNUA COM AZURE DEVOPS",
+      "conclusion": "2022-05-16T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/85310144-c8be-40db-89c6-166a741a315a",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "development",
+        ".net",
+        "c#",
+        "xunit",
+        "tdd",
+        "azure",
+        "cicd"
+      ]
+    },
+    {
+      "name": "TESTES EM .NET: TESTES DE INTERFACE USANDO SELENIUM",
+      "conclusion": "2022-05-17T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/a9b65aba-b6da-47f6-b1f9-b4c5d580ab31",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "development",
+        ".net",
+        "c#",
+        "xunit",
+        "tdd",
+        "selenium"
+      ]
+    },
+    {
+      "name": "SELENIUM WEBDRIVER E C# PARTE 1: TESTES DA SUA WEB APP",
+      "conclusion": "2022-05-21T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/ab2636e8-4bd9-483e-8a42-8da43b7f65f3",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "development",
+        ".net",
+        "c#",
+        "xunit",
+        "tdd",
+        "selenium"
+      ]
+    },
+    {
+      "name": "SELENIUM WEBDRIVER E C# PARTE 2: OUTROS RECURSOS",
+      "conclusion": "2022-05-22T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/51ec0753-6343-459a-a83b-17afad4e57fe",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "development",
+        ".net",
+        "c#",
+        "xunit",
+        "tdd",
+        "selenium"
+      ]
+    },
+    {
+      "name": ".NET 5 E IDENTITY: AUTENTICANDO E AUTORIZANDO USUÁRIOS",
+      "conclusion": "2022-05-25T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/af681830-f65c-4cea-a290-ec0ebe460365",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "development",
+        ".net",
+        "c#"
+      ]
+    },
+    {
+      "name": ".NET 5 E IDENTITY: IMPLEMENTANDO CONTROLE DE USUÁRIO",
+      "conclusion": "2022-05-24T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/0ebecc61-a94d-48a7-8cf3-17840664106c",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "development",
+        ".net",
+        "c#"
+      ]
+    },
+    {
+      "name": "DELEGAÇÃO DE TAREFAS: OBTENHA O MELHOR DO SEU TIME",
+      "conclusion": "2022-05-24T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/dbb9e726-e557-4ec1-bad4-ed92744ae45d",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "liderance"
+      ]
+    },
+    {
+      "name": "PRINCÍPIOS DO TRABALHO EM EQUIPE: RELAÇÕES COLABORATIVAS",
+      "conclusion": "2022-05-24T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/23dedc0c-b5d3-4fca-9b05-e42cc6f28e28",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "liderance"
+      ]
+    },
+    {
+      "name": "GO: A LINGUAGEM DO GOOGLE",
+      "conclusion": "2022-05-27T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/1d0fc6df-f017-41ef-91a3-3b28084cef4f",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "development",
+        "go",
+        "google"
+      ]
+    },
+    {
+      "name": "GO: ORIENTAÇÃO A OBJETOS",
+      "conclusion": "2022-06-02T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/2dfe8311-f072-4f68-a315-6179e7150377",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "development",
+        "go",
+        "google"
+      ]
+    },
+    {
+      "name": "GO: CRIE DE UMA APLICAÇÃO WEB",
+      "conclusion": "2022-06-03T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/7805b358-3ba9-45a8-b311-30ea3b1da40b",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "development",
+        "go",
+        "google"
+      ]
+    },
+    {
+      "name": "GO E GIN: CRIANDO API REST COM SIMPLICIDADE",
+      "conclusion": "2022-06-08T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/00db98b9-a814-406f-9c1a-00b9904badd2",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "development",
+        "go",
+        "google"
+      ]
+    },
+    {
+      "name": "GO: DESENVOLVENDO UMA API REST",
+      "conclusion": "2022-06-03T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/369fd60e-aaa8-48a8-97a1-7bc64ec68783",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "development",
+        "go",
+        "google"
+      ]
+    },
+    {
+      "name": "GO: VALIDAÇÕES, TESTES E PÁGINAS HTML",
+      "conclusion": "2022-06-09T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/f57bdcd5-11f7-404e-9aeb-427af45eaca1",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "development",
+        "go",
+        "google"
+      ]
+    },
+    {
+      "name": "MICROSOFT AZ-900 PARTE 1: AZURE FUNDAMENTALS",
+      "conclusion": "2022-06-29T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/fd708be3-4db2-4d76-b7fc-712d6cd43210",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "cloud",
+        "azure"
+      ]
+    },
+    {
+      "name": "MICROSOFT AZ-900 PARTE 2: AZURE FUNDAMENTALS",
+      "conclusion": "2022-07-01T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/8e362b2b-9d79-43e8-88a8-36c199413ecf",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "cloud",
+        "azure"
+      ]
+    },
+    {
+      "name": "MICROSOFT AZ-900 PARTE 3: AZURE FUNDAMENTALS",
+      "conclusion": "2022-07-05T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/e4157be2-f56f-4559-8bdd-a21a0f012b0a",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "cloud",
+        "azure"
+      ]
+    },
+    {
+      "name": "MICROSOFT AZ-900 PARTE 4: AZURE FUNDAMENTALS",
+      "conclusion": "2022-07-07T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/804c23fc-85e8-4bd2-9836-437c74a137a0",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "cloud",
+        "azure"
+      ]
+    },
+    {
+      "name": "ESTRUTURA DE DADOS: COMPUTAÇÃO NA PRÁTICA COM JAVA",
+      "conclusion": "2022-07-18T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/e40feed1-13aa-420c-8747-5e84bf1bb837",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "development"
+      ]
+    },
+    {
+      "name": "C#: ENTENDENDO EXCEÇÕES",
+      "conclusion": "2022-07-19T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/31f830a1-a293-4840-9c26-b4fa1f89f655",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "development",
+        ".net",
+        "c#"
+      ]
+    },
+    {
+      "name": "MODELAGEM MONGODB: RELACIOnameNTOS E CARDINALIDADE",
+      "conclusion": "2022-07-25T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/1fdb3723-9f1b-4f06-bc90-c268502224f7",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "database",
+        "mongodb",
+        "nosql"
+      ]
+    },
+    {
+      "name": "MICROSSERVIÇOS E .NET6: IMPLEMENTANDO A COMUNICAÇÃO",
+      "conclusion": "2022-07-27T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/e51f515b-bb63-4333-9dfe-5961c2eb1da1",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "development",
+        ".net",
+        "c#"
+      ]
+    },
+    {
+      "name": "NULLMODELAGEM DE BANCO DE DADOS: ENTIDADES, RELACIOnameNTOS E ATRIBUTOS",
+      "conclusion": "2022-08-01T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/f4fb9541-03d7-4214-a7ad-b960fb02f736",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "database"
+      ]
+    },
+    {
+      "name": "MODELAGEM DE BANCO DE DADOS RELACIONAL: MODELAGEM LÓGICA E FÍSICA",
+      "conclusion": "2022-08-02T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/6addd0fb-4be1-48f4-8b8e-8f2fe70699b3",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "database"
+      ]
+    },
+    {
+      "name": "MODELAGEM DE BANCO DE DADOS RELACIONAL: ÁLGEBRA RELACIONAL",
+      "conclusion": "2022-08-03T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/cf23a4eb-7223-4523-8b69-8c70f6b8fa21",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "database"
+      ]
+    },
+    {
+      "name": "MODELAGEM DE BANCO DE DADOS RELACIONAL: ENTENDENDO SQL",
+      "conclusion": "2022-08-03T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/097df050-faa9-4504-80ba-5587925077fe",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "database"
+      ]
+    },
+    {
+      "name": "MODELAGEM DE BANCO DE DADOS RELACIONAL: NORMALIZAÇÃO",
+      "conclusion": "2022-08-03T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/184457d6-5fe9-4187-ad29-6ed0e5015a4f",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "database"
+      ]
+    },
+    {
+      "name": "SQL SERVER: INTRODUÇÃO AO SQL COM MICROSOFT SQL SERVER 2017",
+      "conclusion": "2022-08-08T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/42559db4-15e4-4a16-9bd8-b13e8a94b345",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "database",
+        "sqlserver"
+      ]
+    },
+    {
+      "name": "SQL SERVER: CONSULTAS AVANÇADAS COM MICROSOFT SQL SERVER 2017",
+      "conclusion": "2022-08-08T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/cab204dd-3c1a-4101-bdda-f778cdd7117b",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "database",
+        "sqlserver"
+      ]
+    },
+    {
+      "name": "SQL SERVER: MANIPULAÇÃO DE DADOS COM MICROSOFT SQL SERVER 2017",
+      "conclusion": "2022-08-09T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/f9fcd1eb-e007-4e7a-a417-192a446c53b9",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "database",
+        "sqlserver"
+      ]
+    },
+    {
+      "name": "SQL SERVER: T-SQL COM MICROSOFT SQL SERVER 2017",
+      "conclusion": "2022-08-10T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/a7f8d24d-aa64-404f-8197-6dfdb6a017c5",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "database",
+        "sqlserver"
+      ]
+    },
+    {
+      "name": "SQL SERVER: ADMINISTRAÇÃO DO MICROSOFT SQL SERVER 2017",
+      "conclusion": "2022-08-12T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/41279343-fbd3-49e2-8373-29cda9909596",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "database",
+        "sqlserver"
+      ]
+    },
+    {
+      "name": "RUST: A LINGUAGEM DE PROGRAMAÇÃO PERFORMÁTICA E SEGURA",
+      "conclusion": "2022-08-12T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/bade0182-f781-44e4-a8ff-ebd874c0554f",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "development",
+        "rust"
+      ]
+    },
+    {
+      "name": "RUST: APRENDA MAIS SOBRE TIPOS",
+      "conclusion": "2022-08-12T18:25:43.511Z",
+      "certificateUri": "https:\/\/cursos.alura.com.br\/certificate\/1e1d3c58-87c4-4e5d-992a-d13e6217530b",
+      "institution": "Alura",
+      "importance": "high",
+      "tags": [
+        "development",
+        "rust"
+      ]
+    },
+    {
+      "name": "INICIANDO COM ASP.NET CORE",
+      "conclusion": "2021-11-04T18:25:43.511Z",
+      "certificateUri": "https:\/\/desenvolvedor.io\/certificado\/a28a1f70-984a-405e-aa5d-61a4d4f57fd6",
+      "institution": "Desenvolvedor.io",
+      "importance": "high",
+      "tags": [
+        "development",
+        ".net",
+        "c#"
+      ]
+    },
+    {
+      "name": "Fundamentos de Criptografia e Hashing",
+      "conclusion": "2022-08-22T18:25:43.511Z",
+      "certificateUri": "https:\/\/desenvolvedor.io\/certificado\/94b94684-eeff-432d-b67a-9734add02fbb",
+      "institution": "Desenvolvedor.io",
+      "importance": "high",
+      "tags": [
+        "development",
+        ".net",
+        "c#",
+        "python",
+        "crypto",
+        "hash"
+      ]
+    },
+    {
+      "name": "Desenvolvimento SPA com Angular",
+      "conclusion": "2022-08-31T18:25:43.511Z",
+      "certificateUri": "https:\/\/desenvolvedor.io\/certificado\/5990168a-49c0-4ef0-a776-6895d1228230",
+      "institution": "Desenvolvedor.io",
+      "importance": "high",
+      "tags": [
+        "development",
+        ".net",
+        "angular",
+        "typescript",
+        "javascript"
+      ]
+    },
+    {
+      "name": "Introdução ao DevOps",
+      "conclusion": "2022-09-19T18:25:43.511Z",
+      "certificateUri": "https:\/\/desenvolvedor.io\/certificado/efc1be7d-bd63-4ab6-a782-45a49894527a",
+      "institution": "Desenvolvedor.io",
+      "importance": "high",
+      "tags": [
+        "development",
+        "devops"
+      ]
+    },
+    {
+      "name": "Fundamentos de Arquitetura de Software",
+      "conclusion": "2022-09-22T18:25:43.511Z",
+      "certificateUri": "https:\/\/desenvolvedor.io\/certificado/9208cc7c-1a6b-4165-91e9-d200148444ec",
+      "institution": "Desenvolvedor.io",
+      "importance": "high",
+      "tags": [
+        "development",
+        "devops",
+        "software",
+        "arquitetura"
+      ]
+    },
+    {
+      "name": "C# COMPLETO Programação Orientada a Objetos + Projetos",
+      "conclusion": "2019-05-16T18:25:43.511Z",
+      "certificateUri": "https:\/\/www.udemy.com\/certificate\/UC-26OBZ64N\/",
+      "institution": "Udemy",
+      "importance": "high",
+      "tags": [
+        "development",
+        ".net",
+        "c#"
+      ]
+    },
+    {
+      "name": "Orquestração de Containers com Kubernetes",
+      "conclusion": "2022-06-22T18:25:43.511Z",
+      "certificateUri": "https:\/\/www.udemy.com\/certificate\/UC-2373b685-9826-465e-8ad5-93587c5339ff\/",
+      "institution": "Udemy",
+      "importance": "high",
+      "tags": [
+        "development",
+        "docker",
+        "kubernete"
+      ]
+    },
+    {
+      "name": "C# - Aplicando Princípios SOLID na prática",
+      "conclusion": "2022-06-22T18:25:43.511Z",
+      "certificateUri": "https:\/\/www.udemy.com\/certificate\/UC-70fa6e0e-c9fe-464a-bdbe-7881547c9779\/",
+      "institution": "Udemy",
+      "importance": "high",
+      "tags": [
+        "development",
+        ".net",
+        "c#"
+      ]
+    },
+    {
+      "name": "O curso completo de Banco de Dados e SQL, sem mistérios!",
+      "conclusion": "2019-06-06T18:25:43.511Z",
+      "certificateUri": "https:\/\/www.udemy.com\/certificate\/UC-T3Y1X056\/",
+      "institution": "Udemy",
+      "importance": "high",
+      "tags": [
+        "database",
+        "sqlserver",
+        "mysql"
+      ]
+    },
+    {
+      "name": "Azure Pipelines - CI\/CD, Docker e Kubernetes no Azure DevOps",
+      "conclusion": "2021-08-19T18:25:43.511Z",
+      "certificateUri": "https:\/\/www.udemy.com\/certificate\/UC-ca99013d-a26a-4121-bdde-dc6c44cc7663\/",
+      "institution": "Udemy",
+      "importance": "high",
+      "tags": [
+        "development",
+        ".net",
+        "azure",
+        "cloud",
+        "kubernete"
+      ]
+    },
+    {
+      "name": "Azure DataBases para iniciantes",
+      "conclusion": "2022-11-01T18:25:43.511Z",
+      "certificateUri": "https:\/\/www.udemy.com\/certificate\/UC-1629d9df-3184-41c5-83a4-943d89bf3910\/",
+      "institution": "Udemy",
+      "importance": "high",
+      "tags": [
+        "database",
+        "backup",
+        "azure",
+        "cloud"
+      ]
+    },
+    {
+      "name": "Microsoft Azure Active Directory",
+      "conclusion": "2022-11-03T18:25:43.511Z",
+      "certificateUri": "https:\/\/www.udemy.com\/certificate\/UC-72cf91c3-4f64-4674-b560-c4d20570733a\/",
+      "institution": "Udemy",
+      "importance": "high",
+      "tags": [
+        "activedirectory",
+        "ad",
+        "azure",
+        "cloud"
+      ]
+    },
+    {
+      "name": "Dominando o Apache Kafka",
+      "conclusion": "2022-12-08T18:25:43.511Z",
+      "certificateUri": "https:\/\/desenvolvedor.io\/certificado\/7258423f-0484-4f0a-9444-4102e7a7036f\/",
+      "institution": "Desenvolvedor.io",
+      "importance": "high",
+      "tags": [
+        "kafka",
+        "messageria",
+        "azure"
+      ]
+    },
+    {
+      "name": "Event Driven Architecture - The Complete Guide",
+      "conclusion": "2023-01-10T18:25:43.511Z",
+      "certificateUri": "https:\/\/www.udemy.com\/certificate\/UC-b711b1a6-8955-47a1-8b5c-bed43c73d0dd\/",
+      "institution": "Udemy",
+      "importance": "high",
+      "tags": [
+        "kafka",
+        "messageria",
+        "azure",
+        "events"
+      ]
+    }
+  ],
+  "perfilAcademy": [
+    {
+      "name": "Alura",
+      "perfilUri": "https:\/\/cursos.alura.com.br\/user\/robson-curitibapr"
+    }
+  ]
+}

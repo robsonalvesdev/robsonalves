@@ -1,8 +1,8 @@
-import { Component, Input, OnInit } from '@angular/core';
-import { GoogleAnalyticsService } from 'ngx-google-analytics';
-import { About } from 'src/app/model/about';
-import { Portifolio } from 'src/app/model/portifolio';
-import { PortifolioService } from 'src/app/service/portifolio.service';
+import {Component, Input, OnInit} from '@angular/core';
+import {GoogleAnalyticsService} from 'ngx-google-analytics';
+import {About} from 'src/app/model/about';
+import {Portifolio} from 'src/app/model/portifolio';
+import {PortifolioService} from 'src/app/service/portifolio.service';
 
 @Component({
   selector: 'app-about',
@@ -12,12 +12,10 @@ import { PortifolioService } from 'src/app/service/portifolio.service';
 export class AboutComponent implements OnInit {
   title = 'Sobre';
 
-  @Input() 
+  @Input()
   public bgcolor: boolean = false;
-
-  private portifolio: Portifolio = new Portifolio;
-
   public myDate = Date.now();
+  private portifolio: Portifolio = new Portifolio;
 
   constructor(private portifolioService: PortifolioService, private $gaService: GoogleAnalyticsService) {
   }

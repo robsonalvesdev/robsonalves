@@ -31,7 +31,7 @@
                 "input": "src/scripts.js",
                 "inject": false,
                 "bundleName": "scriptsapp"
-               }
+              }
             ]
           },
           "configurations": {

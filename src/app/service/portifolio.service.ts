@@ -1,7 +1,7 @@
-import { Injectable } from '@angular/core';
-import { HttpClient } from "@angular/common/http";
-import { delay, Observable, of } from 'rxjs';
-import { Portifolio } from '../model/portifolio';
+import {Injectable} from '@angular/core';
+import {HttpClient} from "@angular/common/http";
+import {Observable} from 'rxjs';
+import {Portifolio} from '../model/portifolio';
 import PortifolioJson from './robsonalves.json';
 
 @Injectable({

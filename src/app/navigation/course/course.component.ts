@@ -1,11 +1,10 @@
-import { Component, Input, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
-import { PaginationInstance } from 'ngx-pagination';
-import { Course } from 'src/app/model/course';
-import { Portifolio } from 'src/app/model/portifolio';
-import { PortifolioService } from 'src/app/service/portifolio.service';
-import { of, distinct } from 'rxjs';
-import { GoogleAnalyticsService } from 'ngx-google-analytics';
+import {Component, Input, OnInit} from '@angular/core';
+import {ActivatedRoute} from '@angular/router';
+import {PaginationInstance} from 'ngx-pagination';
+import {Course} from 'src/app/model/course';
+import {Portifolio} from 'src/app/model/portifolio';
+import {PortifolioService} from 'src/app/service/portifolio.service';
+import {GoogleAnalyticsService} from 'ngx-google-analytics';
 
 @Component({
   selector: 'app-course',
@@ -15,20 +14,16 @@ import { GoogleAnalyticsService } from 'ngx-google-analytics';
 export class CourseComponent implements OnInit {
   title = 'Course';
 
-  @Input() 
+  @Input()
   public bgcolor: boolean = false;
-
-  private portifolio: Portifolio = new Portifolio;
-
   public config: PaginationInstance = {
     id: 'courseComponent',
     itemsPerPage: 6,
     currentPage: 1
   };
-
   filterInst: string = "";
-
   public iconSize: number = 70;
+  private portifolio: Portifolio = new Portifolio;
 
   constructor(private portifolioService: PortifolioService, private route: ActivatedRoute, private $gaService: GoogleAnalyticsService) {
 

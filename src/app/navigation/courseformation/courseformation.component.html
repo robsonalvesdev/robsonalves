@@ -1,69 +1,73 @@
 <!-- Courses-->
-<section class="page-section" [ngClass]="{'bg-light': bgcolor}" id="coursesformation">
-   <div class="container">
-      <div class="text-center">
-         <h2 class="section-heading text-uppercase">Cursos de Formação</h2>
-         <h3 class="section-subheading text-muted">Quantidade de cursos: {{obterCursos().length}}</h3>
+<section [ngClass]="{'bg-light': bgcolor}" class="page-section" id="coursesformation">
+  <div class="container">
+    <div class="text-center">
+      <h2 class="section-heading text-uppercase">Cursos de Formação</h2>
+      <h3 class="section-subheading text-muted">Quantidade de cursos: {{obterCursos().length}}</h3>
+    </div>
+    <div class="text-center">
+      <div>
+        Filtrar por instituição do curso:
       </div>
-      <div class="text-center">
-         <div>
-            Filtrar por instituição do curso:
-         </div>
-         <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-            <input type="radio" class="btn-check" name="btnradio-CourseformationComponent" id="00-CourseformationComponent" autocomplete="off"
-               gaEvent gaAction="click_filtro_course_todos" gaCategory="ga_cursos" (click)="AtualizaFiltro('')" checked>
-            <label class="btn btn-outline-primary" for="00-CourseformationComponent">Todas</label>
+      <div aria-label="Basic radio toggle button group" class="btn-group" role="group">
+        <input (click)="AtualizaFiltro('')" autocomplete="off" checked class="btn-check"
+               gaAction="click_filtro_course_todos"
+               gaCategory="ga_cursos" gaEvent id="00-CourseformationComponent" name="btnradio-CourseformationComponent" type="radio">
+        <label class="btn btn-outline-primary" for="00-CourseformationComponent">Todas</label>
 
-            <ng-template ngFor let-item [ngForOf]="obterInstitutions()" let-i="index">
-               <input type="radio" class="btn-check" name="btnradio-CourseformationComponent" id="{{i+1}}-CourseformationComponent"
-                  autocomplete="off" gaEvent gaAction="click_filtro_course_{{item}}" gaCategory="ga_cursos"
-                  (click)="AtualizaFiltro(item)">
-               <label class="btn btn-outline-primary" for="{{i+1}}-CourseformationComponent">{{item}}</label>
-            </ng-template>
-         </div>
+        <ng-template [ngForOf]="obterInstitutions()" let-i="index" let-item ngFor>
+          <input (click)="AtualizaFiltro(item)" autocomplete="off" class="btn-check"
+                 gaAction="click_filtro_course_{{item}}"
+                 gaCategory="ga_cursos" gaEvent id="{{i+1}}-CourseformationComponent" name="btnradio-CourseformationComponent"
+                 type="radio">
+          <label class="btn btn-outline-primary" for="{{i+1}}-CourseformationComponent">{{item}}</label>
+        </ng-template>
       </div>
-      <hr>
-      <div class="row">
-         <div class="col-md-12 col-lg-12">
-            <div id="tracking-pre"></div>
-            <div id="tracking">
-               <div class="tracking-list">
-                  <div *ngFor="let item of obterCursos() | paginate: config; let i = index" [attr.data-index]="i"
-                     class="tracking-item">
-                     <div class="tracking-icon status-intransit">
-                        <div class="timeline-image" [ngSwitch]="item.institution">
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-md-12 col-lg-12">
+        <div id="tracking-pre"></div>
+        <div id="tracking">
+          <div class="tracking-list">
+            <div *ngFor="let item of obterCursos() | paginate: config; let i = index" [attr.data-index]="i"
+                 class="tracking-item">
+              <div class="tracking-icon status-intransit">
+                <div [ngSwitch]="item.institution" class="timeline-image">
                            <span>
-                              <img *ngSwitchCase="'Alura'" [width]="iconSize" [height]="iconSize"
-                                 class="rounded-circle img-fluid" src="assets/img/alura.jpg" alt="..." />
-                              <img *ngSwitchCase="'Desenvolvedor.io'" [width]="iconSize" [height]="iconSize"
-                                 class="rounded-circle img-fluid" src="assets/img/desenvolvedorio.jpg" alt="..." />
-                              <img *ngSwitchCase="'Udemy'" [width]="iconSize" [height]="iconSize"
-                                 class="rounded-circle img-fluid" src="assets/img/udemy.png" alt="..." />
-                              <img *ngSwitchDefault [width]="iconSize" [height]="iconSize"
-                                 class="rounded-circle img-fluid" src="assets/img/globo.png" alt="..." />
+                              <img *ngSwitchCase="'Alura'" [height]="iconSize" [width]="iconSize"
+                                   alt="..." class="rounded-circle img-fluid" src="assets/img/alura.jpg"/>
+                              <img *ngSwitchCase="'Desenvolvedor.io'" [height]="iconSize" [width]="iconSize"
+                                   alt="..." class="rounded-circle img-fluid" src="assets/img/desenvolvedorio.jpg"/>
+                              <img *ngSwitchCase="'Udemy'" [height]="iconSize" [width]="iconSize"
+                                   alt="..." class="rounded-circle img-fluid" src="assets/img/udemy.png"/>
+                              <img *ngSwitchDefault [height]="iconSize" [width]="iconSize"
+                                   alt="..." class="rounded-circle img-fluid" src="assets/img/globo.png"/>
                               <span
-                                 class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">{{absoluteIndex(i)}}</span>
+                                class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">{{absoluteIndex(i)}}</span>
                            </span>
-                        </div>
-                     </div>
-                     <!-- <div class="tracking-date">{{item.conclusion | date: 'MMMM, yyyy':'America/Sao_Paulo':'pt-BR'}}</div> -->
-                     <div class="tracking-date">{{item.conclusion | date: 'MMMM, yyyy'}}</div>
-                     <div class="tracking-content">{{item.name | uppercase}}<span>{{item.institution | titlecase }} - <a
-                              gaEvent gaAction="click_certificado_{{item.name}}" gaCategory="ga_cursosdeformacao"
-                              [href]="item.certificateUri" target="_blank">Certificado</a></span></div>
-                  </div>
-                  <hr>
-
-                  <div class="d-flex justify-content-center">
-                     <ngb-pagination [collectionSize]="obterCursos().length" [(page)]="config.currentPage" [pageSize]="config.itemsPerPage" [maxSize]="4" [rotate]="true" [ellipses]="true" [boundaryLinks]="true">
-                     </ngb-pagination>
-                     <!--<pagination-controls id="{{config.id}}" [maxSize]="12" (pageChange)="config.currentPage = $event" previousLabel="Anterior" nextLabel="Próximo"></pagination-controls>-->
-                  </div>
-
-               </div>
+                </div>
+              </div>
+              <!-- <div class="tracking-date">{{item.conclusion | date: 'MMMM, yyyy':'America/Sao_Paulo':'pt-BR'}}</div> -->
+              <div class="tracking-date">{{item.conclusion | date: 'MMMM, yyyy'}}</div>
+              <div class="tracking-content">{{item.name | uppercase}}<span>{{item.institution | titlecase }} - <a
+                [href]="item.certificateUri" gaAction="click_certificado_{{item.name}}" gaCategory="ga_cursosdeformacao"
+                gaEvent target="_blank">Certificado</a></span></div>
             </div>
-         </div>
+            <hr>
+
+            <div class="d-flex justify-content-center">
+              <ngb-pagination [(page)]="config.currentPage" [boundaryLinks]="true"
+                              [collectionSize]="obterCursos().length" [ellipses]="true" [maxSize]="4" [pageSize]="config.itemsPerPage"
+                              [rotate]="true">
+              </ngb-pagination>
+              <!--<pagination-controls id="{{config.id}}" [maxSize]="12" (pageChange)="config.currentPage = $event" previousLabel="Anterior" nextLabel="Próximo"></pagination-controls>-->
+            </div>
+
+          </div>
+        </div>
       </div>
-   </div>
+    </div>
+  </div>
 
 </section>

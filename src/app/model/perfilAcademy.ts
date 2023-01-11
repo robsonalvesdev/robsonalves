@@ -1,4 +1,4 @@
 export class PerfilAcademy {
-    name: string = "";
-    perfilUri: string = "";
+  name: string = "";
+  perfilUri: string = "";
 }

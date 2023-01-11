@@ -1,9 +1,9 @@
-import { Component, Input, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
-import { GoogleAnalyticsService } from 'ngx-google-analytics';
-import { Portifolio } from 'src/app/model/portifolio';
-import { UniversityGraduate } from 'src/app/model/universityGraduate';
-import { PortifolioService } from 'src/app/service/portifolio.service';
+import {Component, Input, OnInit} from '@angular/core';
+import {ActivatedRoute} from '@angular/router';
+import {GoogleAnalyticsService} from 'ngx-google-analytics';
+import {Portifolio} from 'src/app/model/portifolio';
+import {UniversityGraduate} from 'src/app/model/universityGraduate';
+import {PortifolioService} from 'src/app/service/portifolio.service';
 
 @Component({
   selector: 'app-university',
@@ -13,7 +13,7 @@ import { PortifolioService } from 'src/app/service/portifolio.service';
 export class UniversityComponent implements OnInit {
   title = '(Pós)Graduação';
 
-  @Input() 
+  @Input()
   public bgcolor: boolean = false;
 
   private portifolio: Portifolio = new Portifolio;
