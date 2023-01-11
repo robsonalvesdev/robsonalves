@@ -6,7 +6,7 @@
       <h3 class="section-subheading text-muted">Quantidade de cursos: {{obterCursos().length}}</h3>
     </div>
     <div class="text-center">
-      <div>
+      <div style="height: 2rem;">
         Filtrar por instituição do curso:
       </div>
       <div aria-label="Basic radio toggle button group" class="btn-group" role="group">
@@ -22,9 +22,28 @@
                  type="radio">
           <label class="btn btn-outline-primary" for="{{i+1}}-CourseformationComponent">{{item}}</label>
         </ng-template>
+      </div>     
+    </div>
+    
+    <br>
+    <div class="text-center">
+      <div style="height: 2rem;">
+        Filtrar por tags do curso:        
+      </div>
+      <div aria-label="Basic radio toggle button group" class="col-md-12 col-lg-12" role="group">
+        <input (click)="AtualizaFiltroCategoria('')" autocomplete="off" checked class="btn-check" gaAction="click_filtro_courseformation_category_todos"
+               gaCategory="ga_categoriasformacao" gaEvent id="00-CourseFormationCategoryComponent" name="btnradio-CourseFormationCategoryComponent" type="radio">
+        <label class="btn btn-warning btn-sm" for="00-CourseFormationCategoryComponent" style="width: auto; height: 2rem; margin: .1rem;">Todas</label>
+
+        <ng-template ngFor let-item [ngForOf]="obterCategorias()" let-i="index">
+          <input (click)="AtualizaFiltroCategoria(item)" autocomplete="off" class="btn-check" gaAction="click_filtro_courseformation_category_{{item}}"
+                 gaCategory="ga_categoriasformation" gaEvent id="{{i+1}}-CourseFormationCategoryComponent" name="btnradio-CourseFormationCategoryComponent"
+                 type="radio">
+          <label class="btn btn-light btn-sm" for="{{i+1}}-CourseFormationCategoryComponent" style="width: max-content; height: 2rem; margin: .1rem;">{{item | lowercase}}</label>
+        </ng-template>
       </div>
     </div>
-    <hr>
+    <br>
     <div class="row">
       <div class="col-md-12 col-lg-12">
         <div id="tracking-pre"></div>
@@ -50,7 +69,9 @@
               </div>
               <!-- <div class="tracking-date">{{item.conclusion | date: 'MMMM, yyyy':'America/Sao_Paulo':'pt-BR'}}</div> -->
               <div class="tracking-date">{{item.conclusion | date: 'MMMM, yyyy'}}</div>
-              <div class="tracking-content">{{item.name | uppercase}}<span>{{item.institution | titlecase }} - <a
+              <div class="tracking-content">{{item.name | uppercase}}<span>Tags: <ng-template ngFor let-tag [ngForOf]="item.tags">
+                - {{tag}}
+              </ng-template></span><span>{{item.institution | titlecase }} - <a
                 [href]="item.certificateUri" gaAction="click_certificado_{{item.name}}" gaCategory="ga_cursosdeformacao"
                 gaEvent target="_blank">Certificado</a></span></div>
             </div>

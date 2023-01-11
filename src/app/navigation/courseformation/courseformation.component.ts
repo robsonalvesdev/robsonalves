@@ -22,6 +22,7 @@ export class CourseformationComponent implements OnInit {
   };
   public iconSize: number = 70;
   filterInst: string = "";
+  filterCategory: string = "";
   private portifolio: Portifolio = new Portifolio;
 
   constructor(private portifolioService: PortifolioService, private $gaService: GoogleAnalyticsService) {
@@ -60,7 +61,8 @@ export class CourseformationComponent implements OnInit {
   obterCursos(): FormationCourse[] {
     return this.portifolio.formationCourse.sort((a, b) => {
       return <any>new Date(b.conclusion) - <any>new Date(a.conclusion);
-    }).filter(p => p.institution.toLowerCase().startsWith(this.filterInst.toLowerCase()));
+    }).filter(p => p.institution.toLowerCase().startsWith(this.filterInst.toLowerCase()) && p.tags.some(xx => xx.toLowerCase().startsWith(this.filterCategory.toLowerCase())));
+    //}).filter(p => p.institution.toLowerCase().startsWith(this.filterInst.toLowerCase()));
     //return this.portifolio.formationCourse.sort(this.ordernar).filter(p => p.institution.toLowerCase().startsWith(this.filterInst.toLowerCase()));
   }
 
@@ -70,12 +72,25 @@ export class CourseformationComponent implements OnInit {
     return unique;
   }
 
+  obterCategorias(): string[] {
+    //of(this.portifolio.course).pipe(distinct(({institution})) => institution)).subscribe(x => )
+    let categ: string[] = [];
+    this.portifolio.formationCourse.forEach(c => c.tags.forEach(t => categ.push(t.toLowerCase())));
+    const unique = [...new Set(categ.map(x => x))];
+    return unique.sort();
+  }
+
   absoluteIndex(indexOnPage: number): number {
     return this.config.itemsPerPage * (this.config.currentPage - 1) + indexOnPage + 1;
   }
 
   AtualizaFiltro(valor: string) {
     this.filterInst = valor;
+    this.config.currentPage = 1;
+  }
+
+  AtualizaFiltroCategoria(valor: string) {
+    this.filterCategory = valor;
     this.config.currentPage = 1;
   }
 
