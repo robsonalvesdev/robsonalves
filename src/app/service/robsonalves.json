@@ -83,7 +83,7 @@
       "tags": [
         "development",
         ".net",
-        "C#"
+        "c#"
       ]
     },
     {
@@ -94,7 +94,7 @@
       "importance": "high",
       "tags": [
         "container",
-        "kubernet",
+        "kubernete",
         "docker"
       ]
     },
@@ -107,7 +107,7 @@
       "tags": [
         "development",
         ".net",
-        "C#",
+        "c#",
         "test",
         "tdd"
       ]
@@ -131,7 +131,7 @@
       "tags": [
         "development",
         ".net",
-        "C#",
+        "c#",
         "restful"
       ]
     },
@@ -179,7 +179,7 @@
       "tags": [
         "development",
         ".net",
-        "C#"
+        "c#"
       ]
     },
     {
@@ -213,7 +213,7 @@
       "tags": [
         "development",
         ".net",
-        "C#"
+        "c#"
       ]
     },
     {
@@ -225,7 +225,7 @@
       "tags": [
         "development",
         ".net",
-        "C#"
+        "c#"
       ]
     },
     {
@@ -315,7 +315,7 @@
       "tags": [
         "development",
         ".net",
-        "C#"
+        "c#"
       ]
     },
     {
@@ -327,7 +327,7 @@
       "tags": [
         "development",
         ".net",
-        "C#",
+        "c#",
         "restful"
       ]
     },
@@ -340,7 +340,7 @@
       "tags": [
         "development",
         ".net",
-        "C#",
+        "c#",
         "restful"
       ]
     },
@@ -364,7 +364,7 @@
       "tags": [
         "development",
         ".net",
-        "C#",
+        "c#",
         "orm",
         "entity-framework",
         "database"
@@ -390,7 +390,7 @@
       "tags": [
         "development",
         ".net",
-        "C#"
+        "c#"
       ]
     },
     {
@@ -402,7 +402,7 @@
       "tags": [
         "development",
         ".net",
-        "C#",
+        "c#",
         "mongodb",
         "nosql",
         "database"
@@ -451,7 +451,7 @@
       "tags": [
         "development",
         ".net",
-        "C#",
+        "c#",
         "test",
         "tdd",
         "xunit"
@@ -466,7 +466,7 @@
       "tags": [
         "development",
         ".net",
-        "C#",
+        "c#",
         "solid",
         "design-pattern"
       ]
@@ -490,7 +490,7 @@
       "tags": [
         "development",
         ".net",
-        "C#",
+        "c#",
         "test",
         "tdd",
         "xunit",
@@ -565,7 +565,7 @@
       "tags": [
         "development",
         ".net",
-        "C#"
+        "c#"
       ]
     },
     {
@@ -577,7 +577,7 @@
       "tags": [
         "development",
         ".net",
-        "C#"
+        "c#"
       ]
     },
     {
@@ -589,7 +589,7 @@
       "tags": [
         "development",
         ".net",
-        "C#"
+        "c#"
       ]
     },
     {
@@ -601,7 +601,7 @@
       "tags": [
         "development",
         ".net",
-        "C#"
+        "c#"
       ]
     },
     {
@@ -613,7 +613,7 @@
       "tags": [
         "development",
         ".net",
-        "C#"
+        "c#"
       ]
     },
     {
@@ -625,7 +625,7 @@
       "tags": [
         "development",
         ".net",
-        "C#"
+        "c#"
       ]
     },
     {
@@ -637,7 +637,7 @@
       "tags": [
         "development",
         ".net",
-        "C#"
+        "c#"
       ]
     },
     {
@@ -649,7 +649,7 @@
       "tags": [
         "development",
         ".net",
-        "C#"
+        "c#"
       ]
     },
     {
@@ -683,7 +683,7 @@
       "tags": [
         "development",
         ".net",
-        "C#"
+        "c#"
       ]
     },
     {
@@ -707,7 +707,7 @@
       "tags": [
         "development",
         ".net",
-        "C#"
+        "c#"
       ]
     },
     {
@@ -730,7 +730,7 @@
       "tags": [
         "development",
         ".net",
-        "C#"
+        "c#"
       ]
     },
     {
@@ -781,7 +781,7 @@
       "importance": "high",
       "tags": [
         "container",
-        "kubernet"
+        "kubernete"
       ]
     },
     {
@@ -792,7 +792,7 @@
       "importance": "high",
       "tags": [
         "container",
-        "kubernet"
+        "kubernete"
       ]
     },
     {
@@ -803,7 +803,7 @@
       "importance": "high",
       "tags": [
         "container",
-        "kubernet",
+        "kubernete",
         "azure",
         "cloud"
       ]
@@ -816,7 +816,7 @@
       "importance": "high",
       "tags": [
         "container",
-        "kubernet",
+        "kubernete",
         "digital-ocean",
         "cloud"
       ]
@@ -829,7 +829,7 @@
       "importance": "high",
       "tags": [
         "container",
-        "kubernet",
+        "kubernete",
         "google",
         "cloud"
       ]
@@ -842,7 +842,7 @@
       "importance": "high",
       "tags": [
         "container",
-        "kubernet",
+        "kubernete",
         "google",
         "cloud"
       ]
@@ -855,7 +855,7 @@
       "importance": "high",
       "tags": [
         "container",
-        "kubernet",
+        "kubernete",
         "aws",
         "cloud"
       ]
@@ -912,7 +912,7 @@
         "xunit",
         "tdd",
         "azure",
-        "cicd"
+        "CI/CD"
       ]
     },
     {
@@ -1441,7 +1441,6 @@
       "importance": "high",
       "tags": [
         "activedirectory",
-        "ad",
         "azure",
         "cloud"
       ]

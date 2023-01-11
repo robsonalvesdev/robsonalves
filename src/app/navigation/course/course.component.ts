@@ -22,6 +22,7 @@ export class CourseComponent implements OnInit {
     currentPage: 1
   };
   filterInst: string = "";
+  filterCategory: string = "";
   public iconSize: number = 70;
   private portifolio: Portifolio = new Portifolio;
 
@@ -61,7 +62,8 @@ export class CourseComponent implements OnInit {
   obterCursos(): Course[] {
     return this.portifolio.course.sort((a, b) => {
       return <any>new Date(b.conclusion) - <any>new Date(a.conclusion);
-    }).filter(p => p.institution.toLowerCase().startsWith(this.filterInst.toLowerCase()));
+    }).filter(p => p.institution.toLowerCase().startsWith(this.filterInst.toLowerCase()) && p.tags.some(xx => xx.toLowerCase().startsWith(this.filterCategory.toLowerCase())));
+    //}).filter(p => p.institution.toLowerCase().startsWith(this.filterInst.toLowerCase()) && p.tags[0].toLowerCase().startsWith(this.filterCategory.toLowerCase()));
     //return this.portifolio.course.sort(this.ordernar).filter(p => p.institution.toLowerCase().startsWith(this.filterInst.toLowerCase()));
   }
 
@@ -74,7 +76,15 @@ export class CourseComponent implements OnInit {
   obterInstitutions(): string[] {
     //of(this.portifolio.course).pipe(distinct(({institution})) => institution)).subscribe(x => )
     const unique = [...new Set(this.portifolio.course.map(item => item.institution))];
-    return unique;
+    return unique.sort();
+  }
+
+  obterCategorias(): string[] {
+    //of(this.portifolio.course).pipe(distinct(({institution})) => institution)).subscribe(x => )
+    let categ: string[] = [];
+    this.portifolio.course.forEach(c => c.tags.forEach(t => categ.push(t.toLowerCase())));
+    const unique = [...new Set(categ.map(x => x))];
+    return unique.sort();
   }
 
 
@@ -84,6 +94,11 @@ export class CourseComponent implements OnInit {
 
   AtualizaFiltro(valor: string) {
     this.filterInst = valor;
+    this.config.currentPage = 1;
+  }
+
+  AtualizaFiltroCategoria(valor: string) {
+    this.filterCategory = valor;
     this.config.currentPage = 1;
   }
 
