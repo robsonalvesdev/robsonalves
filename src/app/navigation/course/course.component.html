@@ -66,7 +66,9 @@
               </div>
               <!-- <div class="tracking-date">{{item.conclusion | date: 'MMMM, yyyy':'America/Sao_Paulo':'pt-BR'}}</div> -->
               <div class="tracking-date">{{item.conclusion | date: 'MMMM, yyyy'}}</div>
-              <div class="tracking-content">{{item.name | uppercase}}<span>{{item.institution | titlecase }} - <a
+              <div class="tracking-content">{{item.name | uppercase}}<span>Tags: <ng-template ngFor let-tag [ngForOf]="item.tags">
+                - {{tag}}
+              </ng-template></span><span>{{item.institution | titlecase }} - <a
                 [href]="item.certificateUri" gaAction="click_certificado_{{item.name}}" gaCategory="ga_cursos"
                 gaEvent target="_blank">Certificado</a></span></div>
             </div>
