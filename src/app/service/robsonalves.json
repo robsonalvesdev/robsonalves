@@ -1685,6 +1685,15 @@
       "yearPublish": 2019,
       "tags": ["development", "functional", "clojure"],
       "uri": "https:\/\/www.casadocodigo.com.br\/products\/livro-programacao-funcional-clojure?_pos=1&_sid=47d03d086&_ss=r"
+    },
+    {
+      "title": "Rust",
+      "subtitle": "Concorrência e alta performance com segurança",
+      "author": ["Marcelo Castellani", "Willian Molinari"],
+      "editor": "Casa do Codigo",
+      "yearPublish": 2022,
+      "tags": ["development", "rust"],
+      "uri": "https:\/\/www.casadocodigo.com.br\/products\/livro-rust"
     }
 
 
