@@ -7,7 +7,7 @@
     </div>
     <div class="text-center">
       <div style="height: 2rem;">
-        Filtrar por instituição do curso:
+        Filtrar por <b>INSTITUIÇÃO</b> do curso:
       </div>
       <div aria-label="Basic radio toggle button group" class="btn-group" role="group">
         <input (click)="AtualizaFiltro('')" autocomplete="off" checked class="btn-check"
@@ -27,7 +27,7 @@
     <br>
     <div class="text-center">
       <div style="height: 2rem;">
-        Filtrar por tags do curso:
+        Filtrar por <b>TAG</b> do curso:
       </div>
       <div aria-label="Basic radio toggle button group" class="col-md-12 col-lg-12" role="group">
         <input (click)="AtualizaFiltroCategoria('')" autocomplete="off" checked class="btn-check"
@@ -35,7 +35,7 @@
                gaCategory="ga_categorias" gaEvent id="00-CourseCategoryComponent"
                name="btnradio-CourseCategoryComponent" type="radio">
         <label class="btn btn-warning btn-sm" for="00-CourseCategoryComponent"
-               style="width: auto; height: 2rem; margin: .1rem;">Todas</label>
+               style="width: auto; height: 2rem; margin: .1rem;">Clique para limpar filtro</label>
 
         <ng-template [ngForOf]="obterCategorias()" let-i="index" let-item ngFor>
           <input (click)="AtualizaFiltroCategoria(item)" autocomplete="off" class="btn-check"
