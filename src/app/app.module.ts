@@ -5,6 +5,7 @@ import localePt from '@angular/common/locales/pt';
 import {AppRoutingModule} from './app-routing.module';
 import {AppComponent} from './app.component';
 import {CourseComponent} from './navigation/course/course.component';
+import {BookreadComponent} from './navigation/bookread/bookread.component';
 import {AboutComponent} from './navigation/about/about.component';
 import {HttpClientModule} from '@angular/common/http';
 import {UniversityComponent} from './navigation/university/university.component';
@@ -38,7 +39,8 @@ registerLocaleData(localePt, 'pt-BR');
     TeamComponent,
     FooterComponent,
     CourseformationComponent,
-    HomeComponent
+    HomeComponent,
+    BookreadComponent
   ],
   imports: [
     BrowserModule,

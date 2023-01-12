@@ -9,18 +9,18 @@
       <div style="height: 2rem;">
         Filtrar por <b>INSTITUIÇÃO</b> do curso:
       </div>
-      <div aria-label="Basic radio toggle button group" class="btn-group" role="group">
+      <div aria-label="Basic radio toggle button group" class="col-md-12 col-lg-12" role="group">
         <input (click)="AtualizaFiltro('')" autocomplete="off" checked class="btn-check"
                gaAction="click_filtro_course_todos"
                gaCategory="ga_cursos" gaEvent id="00-CourseComponent" name="btnradio-CourseComponent" type="radio">
-        <label class="btn btn-outline-primary" for="00-CourseComponent">Todas</label>
+        <label class="btn btn-primary btn-sm" style="width: max-content; height: 2rem; margin: .1rem;" for="00-CourseComponent">Excluir filtro</label>
 
         <ng-template [ngForOf]="obterInstitutions()" let-i="index" let-item ngFor>
           <input (click)="AtualizaFiltro(item)" autocomplete="off" class="btn-check"
                  gaAction="click_filtro_course_{{item}}"
                  gaCategory="ga_cursos" gaEvent id="{{i+1}}-CourseComponent" name="btnradio-CourseComponent"
                  type="radio">
-          <label class="btn btn-outline-primary" for="{{i+1}}-CourseComponent">{{item}}</label>
+          <label class="btn btn-light btn-sm" style="width: max-content; height: 2rem; margin: .1rem;" for="{{i+1}}-CourseComponent">{{item}}</label>
         </ng-template>
       </div>
     </div>
@@ -35,7 +35,7 @@
                gaCategory="ga_categorias" gaEvent id="00-CourseCategoryComponent"
                name="btnradio-CourseCategoryComponent" type="radio">
         <label class="btn btn-warning btn-sm" for="00-CourseCategoryComponent"
-               style="width: auto; height: 2rem; margin: .1rem;">Clique para limpar filtro</label>
+               style="width: auto; height: 2rem; margin: .1rem;">Excluir filtro</label>
 
         <ng-template [ngForOf]="obterCategorias()" let-i="index" let-item ngFor>
           <input (click)="AtualizaFiltroCategoria(item)" autocomplete="off" class="btn-check"
@@ -74,9 +74,8 @@
               </div>
               <!-- <div class="tracking-date">{{item.conclusion | date: 'MMMM, yyyy':'America/Sao_Paulo':'pt-BR'}}</div> -->
               <div class="tracking-date">{{item.conclusion | date: 'MMMM, yyyy'}}</div>
-              <div class="tracking-content">{{item.name | uppercase}}<span>Tags: <ng-template [ngForOf]="item.tags" let-tag
-                                                                                              ngFor>
-                - {{tag}}
+              <div class="tracking-content">{{item.name | uppercase}}<span>Tags: <ng-template ngFor [ngForOf]="item.tags" let-tag let-ii="index">
+                {{tag}} <ng-template [ngIf]="ii < item.tags.length - 1"> - </ng-template>
               </ng-template></span><span>{{item.institution | titlecase }} - <a
                 [href]="item.certificateUri" gaAction="click_certificado_{{item.name}}" gaCategory="ga_cursos"
                 gaEvent target="_blank">Certificado</a></span></div>

@@ -1489,7 +1489,62 @@
   "perfilAcademy": [
     {
       "name": "Alura",
-      "perfilUri": "https:\/\/cursos.alura.com.br\/user\/robson-curitibapr"
+      "perfilUri": "https:\/\/cursos.alura.com.br\/vitrinedev\/robson-curitibapr\/"
+    },
+    {
+      "name": "Udemy",
+      "perfilUri": "https:\/\/www.udemy.com\/user\/robson-candido-dos-santos-alves\/"
+    }
+  ],
+  "bookRead": [
+    {
+      "title": "NoSQL Essencial",
+      "author": ["Pramod J. Sadalage", "Martin Fowler"],
+      "yearPublish": 2013,
+      "tags": ["nosql", "database"],
+      "uri": "https:\/\/novatec.com.br\/livros\/nosql-essencial\/"
+    },
+    {
+      "title": "Implementando Domain-Driven Design",
+      "author": ["Vaughn Vernon"],
+      "yearPublish": 2016,
+      "tags": ["ddd", "development"],
+      "uri": "https:\/\/vaughnvernon.com\/"
+    },
+    {
+      "title": "Domain-Driven Design: Atacando as complexidades no coração do software",
+      "author": ["Eric Evans"],
+      "yearPublish": 2016,
+      "tags": ["ddd", "development"],
+      "uri": "https:\/\/www.domainlanguage.com\/"
+    },
+    {
+      "title": "Padrões de Projetos: Soluções Reutilizáveis de Software Orientados a Objetos",
+      "author": ["Eric Gamma", "Richard Helm", "Rauph Johnson", "John Vlissides"],
+      "yearPublish": 2000,
+      "tags": ["ddd", "development"],
+      "uri": "https:\/\/www.oreilly.com\/library\/view\/design-patterns-elements\/0201633612\/"
+    },
+    {
+      "title": "Estruturas de Dados e Algoritmos com JavaScript: Escreva um Código JavaScript Complexo e Eficaz Usando a Mais Recente ECMAScript",
+      "author": ["Loiane Groner"],
+      "yearPublish": 2019,
+      "tags": ["algoritimos", "development", "javascript"],
+      "uri": "https:\/\/www.amazon.com.br\/Loiane-Groner\/e\/B07C6L6GPM\/ref=dp_byline_cont_pop_book_1"
+    },
+    {
+      "title": "UML Essencial: Um Breve Guia para a Linguagem-Padrao de Modelagem de Objetos",
+      "author": ["Martin Fowler"],
+      "yearPublish": 2005,
+      "tags": ["development", "uml"],
+      "uri": "https:\/\/martinfowler.com\/"
+    },
+    {
+      "title": "C# 10 and .NET 6 - Modern Cross-Platform Development",
+      "author": ["Mark J. Price"],
+      "yearPublish": 2021,
+      "tags": ["development", ".net", "c#"],
+      "uri": "https://www.amazon.com.br/Mark-J-Price/e/B071DW3QGN/ref=dp_byline_cont_pop_book_1"
     }
   ]
 }

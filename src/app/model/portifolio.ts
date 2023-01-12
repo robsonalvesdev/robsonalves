@@ -3,6 +3,7 @@ import {Course} from "./course";
 import {FormationCourse} from "./formationCourse";
 import {PerfilAcademy} from "./perfilAcademy";
 import {UniversityGraduate} from "./universityGraduate";
+import {BookRead} from "./bookRead";
 
 export class Portifolio {
   name: string = "";
@@ -21,4 +22,5 @@ export class Portifolio {
   formationCourse: FormationCourse[] = [];
   course: Course[] = [];
   perfilAcademy: PerfilAcademy[] = [];
+  bookRead: BookRead[] = [];
 }

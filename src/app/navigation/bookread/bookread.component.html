@@ -1,28 +1,28 @@
 <!-- Courses-->
-<section [ngClass]="{'bg-light': bgcolor}" class="page-section" id="coursesformation">
+<section [ngClass]="{'bg-light': bgcolor}" class="page-section" id="bookread">
   <div class="container">
     <div class="text-center">
-      <h2 class="section-heading text-uppercase">Cursos de Formação</h2>
-      <h3 class="section-subheading text-muted">Quantidade de cursos: {{obterCursos().length}}</h3>
+      <h2 class="section-heading text-uppercase">Leituras</h2>
+      <h3 class="section-subheading text-muted">Quantidade de livros: {{obterLivros().length}}</h3>
     </div>
     <div class="text-center">
       <div style="height: 2rem;">
-        Filtrar por <b>INSTITUIÇÃO</b> do curso:
+        Filtrar por <b>AUTOR</b> do livro:
       </div>
       <div aria-label="Basic radio toggle button group" class="col-md-12 col-lg-12" role="group">
         <input (click)="AtualizaFiltro('')" autocomplete="off" checked class="btn-check"
-               gaAction="click_filtro_course_todos"
-               gaCategory="ga_cursos" gaEvent id="00-CourseformationComponent" name="btnradio-CourseformationComponent"
+               gaAction="click_filtro_bookread_todos"
+               gaCategory="ga_bookread" gaEvent id="00-BookreadComponent" name="btnradio-BookreadComponent"
                type="radio">
-        <label class="btn btn-primary btn-sm" style="width: max-content; height: 2rem; margin: .1rem;" for="00-CourseformationComponent">Excluir filtro</label>
+        <label class="btn btn-primary btn-sm" style="width: max-content; height: 2rem; margin: .1rem;" for="00-BookreadComponent">Excluir filtro</label>
 
-        <ng-template [ngForOf]="obterInstitutions()" let-i="index" let-item ngFor>
+        <ng-template [ngForOf]="obterAutores()" let-i="index" let-item ngFor>
           <input (click)="AtualizaFiltro(item)" autocomplete="off" class="btn-check"
-                 gaAction="click_filtro_course_{{item}}"
-                 gaCategory="ga_cursos" gaEvent id="{{i+1}}-CourseformationComponent"
-                 name="btnradio-CourseformationComponent"
+                 gaAction="click_filtro_bookread_{{item}}"
+                 gaCategory="ga_bookread" gaEvent id="{{i+1}}-BookreadComponent"
+                 name="btnradio-BookreadComponent"
                  type="radio">
-          <label class="btn btn-light btn-sm" style="width: max-content; height: 2rem; margin: .1rem;" for="{{i+1}}-CourseformationComponent">{{item}}</label>
+          <label class="btn btn-light btn-sm" for="{{i+1}}-BookreadComponent" style="width: max-content; height: 2rem; margin: .1rem;">{{item | titlecase}}</label>
         </ng-template>
       </div>
     </div>
@@ -30,23 +30,23 @@
     <br>
     <div class="text-center">
       <div style="height: 2rem;">
-        Filtrar por <b>TAG</b> do curso:
+        Filtrar por <b>TAG</b> do livro:
       </div>
       <div aria-label="Basic radio toggle button group" class="col-md-12 col-lg-12" role="group">
         <input (click)="AtualizaFiltroCategoria('')" autocomplete="off" checked class="btn-check"
-               gaAction="click_filtro_courseformation_category_todos"
-               gaCategory="ga_categoriasformacao" gaEvent id="00-CourseFormationCategoryComponent"
-               name="btnradio-CourseFormationCategoryComponent" type="radio">
-        <label class="btn btn-warning btn-sm" for="00-CourseFormationCategoryComponent"
+               gaAction="click_filtro_bookread_category_todos"
+               gaCategory="ga_categoriasbookread" gaEvent id="00-BookreadCategoryComponent"
+               name="btnradio-BookreadCategoryComponent" type="radio">
+        <label class="btn btn-warning btn-sm" for="00-BookreadCategoryComponent"
                style="width: auto; height: 2rem; margin: .1rem;">Excluir filtro</label>
 
         <ng-template [ngForOf]="obterCategorias()" let-i="index" let-item ngFor>
           <input (click)="AtualizaFiltroCategoria(item)" autocomplete="off" class="btn-check"
-                 gaAction="click_filtro_courseformation_category_{{item}}"
-                 gaCategory="ga_categoriasformation" gaEvent id="{{i+1}}-CourseFormationCategoryComponent"
-                 name="btnradio-CourseFormationCategoryComponent"
+                 gaAction="click_filtro_bookread_category_{{item}}"
+                 gaCategory="ga_categoriasbookread" gaEvent id="{{i+1}}-BookreadCategoryComponent"
+                 name="btnradio-BookreadCategoryComponent"
                  type="radio">
-          <label class="btn btn-light btn-sm" for="{{i+1}}-CourseFormationCategoryComponent"
+          <label class="btn btn-light btn-sm" for="{{i+1}}-BookreadCategoryComponent"
                  style="width: max-content; height: 2rem; margin: .1rem;">{{item | lowercase}}</label>
         </ng-template>
       </div>
@@ -57,10 +57,10 @@
         <div id="tracking-pre"></div>
         <div id="tracking">
           <div class="tracking-list">
-            <div *ngFor="let item of obterCursos() | paginate: config; let i = index" [attr.data-index]="i"
+            <div *ngFor="let item of obterLivros() | paginate: config; let i = index" [attr.data-index]="i"
                  class="tracking-item">
               <div class="tracking-icon status-intransit">
-                <div [ngSwitch]="item.institution" class="timeline-image">
+                <div [ngSwitch]="item.title" class="timeline-image">
                            <span>
                               <img *ngSwitchCase="'Alura'" [height]="iconSize" [width]="iconSize"
                                    alt="..." class="rounded-circle img-fluid" src="assets/img/alura.jpg"/>
@@ -69,25 +69,27 @@
                               <img *ngSwitchCase="'Udemy'" [height]="iconSize" [width]="iconSize"
                                    alt="..." class="rounded-circle img-fluid" src="assets/img/udemy.png"/>
                               <img *ngSwitchDefault [height]="iconSize" [width]="iconSize"
-                                   alt="..." class="rounded-circle img-fluid" src="assets/img/globo.png"/>
+                                   alt="..." class="rounded-circle img-fluid" src="assets/img/livro.png"/>
                               <span
                                 class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">{{absoluteIndex(i)}}</span>
                            </span>
                 </div>
               </div>
               <!-- <div class="tracking-date">{{item.conclusion | date: 'MMMM, yyyy':'America/Sao_Paulo':'pt-BR'}}</div> -->
-              <div class="tracking-date">{{item.conclusion | date: 'MMMM, yyyy'}}</div>
-              <div class="tracking-content">{{item.name | uppercase}}<span>Tags: <ng-template ngFor [ngForOf]="item.tags" let-tag let-ii="index">
+              <div class="tracking-date">{{item.yearPublish}}</div>
+              <div class="tracking-content">{{item.title| uppercase}}<span>Tags: <ng-template ngFor [ngForOf]="item.tags" let-tag let-ii="index">
                 {{tag}} <ng-template [ngIf]="ii < item.tags.length - 1"> - </ng-template>
-              </ng-template></span><span>{{item.institution | titlecase }} - <a
-                [href]="item.certificateUri" gaAction="click_certificado_{{item.name}}" gaCategory="ga_cursosdeformacao"
-                gaEvent target="_blank">Certificado</a></span></div>
+              </ng-template></span><span>Autor(es): <ng-template ngFor [ngForOf]="item.author" let-author let-ii="index">
+              {{author | titlecase}} <ng-template [ngIf]="ii < item.author.length - 1"> - </ng-template>
+              </ng-template> - <a
+                [href]="item.uri" gaAction="click_certificado_{{item.author}}" gaCategory="ga_bookread"
+                gaEvent target="_blank">detalhe</a></span></div>
             </div>
             <hr>
 
             <div class="d-flex justify-content-center">
               <ngb-pagination [(page)]="config.currentPage" [boundaryLinks]="true"
-                              [collectionSize]="obterCursos().length" [ellipses]="true" [maxSize]="4"
+                              [collectionSize]="obterLivros().length" [ellipses]="true" [maxSize]="4"
                               [pageSize]="config.itemsPerPage"
                               [rotate]="true">
               </ngb-pagination>
