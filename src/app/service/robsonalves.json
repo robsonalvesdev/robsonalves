@@ -1499,52 +1499,194 @@
   "bookRead": [
     {
       "title": "NoSQL Essencial",
+      "subtitle": "",
       "author": ["Pramod J. Sadalage", "Martin Fowler"],
+      "editor": "Novatec",
       "yearPublish": 2013,
       "tags": ["nosql", "database"],
       "uri": "https:\/\/novatec.com.br\/livros\/nosql-essencial\/"
     },
     {
       "title": "Implementando Domain-Driven Design",
+      "subtitle": "",
       "author": ["Vaughn Vernon"],
+      "editor": "Alta Books",
       "yearPublish": 2016,
       "tags": ["ddd", "development"],
       "uri": "https:\/\/vaughnvernon.com\/"
     },
     {
       "title": "Domain-Driven Design: Atacando as complexidades no coração do software",
+      "subtitle": "",
       "author": ["Eric Evans"],
+      "editor": "Alta Books",
       "yearPublish": 2016,
       "tags": ["ddd", "development"],
       "uri": "https:\/\/www.domainlanguage.com\/"
     },
     {
-      "title": "Padrões de Projetos: Soluções Reutilizáveis de Software Orientados a Objetos",
+      "title": "Padrões de Projetos",
+      "subtitle": "Soluções Reutilizáveis de Software Orientados a Objetos",
       "author": ["Eric Gamma", "Richard Helm", "Rauph Johnson", "John Vlissides"],
+      "editor": "Bookman",
       "yearPublish": 2000,
       "tags": ["ddd", "development"],
       "uri": "https:\/\/www.oreilly.com\/library\/view\/design-patterns-elements\/0201633612\/"
     },
     {
-      "title": "Estruturas de Dados e Algoritmos com JavaScript: Escreva um Código JavaScript Complexo e Eficaz Usando a Mais Recente ECMAScript",
+      "title": "Estruturas de Dados e Algoritmos com JavaScript",
+      "subtitle": "Escreva um Código JavaScript Complexo e Eficaz Usando a Mais Recente ECMAScript",
       "author": ["Loiane Groner"],
+      "editor": "Packet",
       "yearPublish": 2019,
       "tags": ["algoritimos", "development", "javascript"],
       "uri": "https:\/\/www.amazon.com.br\/Loiane-Groner\/e\/B07C6L6GPM\/ref=dp_byline_cont_pop_book_1"
     },
     {
-      "title": "UML Essencial: Um Breve Guia para a Linguagem-Padrao de Modelagem de Objetos",
+      "title": "UML Essencial",
+      "subtitle": "Um Breve Guia para a Linguagem-Padrao de Modelagem de Objetos",
       "author": ["Martin Fowler"],
+      "editor": "",
       "yearPublish": 2005,
       "tags": ["development", "uml"],
       "uri": "https:\/\/martinfowler.com\/"
     },
     {
       "title": "C# 10 and .NET 6 - Modern Cross-Platform Development",
+      "subtitle": "Build apps, websites, and services with ASP.NET Core 6, Blazor, and EF Core 6 using Visual Studio ... Studio Code, 6th Edition",
       "author": ["Mark J. Price"],
+      "editor": "Packet",
       "yearPublish": 2021,
       "tags": ["development", ".net", "c#"],
       "uri": "https://www.amazon.com.br/Mark-J-Price/e/B071DW3QGN/ref=dp_byline_cont_pop_book_1"
+    },
+    {
+      "title": "Tuning de SQL",
+      "subtitle": "",
+      "author": ["Eduardo Gonçalves"],
+      "editor": "Casa do Codigo",
+      "yearPublish": 2021,
+      "tags": ["database"],
+      "uri": "https:\/\/www.casadocodigo.com.br\/products\/livro-tuning-sql?_pos=1&_sid=0d8345301&_ss=r"
+    },
+    {
+      "title": "Scrum",
+      "subtitle": "Gestão ágil para produtos de sucesso",
+      "author": ["Rafael Sabbagh"],
+      "editor": "Casa do Codigo",
+      "yearPublish": 2022,
+      "tags": ["agil", "scrum"],
+      "uri": "https:\/\/www.casadocodigo.com.br\/products\/livro-scrum?_pos=1&_sid=159bb5a2e&_ss=r"
+    },
+    {
+      "title": "Produtividade em C#",
+      "subtitle": "Obtenha mais resultado com menos esforço",
+      "author": ["Cláudio Ralha"],
+      "editor": "Casa do Codigo",
+      "yearPublish": 2021,
+      "tags": ["development", ".net", "c#"],
+      "uri": "https:\/\/www.casadocodigo.com.br\/products\/livro-produtividade-csharp?_pos=1&_sid=d71d081bf&_ss=r&variant=39365123440715"
+    },
+    {
+      "title": "Orientação a Objetos em C#",
+      "subtitle": "Conceitos e implementações em .NET",
+      "author": ["Everton Coimbra de Araújo"],
+      "editor": "Casa do Codigo",
+      "yearPublish": 2020,
+      "tags": ["development", ".net", "c#", "oop"],
+      "uri": "https:\/\/www.casadocodigo.com.br\/products\/livro-oo-csharp?_pos=1&_sid=988bb0a55&_ss=r&variant=259116400660"
+    },
+    {
+      "title": "Sistemas reativos",
+      "subtitle": "Não confundir com sistemas radioativos",
+      "author": ["Guilherme Virgs Moraes"],
+      "editor": "Casa do Codigo",
+      "yearPublish": 2021,
+      "tags": ["development"],
+      "uri": "https:\/\/www.casadocodigo.com.br\/products\/livro-sistemas-reativos?_pos=1&_sid=13afe53dd&_ss=r"
+    },
+    {
+      "title": "Cangaceiro JavaScript",
+      "subtitle": "Uma aventura no sertão da programação",
+      "author": ["Flávio Almeida"],
+      "editor": "Casa do Codigo",
+      "yearPublish": 2021,
+      "tags": ["development", "javascript"],
+      "uri": "https:\/\/www.casadocodigo.com.br\/products\/livro-cangaceiro-javascript?_pos=2&_sid=b0ff6f4c3&_ss=r"
+    },
+    {
+      "title": "Web Services REST com ASP .NET Web API e Windows Azure",
+      "subtitle": "Uma aventura no sertão da programação",
+      "author": ["Paulo Siécola"],
+      "editor": "Casa do Codigo",
+      "yearPublish": 2021,
+      "tags": ["development", ".net", "c#"],
+      "uri": "https:\/\/www.casadocodigo.com.br\/products\/livro-web-services-rest?_pos=1&_sid=ac063fd45&_ss=r"
+    },
+    {
+      "title": "Orientação a Objetos",
+      "subtitle": "Aprenda seus conceitos e suas aplicabilidades de forma efetiva",
+      "author": ["Thiago Leite", "Carvalho"],
+      "editor": "Casa do Codigo",
+      "yearPublish": 2021,
+      "tags": ["development", "oop"],
+      "uri": "https:\/\/www.casadocodigo.com.br\/products\/livro-oo-conceitos?_pos=4&_sid=b10ed1e71&_ss=r"
+    },
+    {
+      "title": "Orientação a Objetos e SOLID para Ninjas",
+      "subtitle": "Projetando classes flexíveis",
+      "author": ["Mauricio Aniche"],
+      "editor": "Casa do Codigo",
+      "yearPublish": 2015,
+      "tags": ["development", "oop", "solid"],
+      "uri": "https:\/\/www.casadocodigo.com.br\/products\/livro-oo-solid?_pos=1&_sid=b43b23d34&_ss=r"
+    },
+    {
+      "title": "Design Patterns com C#",
+      "subtitle": "Aprenda padrões de projeto com os games",
+      "author": ["Rodrigo Gonçalves Santana"],
+      "editor": "Casa do Codigo",
+      "yearPublish": 2015,
+      "tags": ["development", "design-pattern"],
+      "uri": "https:\/\/www.casadocodigo.com.br\/products\/livro-design-paterns-csharp?_pos=1&_sid=62361e5b9&_ss=r&variant=31806430838859"
+    },
+    {
+      "title": "MongoDB",
+      "subtitle": "Construa novas aplicações com novas tecnologias",
+      "author": ["Fernando Boaglio"],
+      "editor": "Casa do Codigo",
+      "yearPublish": 2015,
+      "tags": ["database", "nosql"],
+      "uri": "https:\/\/www.casadocodigo.com.br\/products\/livro-mongodb?_pos=1&_sid=42589551e&_ss=r"
+    },
+    {
+      "title": "Test-Driven Development",
+      "subtitle": "Teste e Design no Mundo Real com .NET",
+      "author": ["Mauricio Aniche"],
+      "editor": "Casa do Codigo",
+      "yearPublish": 2013,
+      "tags": ["test", "tdd", ".net", "c#"],
+      "uri": "https:\/\/www.casadocodigo.com.br\/products\/livro-tdd-dotnet?_pos=1&_sid=e6b024ae7&_ss=r"
+    },
+    {
+      "title": "Programação funcional em .NET",
+      "subtitle": "Explore um novo universo",
+      "author": ["Gabriel Schade Cardoso"],
+      "editor": "Casa do Codigo",
+      "yearPublish": 2013,
+      "tags": ["development", "functional", ".net", "c#"],
+      "uri": "https:\/\/www.casadocodigo.com.br\/products\/livro-programacao-funcional-net?_pos=1&_sid=8acbaeff4&_ss=r"
+    },
+    {
+      "title": "Programação Funcional",
+      "subtitle": "Uma introdução em Clojure",
+      "author": ["Gregório Melo"],
+      "editor": "Casa do Codigo",
+      "yearPublish": 2019,
+      "tags": ["development", "functional", "clojure"],
+      "uri": "https:\/\/www.casadocodigo.com.br\/products\/livro-programacao-funcional-clojure?_pos=1&_sid=47d03d086&_ss=r"
     }
+
+
   ]
 }

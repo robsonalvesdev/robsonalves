@@ -77,9 +77,12 @@
               </div>
               <!-- <div class="tracking-date">{{item.conclusion | date: 'MMMM, yyyy':'America/Sao_Paulo':'pt-BR'}}</div> -->
               <div class="tracking-date">{{item.yearPublish}}</div>
-              <div class="tracking-content">{{item.title| uppercase}}<span>Tags: <ng-template ngFor [ngForOf]="item.tags" let-tag let-ii="index">
+              <div class="tracking-content">{{item.title| uppercase}}
+                <ng-template [ngIf]="item.subtitle.trim() != ''"><span><b>Subtitulo:</b> {{item.subtitle}}</span></ng-template>
+                <ng-template [ngIf]="item.editor.trim() != ''"><span><b>Editora:</b> {{item.editor}}</span></ng-template>
+                <span><b>Tags:</b> <ng-template ngFor [ngForOf]="item.tags" let-tag let-ii="index">
                 {{tag}} <ng-template [ngIf]="ii < item.tags.length - 1"> - </ng-template>
-              </ng-template></span><span>Autor(es): <ng-template ngFor [ngForOf]="item.author" let-author let-ii="index">
+              </ng-template></span><span><b>Autor(es):</b> <ng-template ngFor [ngForOf]="item.author" let-author let-ii="index">
               {{author | titlecase}} <ng-template [ngIf]="ii < item.author.length - 1"> - </ng-template>
               </ng-template> - <a
                 [href]="item.uri" gaAction="click_certificado_{{item.author}}" gaCategory="ga_bookread"
