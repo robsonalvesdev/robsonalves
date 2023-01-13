@@ -14,7 +14,8 @@
                gaAction="click_filtro_bookread_todos"
                gaCategory="ga_bookread" gaEvent id="00-BookreadComponent" name="btnradio-BookreadComponent"
                type="radio">
-        <label class="btn btn-primary btn-sm" style="width: max-content; height: 2rem; margin: .1rem;" for="00-BookreadComponent">Excluir filtro</label>
+        <label class="btn btn-primary btn-sm" for="00-BookreadComponent"
+               style="width: max-content; height: 2rem; margin: .1rem;">Excluir filtro</label>
 
         <ng-template [ngForOf]="obterAutores()" let-i="index" let-item ngFor>
           <input (click)="AtualizaFiltro(item)" autocomplete="off" class="btn-check"
@@ -22,7 +23,8 @@
                  gaCategory="ga_bookread" gaEvent id="{{i+1}}-BookreadComponent"
                  name="btnradio-BookreadComponent"
                  type="radio">
-          <label class="btn btn-light btn-sm" for="{{i+1}}-BookreadComponent" style="width: max-content; height: 2rem; margin: .1rem;">{{item | titlecase}}</label>
+          <label class="btn btn-light btn-sm" for="{{i+1}}-BookreadComponent"
+                 style="width: max-content; height: 2rem; margin: .1rem;">{{item | titlecase}}</label>
         </ng-template>
       </div>
     </div>
@@ -78,15 +80,20 @@
               <!-- <div class="tracking-date">{{item.conclusion | date: 'MMMM, yyyy':'America/Sao_Paulo':'pt-BR'}}</div> -->
               <div class="tracking-date">{{item.yearPublish}}</div>
               <div class="tracking-content">{{item.title| uppercase}}
-                <ng-template [ngIf]="item.subtitle.trim() != ''"><span><b>Subtitulo:</b> {{item.subtitle}}</span></ng-template>
-                <ng-template [ngIf]="item.editor.trim() != ''"><span><b>Editora:</b> {{item.editor}}</span></ng-template>
-                <span><b>Tags:</b> <ng-template ngFor [ngForOf]="item.tags" let-tag let-ii="index">
-                {{tag}} <ng-template [ngIf]="ii < item.tags.length - 1"> - </ng-template>
-              </ng-template></span><span><b>Autor(es):</b> <ng-template ngFor [ngForOf]="item.author" let-author let-ii="index">
-              {{author | titlecase}} <ng-template [ngIf]="ii < item.author.length - 1"> - </ng-template>
+                <ng-template [ngIf]="item.subtitle.trim() != ''"><span><b>Subtitulo:</b> {{item.subtitle}}</span>
+                </ng-template>
+                <ng-template [ngIf]="item.editor.trim() != ''"><span><b>Editora:</b> {{item.editor}}</span>
+                </ng-template>
+                <span><b>Tags:</b> <ng-template [ngForOf]="item.tags" let-ii="index" let-tag ngFor>
+                {{tag}}
+                  <ng-template [ngIf]="ii < item.tags.length - 1"> - </ng-template>
+              </ng-template></span><span><b>Autor(es):</b> <ng-template [ngForOf]="item.author" let-author let-ii="index"
+                                                                        ngFor>
+              {{author | titlecase}}
+                  <ng-template [ngIf]="ii < item.author.length - 1"> - </ng-template>
               </ng-template> - <a
-                [href]="item.uri" gaAction="click_certificado_{{item.author}}" gaCategory="ga_bookread"
-                gaEvent target="_blank">detalhe</a></span></div>
+                  [href]="item.uri" gaAction="click_certificado_{{item.author}}" gaCategory="ga_bookread"
+                  gaEvent target="_blank">detalhe</a></span></div>
             </div>
             <hr>
 

@@ -14,7 +14,8 @@
                gaAction="click_filtro_course_todos"
                gaCategory="ga_cursos" gaEvent id="00-CourseformationComponent" name="btnradio-CourseformationComponent"
                type="radio">
-        <label class="btn btn-primary btn-sm" style="width: max-content; height: 2rem; margin: .1rem;" for="00-CourseformationComponent">Excluir filtro</label>
+        <label class="btn btn-primary btn-sm" for="00-CourseformationComponent"
+               style="width: max-content; height: 2rem; margin: .1rem;">Excluir filtro</label>
 
         <ng-template [ngForOf]="obterInstitutions()" let-i="index" let-item ngFor>
           <input (click)="AtualizaFiltro(item)" autocomplete="off" class="btn-check"
@@ -22,7 +23,8 @@
                  gaCategory="ga_cursos" gaEvent id="{{i+1}}-CourseformationComponent"
                  name="btnradio-CourseformationComponent"
                  type="radio">
-          <label class="btn btn-light btn-sm" style="width: max-content; height: 2rem; margin: .1rem;" for="{{i+1}}-CourseformationComponent">{{item}}</label>
+          <label class="btn btn-light btn-sm" for="{{i+1}}-CourseformationComponent"
+                 style="width: max-content; height: 2rem; margin: .1rem;">{{item}}</label>
         </ng-template>
       </div>
     </div>
@@ -77,8 +79,11 @@
               </div>
               <!-- <div class="tracking-date">{{item.conclusion | date: 'MMMM, yyyy':'America/Sao_Paulo':'pt-BR'}}</div> -->
               <div class="tracking-date">{{item.conclusion | date: 'MMMM, yyyy'}}</div>
-              <div class="tracking-content">{{item.name | uppercase}}<span>Tags: <ng-template ngFor [ngForOf]="item.tags" let-tag let-ii="index">
-                {{tag}} <ng-template [ngIf]="ii < item.tags.length - 1"> - </ng-template>
+              <div class="tracking-content">{{item.name | uppercase}}<span>Tags: <ng-template [ngForOf]="item.tags"
+                                                                                              let-ii="index"
+                                                                                              let-tag ngFor>
+                {{tag}}
+                <ng-template [ngIf]="ii < item.tags.length - 1"> - </ng-template>
               </ng-template></span><span>{{item.institution | titlecase }} - <a
                 [href]="item.certificateUri" gaAction="click_certificado_{{item.name}}" gaCategory="ga_cursosdeformacao"
                 gaEvent target="_blank">Certificado</a></span></div>

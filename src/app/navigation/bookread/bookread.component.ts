@@ -66,7 +66,7 @@ export class BookreadComponent implements OnInit {
     //return this.portifolio.formationCourse.sort(this.ordernar).filter(p => p.institution.toLowerCase().startsWith(this.filterInst.toLowerCase()));
   }
 
-  obterAutores(): string[] {    
+  obterAutores(): string[] {
     let aut: string[] = [];
     this.portifolio.bookRead.forEach(c => c.author.forEach(t => aut.push(t.toLowerCase())));
     const unique = [...new Set(aut.map(x => x))];
